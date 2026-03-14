@@ -8,7 +8,7 @@ metadata:
 spec:
   type: service #service,website,library
   lifecycle: experimental #experimental,production,deprecated
-  owner: rock.c.c.hu@gmail.com
+  owner: group:microservices-development
   system: openbanking-aisp
   subcomponentOf: []
   providesApis: []

@@ -81,6 +81,8 @@ npx validate-entity manifests/users.yaml
 ## yamllint
 
 ```bash
+sudo apt-get install yamllint
+
 yamllint manifests/**/*.yaml
 
 yamllint manifests/groups.yaml
