@@ -1,0 +1,19 @@
+name: manifests-catalog-entities
+on:
+  push:
+    branches:
+      - "master"
+    paths:
+      - ".github/workflows/manifests-catalog-entities.yaml"
+      - "manifests/catalog-entities.yaml"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      # - run: npm install --force --verbose
+      - run: npm install -g @roadiehq/backstage-entity-validator
+      - run: validate-entity manifests/catalog-entities.yaml
