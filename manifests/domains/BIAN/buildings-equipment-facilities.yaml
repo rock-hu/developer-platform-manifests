@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: buildings-equipment-facilities
-  description: everything related to buildings-equipment-facilities
+  name: "buildings-equipment-facilities"
+  description: "everything related to buildings-equipment-facilities"
 spec:
-  owner: group:buildings-equipment-facilities
+  owner: "group:buildings-equipment-facilities"

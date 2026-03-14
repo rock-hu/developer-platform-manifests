@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: business-commcontrol
-  description: everything related to business-commcontrol
+  name: "business-commcontrol"
+  description: "everything related to business-commcontrol"
 spec:
-  owner: group:business-commcontrol
+  owner: "group:business-commcontrol"

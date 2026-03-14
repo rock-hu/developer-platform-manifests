@@ -1,12 +1,13 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: cross-channel
-  description: cross-channel
+  name: "cross-channel"
+  description: "cross-channel"
 spec:
-  type: team
+  type: "team"
   profile:
-    email: cross-channel@gmail.com
-    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
-  parent: BIAN
+    email: "cross-channel@gmail.com"
+    picture: "https://api.dicebear.com/5.x/adventurer/svg?seed=Felix"
+  parent: "BIAN"
   children: []

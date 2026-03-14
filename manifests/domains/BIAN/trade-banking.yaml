@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: trade-banking
-  description: everything related to trade-banking
+  name: "trade-banking"
+  description: "everything related to trade-banking"
 spec:
-  owner: group:trade-banking
+  owner: "group:trade-banking"

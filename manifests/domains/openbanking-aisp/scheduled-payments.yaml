@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: scheduled-payments
-  description: everything related to scheduled-payments
+  name: "scheduled-payments"
+  description: "everything related to scheduled-payments"
 spec:
-  owner: microservices-development
+  owner: "microservices-development"

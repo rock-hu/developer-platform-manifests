@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: financial-statement-assessment
-  apiVersion: 
-  description: 
+  name: "financial-statement-assessment"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:regulations-compliance
-  system: regulations-compliance
+  type: "service"
+  lifecycle: "production"
+  owner: "group:regulations-compliance"
+  system: "regulations-compliance"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

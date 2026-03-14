@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: business-unit-direction
-  apiVersion: 
-  description: 
+  name: "business-unit-direction"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:business-commcontrol
-  system: business-commcontrol
+  type: "service"
+  lifecycle: "production"
+  owner: "group:business-commcontrol"
+  system: "business-commcontrol"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

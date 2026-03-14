@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: scheduled-payments-services
-  apiVersion: 1.0.0
-  description: scheduled-payments-services
+  name: "scheduled-payments-services"
+  apiVersion: "1.0.0"
+  description: "scheduled-payments-services"
 spec:
-  type: service #service,website,library
-  lifecycle: experimental #experimental,production,deprecated
-  owner: group:microservices-development
-  system: openbanking-aisp
+  type: "service"
+  lifecycle: "experimental"
+  owner: "group:microservices-development"
+  system: "openbanking-aisp"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

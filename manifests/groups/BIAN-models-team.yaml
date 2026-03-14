@@ -1,12 +1,13 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: models
-  description: models
+  name: "models"
+  description: "models"
 spec:
-  type: team
+  type: "team"
   profile:
-    email: models@gmail.com
-    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
-  parent: BIAN
+    email: "models@gmail.com"
+    picture: "https://api.dicebear.com/5.x/adventurer/svg?seed=Felix"
+  parent: "BIAN"
   children: []

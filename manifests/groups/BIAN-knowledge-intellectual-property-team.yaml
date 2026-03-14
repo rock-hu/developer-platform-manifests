@@ -1,12 +1,13 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: knowledge-intellectual-property
-  description: knowledge-intellectual-property
+  name: "knowledge-intellectual-property"
+  description: "knowledge-intellectual-property"
 spec:
-  type: team
+  type: "team"
   profile:
-    email: knowledge-intellectual-property@gmail.com
-    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
-  parent: BIAN
+    email: "knowledge-intellectual-property@gmail.com"
+    picture: "https://api.dicebear.com/5.x/adventurer/svg?seed=Felix"
+  parent: "BIAN"
   children: []

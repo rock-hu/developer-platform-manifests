@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: corporate-financing-advisory-services
-  description: everything related to corporate-financing-advisory-services
+  name: "corporate-financing-advisory-services"
+  description: "everything related to corporate-financing-advisory-services"
 spec:
-  owner: group:corporate-financing-advisory-services
+  owner: "group:corporate-financing-advisory-services"

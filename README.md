@@ -21,8 +21,8 @@ A large catalogue of components, APIs and resources can be highly granular and h
 
 ## badges
 
-| action                     | badge                                                                                                                    |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+|           action           |                                                          badge                                                           |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | manifests-catalog-entities | ![](https://github.com/rock-hu/developer-platform-manifests/actions/workflows/manifests-catalog-entities.yaml/badge.svg) |
 | manifests-components       | ![](https://github.com/rock-hu/developer-platform-manifests/actions/workflows/manifests-components.yaml/badge.svg)       |
 | manifests-domais           | ![](https://github.com/rock-hu/developer-platform-manifests/actions/workflows/manifests-domais.yaml/badge.svg)           |
@@ -78,6 +78,14 @@ npx validate-entity manifests/templates.yaml
 npx validate-entity manifests/users.yaml
 ```
 
+## spotless
+
+```bash
+mvn spotless:check
+mvn spotless:apply
+
+```
+
 ## yamllint
 
 ```bash
@@ -96,3 +104,4 @@ yamllint manifests/resources.yaml
 yamllint manifests/systems.yaml
 yamllint manifests/templates.yaml
 ```
+

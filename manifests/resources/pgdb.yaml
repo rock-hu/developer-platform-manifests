@@ -1,15 +1,16 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Resource"
 metadata:
-  name: pgdb
-  title: PostgreSQL cluster
-  description: The Postgres operator manages PostgreSQL clusters on Kubernetes (K8s).
+  name: "pgdb"
+  title: "PostgreSQL cluster"
+  description: "The Postgres operator manages PostgreSQL clusters on Kubernetes (K8s)."
   links:
-    - url: https://opensource.zalando.com/postgres-operator/
-      title: zalando/postgres-operator
-      icon: web
+  - url: "https://opensource.zalando.com/postgres-operator/"
+    title: "zalando/postgres-operator"
+    icon: "web"
 spec:
-  type: database
-  lifecycle: production
-  owner: digital-platform
-  system: kubernetes
+  type: "database"
+  lifecycle: "production"
+  owner: "digital-platform"
+  system: "kubernetes"

@@ -1,12 +1,13 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: market-data
-  description: market-data
+  name: "market-data"
+  description: "market-data"
 spec:
-  type: team
+  type: "team"
   profile:
-    email: market-data@gmail.com
-    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
-  parent: BIAN
+    email: "market-data@gmail.com"
+    picture: "https://api.dicebear.com/5.x/adventurer/svg?seed=Felix"
+  parent: "BIAN"
   children: []

@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: channel-activity-history
-  apiVersion: 
-  description: 
+  name: "channel-activity-history"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:operational-services
-  system: operational-services
+  type: "service"
+  lifecycle: "production"
+  owner: "group:operational-services"
+  system: "operational-services"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: channel-specific
-  description: everything related to channel-specific
+  name: "channel-specific"
+  description: "everything related to channel-specific"
 spec:
-  owner: group:channel-specific
+  owner: "group:channel-specific"

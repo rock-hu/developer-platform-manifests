@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: market-data
-  description: everything related to market-data
+  name: "market-data"
+  description: "everything related to market-data"
 spec:
-  owner: group:market-data
+  owner: "group:market-data"

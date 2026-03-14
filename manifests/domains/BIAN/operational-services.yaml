@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: operational-services
-  description: everything related to operational-services
+  name: "operational-services"
+  description: "everything related to operational-services"
 spec:
-  owner: group:operational-services
+  owner: "group:operational-services"

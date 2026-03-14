@@ -1,12 +1,13 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: buildings-equipment-facilities
-  description: buildings-equipment-facilities
+  name: "buildings-equipment-facilities"
+  description: "buildings-equipment-facilities"
 spec:
-  type: team
+  type: "team"
   profile:
-    email: buildings-equipment-facilities@gmail.com
-    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
-  parent: BIAN
+    email: "buildings-equipment-facilities@gmail.com"
+    picture: "https://api.dicebear.com/5.x/adventurer/svg?seed=Felix"
+  parent: "BIAN"
   children: []

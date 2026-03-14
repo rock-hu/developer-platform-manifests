@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: it-management
-  description: everything related to it-management
+  name: "it-management"
+  description: "everything related to it-management"
 spec:
-  owner: group:it-management
+  owner: "group:it-management"

@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: market-operations
-  description: everything related to market-operations
+  name: "market-operations"
+  description: "everything related to market-operations"
 spec:
-  owner: group:market-operations
+  owner: "group:market-operations"

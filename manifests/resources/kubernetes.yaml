@@ -1,15 +1,18 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Resource"
 metadata:
-  name: kubernetes
-  title: kubernetes
-  description: Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. We use ArgoCD for the deployment of this showcase.
+  name: "kubernetes"
+  title: "kubernetes"
+  description: "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.\
+    \ We use ArgoCD for the deployment of this showcase."
   links:
-    - url: https://kubernetes.io/
-      title: An open-source system for automating deployment, scaling, and management of containerized applications.
-      icon: web
+  - url: "https://kubernetes.io/"
+    title: "An open-source system for automating deployment, scaling, and management\
+      \ of containerized applications."
+    icon: "web"
 spec:
-  type: microservices-hosting
-  lifecycle: production
-  owner: digital-platform
-  system: kubernetes
+  type: "microservices-hosting"
+  lifecycle: "production"
+  owner: "digital-platform"
+  system: "kubernetes"

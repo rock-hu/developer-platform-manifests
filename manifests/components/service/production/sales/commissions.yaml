@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: commissions
-  apiVersion: 
-  description: 
+  name: "commissions"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:sales
-  system: sales
+  type: "service"
+  lifecycle: "production"
+  owner: "group:sales"
+  system: "sales"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

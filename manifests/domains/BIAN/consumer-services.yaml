@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: consumer-services
-  description: everything related to consumer-services
+  name: "consumer-services"
+  description: "everything related to consumer-services"
 spec:
-  owner: group:consumer-services
+  owner: "group:consumer-services"

@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: direct-debit-mandate
-  apiVersion: 
-  description: 
+  name: "direct-debit-mandate"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:trade-banking
-  system: trade-banking
+  type: "service"
+  lifecycle: "production"
+  owner: "group:trade-banking"
+  system: "trade-banking"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

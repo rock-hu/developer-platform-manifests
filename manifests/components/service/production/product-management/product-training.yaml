@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: product-training
-  apiVersion: 
-  description: 
+  name: "product-training"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:product-management
-  system: product-management
+  type: "service"
+  lifecycle: "production"
+  owner: "group:product-management"
+  system: "product-management"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

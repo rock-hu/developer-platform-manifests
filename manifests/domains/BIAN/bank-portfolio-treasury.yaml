@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: bank-portfolio-treasury
-  description: everything related to bank-portfolio-treasury
+  name: "bank-portfolio-treasury"
+  description: "everything related to bank-portfolio-treasury"
 spec:
-  owner: group:bank-portfolio-treasury
+  owner: "group:bank-portfolio-treasury"

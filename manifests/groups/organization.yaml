@@ -1,17 +1,21 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: internal-developer-platform
-  description: The internal-developer-platform organization
+  name: "internal-developer-platform"
+  description: "The internal-developer-platform organization"
   links:
-    - url: https://gitlab.com/internal-developer-platform
-      title: Website
-    - url: https://gitlab.com/internal-developer-platform
-      title: Intranet
+  - url: "https://gitlab.com/internal-developer-platform"
+    title: "Website"
+  - url: "https://gitlab.com/internal-developer-platform"
+    title: "Intranet"
 spec:
-  type: organization
+  type: "organization"
   profile:
-    displayName: internal-developer-platform
-    email: info@internal-developer-platform.com
-    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [infrastructure, digital, marketing]
+    displayName: "internal-developer-platform"
+    email: "info@internal-developer-platform.com"
+    picture: "https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25"
+  children:
+  - "infrastructure"
+  - "digital"
+  - "marketing"

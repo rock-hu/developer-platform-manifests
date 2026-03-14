@@ -1,16 +1,17 @@
-apiVersion: backstage.io/v1alpha1
-kind: Location
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Location"
 metadata:
-  name: entities
-  description: internal-developer-platform
-  backstage.io/techdocs-ref: url:https://gitlab.com/internal-developer-platform/internal-developer-platform
+  name: "entities"
+  description: "internal-developer-platform"
+  backstage.io/techdocs-ref: "url:https://gitlab.com/internal-developer-platform/internal-developer-platform"
 spec:
   targets:
-    - ./groups.yaml
-    - ./openapis.yaml
-    - ./components.yaml
-    - ./domais.yaml
-    - ./resources.yaml
-    - ./systems.yaml
-    - ./templates.yaml
-    - ./users.yaml
+  - "./groups.yaml"
+  - "./openapis.yaml"
+  - "./components.yaml"
+  - "./domais.yaml"
+  - "./resources.yaml"
+  - "./systems.yaml"
+  - "./templates.yaml"
+  - "./users.yaml"

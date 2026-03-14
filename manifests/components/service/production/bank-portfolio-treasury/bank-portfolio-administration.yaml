@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: bank-portfolio-administration
-  apiVersion: 
-  description: 
+  name: "bank-portfolio-administration"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:bank-portfolio-treasury
-  system: bank-portfolio-treasury
+  type: "service"
+  lifecycle: "production"
+  owner: "group:bank-portfolio-treasury"
+  system: "bank-portfolio-treasury"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

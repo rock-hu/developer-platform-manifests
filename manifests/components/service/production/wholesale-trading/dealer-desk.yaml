@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: dealer-desk
-  apiVersion: 
-  description: 
+  name: "dealer-desk"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:wholesale-trading
-  system: wholesale-trading
+  type: "service"
+  lifecycle: "production"
+  owner: "group:wholesale-trading"
+  system: "wholesale-trading"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: cards
-  description: everything related to cards
+  name: "cards"
+  description: "everything related to cards"
 spec:
-  owner: group:cards
+  owner: "group:cards"

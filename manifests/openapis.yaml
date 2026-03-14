@@ -1,10 +1,10 @@
 ---
-apiVersion: backstage.io/v1alpha1
-kind: Location
+apiVersion: "backstage.io/v1alpha1"
+kind: "Location"
 metadata:
-  name: all-openapis
-  description: A collection of all Backstage example APIs
+  name: "all-openapis"
+  description: "A collection of all Backstage example APIs"
 spec:
-  owner: group:engineering
+  owner: "group:engineering"
   targets:
-    - ./openapis/*.yaml
+  - "./openapis/*.yaml"

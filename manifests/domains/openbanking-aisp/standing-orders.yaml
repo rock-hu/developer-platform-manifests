@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: standing-orders
-  description: everything related to standing-orders
+  name: "standing-orders"
+  description: "everything related to standing-orders"
 spec:
-  owner: microservices-development
+  owner: "microservices-development"

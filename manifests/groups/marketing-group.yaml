@@ -1,13 +1,14 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: marketing
-  title: Marketing group
-  description: The marketing sub-department
+  name: "marketing"
+  title: "Marketing group"
+  description: "The marketing sub-department"
 spec:
-  type: sub-department
+  type: "sub-department"
   profile:
-    displayName: Marketing Office
-    email: roadie-marketing@example.com
-  parent: infrastructure
+    displayName: "Marketing Office"
+    email: "roadie-marketing@example.com"
+  parent: "infrastructure"
   children: []

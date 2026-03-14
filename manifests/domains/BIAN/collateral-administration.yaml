@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: collateral-administration
-  description: everything related to collateral-administration
+  name: "collateral-administration"
+  description: "everything related to collateral-administration"
 spec:
-  owner: group:collateral-administration
+  owner: "group:collateral-administration"

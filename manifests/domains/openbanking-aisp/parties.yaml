@@ -1,7 +1,8 @@
-apiVersion: backstage.io/v1alpha1
-kind: Domain
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Domain"
 metadata:
-  name: parties
-  description: everything related to parties
+  name: "parties"
+  description: "everything related to parties"
 spec:
-  owner: microservices-development
+  owner: "microservices-development"

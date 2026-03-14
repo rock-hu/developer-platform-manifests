@@ -1,11 +1,10 @@
 ---
-apiVersion: backstage.io/v1alpha1
-kind: Location
+apiVersion: "backstage.io/v1alpha1"
+kind: "Location"
 metadata:
-  name: all-domains
-  description: A collection of all Backstage example domains
+  name: "all-domains"
+  description: "A collection of all Backstage example domains"
 spec:
-  # owner: group:engineering
   targets:
-    - ./domains/openbanking-aisp/*.yaml
-    - ./domains/BIAN/*.yaml
+  - "./domains/openbanking-aisp/*.yaml"
+  - "./domains/BIAN/*.yaml"

@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: credit-risk-models
-  apiVersion: 
-  description: 
+  name: "credit-risk-models"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:models
-  system: models
+  type: "service"
+  lifecycle: "production"
+  owner: "group:models"
+  system: "models"
   subcomponentOf: []
   providesApis: []
   consumesApis: []

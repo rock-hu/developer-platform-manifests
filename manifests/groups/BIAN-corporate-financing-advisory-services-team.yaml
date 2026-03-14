@@ -1,12 +1,13 @@
-apiVersion: backstage.io/v1alpha1
-kind: Group
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
 metadata:
-  name: corporate-financing-advisory-services
-  description: corporate-financing-advisory-services
+  name: "corporate-financing-advisory-services"
+  description: "corporate-financing-advisory-services"
 spec:
-  type: team
+  type: "team"
   profile:
-    email: corporate-financing-advisory-services@gmail.com
-    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
-  parent: BIAN
+    email: "corporate-financing-advisory-services@gmail.com"
+    picture: "https://api.dicebear.com/5.x/adventurer/svg?seed=Felix"
+  parent: "BIAN"
   children: []

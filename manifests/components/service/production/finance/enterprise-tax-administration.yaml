@@ -1,15 +1,15 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
-apiVersion: backstage.io/v1alpha1
-kind: Component
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
 metadata:
-  name: enterprise-tax-administration
-  apiVersion: 
-  description: 
+  name: "enterprise-tax-administration"
+  apiVersion: null
+  description: null
 spec:
-  type: service #service,website,library
-  lifecycle: production #experimental,production,deprecated
-  owner: group:finance
-  system: finance
+  type: "service"
+  lifecycle: "production"
+  owner: "group:finance"
+  system: "finance"
   subcomponentOf: []
   providesApis: []
   consumesApis: []
