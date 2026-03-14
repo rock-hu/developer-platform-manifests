@@ -7,7 +7,7 @@ on:
       - ".github/workflows/manifests-components.yaml"
       - "manifests/components/**"
 jobs:
-  build:
+  validate-entity:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6

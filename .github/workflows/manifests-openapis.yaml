@@ -7,7 +7,7 @@ on:
       - ".github/workflows/manifests-openapis.yaml"
       - "manifests/openapis/**"
 jobs:
-  build:
+  validate-entity:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
