@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: vrp
+  description: OpenBankingUK - OBIE VRP Profile API
+  tags:
+    - OpenBankingUK
+    - OBIE
+  annotations:
+    backstage.io/definition-at-location: 'url:https://github.com/OpenBankingUK/read-write-api-specs/raw/v3.1.10/dist/openapi/vrp-openapi.yaml'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:microservices-development
+  definition:
+    $text: https://github.com/OpenBankingUK/read-write-api-specs/raw/v3.1.10/dist/openapi/vrp-openapi.yaml

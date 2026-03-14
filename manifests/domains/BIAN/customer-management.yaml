@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: customer-management
+  description: everything related to customer-management
+spec:
+  owner: group:customer-management

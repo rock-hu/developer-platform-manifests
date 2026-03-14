@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: loans-deposits
+  description: everything related to loans-deposits
+spec:
+  owner: group:loans-deposits

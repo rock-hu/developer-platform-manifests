@@ -1,0 +1,16 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: {{name}}
+  apiVersion: {{apiVersion}}
+  description: {{description}}
+spec:
+  type: {{type}} #service,website,library
+  lifecycle: {{lifecycle}} #experimental,production,deprecated
+  owner: {{owner}}
+  system: {{system}}
+  subcomponentOf: [{{subcomponentOf}}]
+  providesApis: [{{providesApis}}]
+  consumesApis: [{{consumesApis}}]
+  dependsOn: [{{dependsOn}}]

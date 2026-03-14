@@ -1,0 +1,16 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: trade-settlement
+  apiVersion: 
+  description: 
+spec:
+  type: service #service,website,library
+  lifecycle: production #experimental,production,deprecated
+  owner: group:market-operations
+  system: market-operations
+  subcomponentOf: []
+  providesApis: []
+  consumesApis: []
+  dependsOn: []

@@ -1,0 +1,20 @@
+{
+  "name": "developer-platform-manifests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "config:check": "backstage-cli config:check --strict --deprecated --config app-config.koyeb.yaml",
+    "config:print": "backstage-cli config:print --config app-config.koyeb.yaml",
+    "config:schema": "backstage-cli config:schema",
+    "config:docs": "backstage-cli config:docs",
+    "plop": "plop",
+    "http-server": "http-server ./manifests --port 8080 -d "
+  },
+  "devDependencies": {
+    "@roadiehq/backstage-entity-validator": "^0.3.13",
+    "backstage-cli": "^1.0.0-alpha.2",
+    "http-server": "^14.1.1",
+    "plop": "^2.7.6",
+    "yaml-lint": "^1.7.0"
+  }
+}

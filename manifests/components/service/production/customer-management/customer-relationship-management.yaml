@@ -1,0 +1,16 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-relationship-management
+  apiVersion: 
+  description: 
+spec:
+  type: service #service,website,library
+  lifecycle: production #experimental,production,deprecated
+  owner: group:customer-management
+  system: customer-management
+  subcomponentOf: []
+  providesApis: []
+  consumesApis: []
+  dependsOn: []

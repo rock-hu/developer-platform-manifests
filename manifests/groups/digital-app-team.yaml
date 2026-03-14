@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: app-development
+  description: app-development
+spec:
+  type: team
+  profile:
+    email: app-development@gmail.com
+    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
+  parent: digital
+  children: []

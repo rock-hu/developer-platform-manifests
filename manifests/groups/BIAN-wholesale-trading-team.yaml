@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: wholesale-trading
+  description: wholesale-trading
+spec:
+  type: team
+  profile:
+    email: wholesale-trading@gmail.com
+    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
+  parent: BIAN
+  children: []

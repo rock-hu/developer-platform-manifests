@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: transactions
+  description: everything related to transactions
+spec:
+  owner: microservices-development

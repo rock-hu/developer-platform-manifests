@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: account-info
+  description: OpenBankingUK - Account and Transaction API
+  tags:
+    - OpenBankingUK
+    - OBIE
+  annotations:
+    backstage.io/definition-at-location: 'url:https://raw.githubusercontent.com/OpenBankingUK/read-write-api-specs/v3.1.10/dist/openapi/account-info-openapi.yaml'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:microservices-development
+  definition:
+    $text: https://raw.githubusercontent.com/OpenBankingUK/read-write-api-specs/v3.1.10/dist/openapi/account-info-openapi.yaml

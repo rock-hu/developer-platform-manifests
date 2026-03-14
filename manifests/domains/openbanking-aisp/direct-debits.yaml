@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: direct-debits
+  description: everything related to direct-debits
+spec:
+  owner: microservices-development

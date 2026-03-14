@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cross-channel
+  description: everything related to cross-channel
+spec:
+  owner: group:cross-channel

@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: beneficiaries
+  description: everything related to beneficiaries
+spec:
+  owner: microservices-development

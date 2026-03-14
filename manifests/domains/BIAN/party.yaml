@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: party
+  description: everything related to party
+spec:
+  owner: group:party

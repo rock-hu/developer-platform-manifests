@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: consumer-services
+  description: everything related to consumer-services
+spec:
+  owner: group:consumer-services

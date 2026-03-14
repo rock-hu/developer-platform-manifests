@@ -1,0 +1,16 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: utilities-administration
+  apiVersion: 
+  description: 
+spec:
+  type: service #service,website,library
+  lifecycle: production #experimental,production,deprecated
+  owner: group:buildings-equipment-facilities
+  system: buildings-equipment-facilities
+  subcomponentOf: []
+  providesApis: []
+  consumesApis: []
+  dependsOn: []

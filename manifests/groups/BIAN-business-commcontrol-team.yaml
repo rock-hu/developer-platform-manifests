@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: business-commcontrol
+  description: business-commcontrol
+spec:
+  type: team
+  profile:
+    email: business-commcontrol@gmail.com
+    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
+  parent: BIAN
+  children: []

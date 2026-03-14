@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: models
+  description: models
+spec:
+  type: team
+  profile:
+    email: models@gmail.com
+    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
+  parent: BIAN
+  children: []

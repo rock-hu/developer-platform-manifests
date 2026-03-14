@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: models
+  description: everything related to models
+spec:
+  owner: group:models

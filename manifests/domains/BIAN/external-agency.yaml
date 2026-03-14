@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: external-agency
+  description: everything related to external-agency
+spec:
+  owner: group:external-agency

@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: knowledge-intellectual-property
+  description: everything related to knowledge-intellectual-property
+spec:
+  owner: group:knowledge-intellectual-property

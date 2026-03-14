@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: sales
+  description: everything related to sales
+spec:
+  owner: group:sales

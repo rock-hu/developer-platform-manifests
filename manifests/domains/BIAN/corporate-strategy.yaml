@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: corporate-strategy
+  description: everything related to corporate-strategy
+spec:
+  owner: group:corporate-strategy

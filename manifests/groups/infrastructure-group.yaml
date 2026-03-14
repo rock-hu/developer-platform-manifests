@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: infrastructure
+  title: infrastructure group
+  description: The infrastructure sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: infrastructure Office
+    email: roadie-infrastructure@example.com
+  children: []

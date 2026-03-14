@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: document-management-archive
+  description: everything related to document-management-archive
+spec:
+  owner: group:document-management-archive

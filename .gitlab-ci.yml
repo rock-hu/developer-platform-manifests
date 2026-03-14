@@ -1,0 +1,95 @@
+image: node:18.12.0
+variables:
+  DEBIAN_FRONTEND: noninteractive
+  TZ: Asia/Singapore
+  GIT_PYTHON_REFRESH: quiet
+  INTEGRATION_TYPE: "gitlab"
+  VERSION: "latest"
+  # These variables should be set in GitLab's CI/CD variables for security
+  # OCEAN__PORT__CLIENT_ID: ""
+  # OCEAN__PORT__CLIENT_SECRET: ""
+  # Learn more about generating GitLab token in the link below
+  # https://docs.getport.io/build-your-software-catalog/sync-data-to-catalog/git/gitlab/installation/#creating-a-gitlab-group-access-token
+  OCEAN__INTEGRATION__CONFIG__TOKEN_MAPPING: '{"<GITLAB_TOKEN>": ["**"]}'
+before_script:
+  - npm install -g @roadiehq/backstage-entity-validator
+cache:
+  paths:
+    - .npm
+    - node_modules
+stages:
+  - validate
+  - package
+  - deploy
+  - deploy_gitlab
+backstage-groups:
+  stage: validate
+  script:
+    - validate-entity manifests/groups.yaml
+  tags:
+    - docker
+backstage-openapis:
+  stage: validate
+  script:
+    - validate-entity manifests/openapis.yaml
+  tags:
+    - docker
+backstage-components:
+  stage: validate
+  script:
+    - validate-entity manifests/components.yaml
+  tags:
+    - docker
+backstage-domais:
+  stage: validate
+  script:
+    - validate-entity manifests/domais.yaml
+  tags:
+    - docker
+backstage-resources:
+  stage: validate
+  script:
+    - validate-entity manifests/resources.yaml
+  tags:
+    - docker
+backstage-systems:
+  stage: validate
+  script:
+    - validate-entity manifests/systems.yaml
+  tags:
+    - docker
+backstage-templates:
+  stage: validate
+  script:
+    - validate-entity manifests/templates.yaml
+  tags:
+    - docker
+backstage-users:
+  stage: validate
+  script:
+    - validate-entity manifests/users.yaml
+  tags:
+    - docker
+backstage:
+  stage: validate
+  script:
+    - validate-entity manifests/catalog-entities.yaml
+  tags:
+    - docker
+# deploy_gitlab:
+#   image: docker:24.0.7
+#   stage: deploy_gitlab
+#   services:
+#     - docker:24.0.7-dind
+#   script:
+#     - image_name="ghcr.io/port-labs/port-ocean-$INTEGRATION_TYPE:$VERSION"
+#     - |
+#       docker run -i --rm --platform=linux/amd64 \
+#       -e OCEAN__EVENT_LISTENER='{"type":"ONCE"}' \
+#       -e OCEAN__INITIALIZE_PORT_RESOURCES=true \
+#       -e OCEAN__INTEGRATION__CONFIG__TOKEN_MAPPING="$OCEAN__INTEGRATION__CONFIG__TOKEN_MAPPING" \
+#       -e OCEAN__PORT__CLIENT_ID=$OCEAN__PORT__CLIENT_ID \
+#       -e OCEAN__PORT__CLIENT_SECRET=$OCEAN__PORT__CLIENT_SECRET \
+#       $image_name
+#   only:
+#     - master

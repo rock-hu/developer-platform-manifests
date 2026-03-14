@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: collateral-administration
+  description: collateral-administration
+spec:
+  type: team
+  profile:
+    email: collateral-administration@gmail.com
+    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
+  parent: BIAN
+  children: []

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sales
+  description: sales
+spec:
+  type: team
+  profile:
+    email: sales@gmail.com
+    picture: https://api.dicebear.com/5.x/adventurer/svg?seed=Felix
+  parent: BIAN
+  children: []

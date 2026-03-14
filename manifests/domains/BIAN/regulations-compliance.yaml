@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: regulations-compliance
+  description: everything related to regulations-compliance
+spec:
+  owner: group:regulations-compliance

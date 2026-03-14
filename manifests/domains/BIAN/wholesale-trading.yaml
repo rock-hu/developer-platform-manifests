@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: wholesale-trading
+  description: everything related to wholesale-trading
+spec:
+  owner: group:wholesale-trading
