@@ -1,0 +1,17 @@
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "API"
+metadata:
+  name: "eBranchManagement"
+  description: "bian-semantic - eBranchManagement"
+  tags:
+  - "bian-semantic"
+  - "eBranchManagement"
+  annotations:
+    backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/eBranchManagement.yaml"
+spec:
+  type: "openapi"
+  lifecycle: "production"
+  owner: "group:bian-semantic"
+  definition:
+    $text: "https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/eBranchManagement.yaml"

@@ -132,6 +132,32 @@ module.exports = function (plop) {
     ],
   });
 
+
+  
+  plop.setGenerator("bian-semantic", {
+    description: "backstage.kind.API - bian-semantic",
+    prompts: [
+      {
+        type: "input",
+        name: "version",
+        message: "version",
+      },      
+      {
+        type: "input",
+        name: "artifact",
+        message: "artifact",
+      }
+    ],
+    actions: [
+      {
+        type: "add",
+        path: "manifests/openapis/bian-semantic/{{artifact}}.yaml",
+        templateFile: "mustushe/bian-semantic.hbs",
+        force: true,
+      },
+    ],
+  });  
+
   plop.setGenerator("backstage-component", {
     description: "backstage-component",
     prompts: [

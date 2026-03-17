@@ -1,0 +1,17 @@
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "API"
+metadata:
+  name: "{{artifact}}"
+  description: "bian-semantic - {{artifact}}"
+  tags:
+  - "bian-semantic"
+  - "{{artifact}}"
+  annotations:
+    backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/{{version}}/apis-iso20022_ext-ddd/oas3/yamls/{{artifact}}.yaml"
+spec:
+  type: "openapi"
+  lifecycle: "production"
+  owner: "group:bian-semantic"
+  definition:
+    $text: "https://raw.githubusercontent.com/bian-official/public/refs/heads/main/{{version}}/apis-iso20022_ext-ddd/oas3/yamls/{{artifact}}.yaml"

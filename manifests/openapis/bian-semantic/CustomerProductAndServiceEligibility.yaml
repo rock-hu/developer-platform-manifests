@@ -1,0 +1,17 @@
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "API"
+metadata:
+  name: "CustomerProductAndServiceEligibility"
+  description: "bian-semantic - CustomerProductAndServiceEligibility"
+  tags:
+  - "bian-semantic"
+  - "CustomerProductAndServiceEligibility"
+  annotations:
+    backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerProductAndServiceEligibility.yaml"
+spec:
+  type: "openapi"
+  lifecycle: "production"
+  owner: "group:bian-semantic"
+  definition:
+    $text: "https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerProductAndServiceEligibility.yaml"

@@ -1,0 +1,17 @@
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "API"
+metadata:
+  name: "CustomerCampaignDesign"
+  description: "bian-semantic - CustomerCampaignDesign"
+  tags:
+  - "bian-semantic"
+  - "CustomerCampaignDesign"
+  annotations:
+    backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerCampaignDesign.yaml"
+spec:
+  type: "openapi"
+  lifecycle: "production"
+  owner: "group:bian-semantic"
+  definition:
+    $text: "https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerCampaignDesign.yaml"
