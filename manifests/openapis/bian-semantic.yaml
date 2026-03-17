@@ -2,9 +2,9 @@
 apiVersion: "backstage.io/v1alpha1"
 kind: "Location"
 metadata:
-  name: "all-openapis"
-  description: "A collection of all APIs"
+  name: "bian-semantic"
+  description: "A collection of bian-semantic APIs"
 spec:
   owner: "group:engineering"
   targets:
-    - "./openapis/*.yaml"
+    - "./bian-semantic/*.yaml"
