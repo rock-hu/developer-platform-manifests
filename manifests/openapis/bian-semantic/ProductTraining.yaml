@@ -5,8 +5,8 @@ metadata:
   name: "ProductTraining"
   description: "bian-semantic - ProductTraining"
   tags:
-  - "bian-semantic"
-  - "ProductTraining"
+    - "bian-semantic"
+    - "ProductTraining"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ProductTraining.yaml"
 spec:

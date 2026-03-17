@@ -5,8 +5,8 @@ metadata:
   name: "CustomerAccessEntitlement"
   description: "bian-semantic - CustomerAccessEntitlement"
   tags:
-  - "bian-semantic"
-  - "CustomerAccessEntitlement"
+    - "bian-semantic"
+    - "CustomerAccessEntitlement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerAccessEntitlement.yaml"
 spec:

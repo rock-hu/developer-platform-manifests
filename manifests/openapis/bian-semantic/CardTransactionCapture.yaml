@@ -5,8 +5,8 @@ metadata:
   name: "CardTransactionCapture"
   description: "bian-semantic - CardTransactionCapture"
   tags:
-  - "bian-semantic"
-  - "CardTransactionCapture"
+    - "bian-semantic"
+    - "CardTransactionCapture"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CardTransactionCapture.yaml"
 spec:

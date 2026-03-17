@@ -5,8 +5,8 @@ metadata:
   name: "BusinessUnitManagement"
   description: "bian-semantic - BusinessUnitManagement"
   tags:
-  - "bian-semantic"
-  - "BusinessUnitManagement"
+    - "bian-semantic"
+    - "BusinessUnitManagement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/BusinessUnitManagement.yaml"
 spec:

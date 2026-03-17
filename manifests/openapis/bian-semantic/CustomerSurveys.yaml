@@ -5,8 +5,8 @@ metadata:
   name: "CustomerSurveys"
   description: "bian-semantic - CustomerSurveys"
   tags:
-  - "bian-semantic"
-  - "CustomerSurveys"
+    - "bian-semantic"
+    - "CustomerSurveys"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerSurveys.yaml"
 spec:

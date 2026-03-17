@@ -5,8 +5,8 @@ metadata:
   name: "InteractiveHelp"
   description: "bian-semantic - InteractiveHelp"
   tags:
-  - "bian-semantic"
-  - "InteractiveHelp"
+    - "bian-semantic"
+    - "InteractiveHelp"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/InteractiveHelp.yaml"
 spec:

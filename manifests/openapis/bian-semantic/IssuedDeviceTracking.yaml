@@ -5,8 +5,8 @@ metadata:
   name: "IssuedDeviceTracking"
   description: "bian-semantic - IssuedDeviceTracking"
   tags:
-  - "bian-semantic"
-  - "IssuedDeviceTracking"
+    - "bian-semantic"
+    - "IssuedDeviceTracking"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/IssuedDeviceTracking.yaml"
 spec:

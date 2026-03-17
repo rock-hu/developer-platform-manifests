@@ -1,0 +1,5 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.backstage.manifests
+recipeList:
+  - org.openrewrite.yaml.format.Indents

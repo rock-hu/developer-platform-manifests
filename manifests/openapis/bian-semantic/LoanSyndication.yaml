@@ -5,8 +5,8 @@ metadata:
   name: "LoanSyndication"
   description: "bian-semantic - LoanSyndication"
   tags:
-  - "bian-semantic"
-  - "LoanSyndication"
+    - "bian-semantic"
+    - "LoanSyndication"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/LoanSyndication.yaml"
 spec:

@@ -11,7 +11,7 @@ spec:
   owner: "group:cross-channel"
   system: "cross-channel"
   subcomponentOf:
-    - "cross-channel"
+  - "cross-channel"
   providesApis: []
   consumesApis: []
   dependsOn: []

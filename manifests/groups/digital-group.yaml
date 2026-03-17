@@ -5,8 +5,8 @@ metadata:
   name: "digital"
   description: "The digital organization"
   links:
-  - url: "http://www.digital.io/"
-    title: "Website"
+    - url: "http://www.digital.io/"
+      title: "Website"
 spec:
   type: "organization"
   profile:
@@ -14,8 +14,8 @@ spec:
     email: "digital@example.com"
     picture: "https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25"
   children:
-  - "digital-app-team"
-  - "digital-database-team"
-  - "digital-engineering-team"
-  - "digital-microservices-team"
-  - "digital-web-team"
+    - "digital-app-team"
+    - "digital-database-team"
+    - "digital-engineering-team"
+    - "digital-microservices-team"
+    - "digital-web-team"

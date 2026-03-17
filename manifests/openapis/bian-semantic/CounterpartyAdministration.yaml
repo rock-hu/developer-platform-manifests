@@ -5,8 +5,8 @@ metadata:
   name: "CounterpartyAdministration"
   description: "bian-semantic - CounterpartyAdministration"
   tags:
-  - "bian-semantic"
-  - "CounterpartyAdministration"
+    - "bian-semantic"
+    - "CounterpartyAdministration"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CounterpartyAdministration.yaml"
 spec:

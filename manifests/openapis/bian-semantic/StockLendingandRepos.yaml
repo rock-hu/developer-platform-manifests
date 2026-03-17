@@ -5,8 +5,8 @@ metadata:
   name: "StockLendingandRepos"
   description: "bian-semantic - StockLendingandRepos"
   tags:
-  - "bian-semantic"
-  - "StockLendingandRepos"
+    - "bian-semantic"
+    - "StockLendingandRepos"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/StockLendingandRepos.yaml"
 spec:

@@ -5,8 +5,8 @@ metadata:
   name: "PartyRoutingProfile"
   description: "bian-semantic - PartyRoutingProfile"
   tags:
-  - "bian-semantic"
-  - "PartyRoutingProfile"
+    - "bian-semantic"
+    - "PartyRoutingProfile"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/PartyRoutingProfile.yaml"
 spec:

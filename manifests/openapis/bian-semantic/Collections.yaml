@@ -5,8 +5,8 @@ metadata:
   name: "Collections"
   description: "bian-semantic - Collections"
   tags:
-  - "bian-semantic"
-  - "Collections"
+    - "bian-semantic"
+    - "Collections"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/Collections.yaml"
 spec:

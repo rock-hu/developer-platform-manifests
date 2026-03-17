@@ -5,8 +5,8 @@ metadata:
   name: "MergersandAcquisitionsAdvisory"
   description: "bian-semantic - MergersandAcquisitionsAdvisory"
   tags:
-  - "bian-semantic"
-  - "MergersandAcquisitionsAdvisory"
+    - "bian-semantic"
+    - "MergersandAcquisitionsAdvisory"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/MergersandAcquisitionsAdvisory.yaml"
 spec:

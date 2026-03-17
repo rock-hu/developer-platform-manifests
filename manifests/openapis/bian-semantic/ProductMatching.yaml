@@ -5,8 +5,8 @@ metadata:
   name: "ProductMatching"
   description: "bian-semantic - ProductMatching"
   tags:
-  - "bian-semantic"
-  - "ProductMatching"
+    - "bian-semantic"
+    - "ProductMatching"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ProductMatching.yaml"
 spec:

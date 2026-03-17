@@ -5,8 +5,8 @@ metadata:
   name: "CustomerFinancialInsights"
   description: "bian-semantic - CustomerFinancialInsights"
   tags:
-  - "bian-semantic"
-  - "CustomerFinancialInsights"
+    - "bian-semantic"
+    - "CustomerFinancialInsights"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerFinancialInsights.yaml"
 spec:

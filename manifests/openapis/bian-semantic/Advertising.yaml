@@ -5,8 +5,8 @@ metadata:
   name: "Advertising"
   description: "bian-semantic - Advertising"
   tags:
-  - "bian-semantic"
-  - "Advertising"
+    - "bian-semantic"
+    - "Advertising"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/Advertising.yaml"
 spec:

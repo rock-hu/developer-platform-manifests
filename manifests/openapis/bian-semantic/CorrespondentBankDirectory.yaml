@@ -5,8 +5,8 @@ metadata:
   name: "CorrespondentBankDirectory"
   description: "bian-semantic - CorrespondentBankDirectory"
   tags:
-  - "bian-semantic"
-  - "CorrespondentBankDirectory"
+    - "bian-semantic"
+    - "CorrespondentBankDirectory"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CorrespondentBankDirectory.yaml"
 spec:

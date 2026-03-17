@@ -41,7 +41,16 @@
                     </yaml>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <groupId>org.openrewrite.maven</groupId>
+                <artifactId>rewrite-maven-plugin</artifactId>
+                <version>6.33.0</version>
+                <configuration>
+                    <activeRecipes>
+                        <recipe>com.backstage.manifests</recipe>
+                    </activeRecipes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

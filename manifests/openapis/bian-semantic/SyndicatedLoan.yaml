@@ -5,8 +5,8 @@ metadata:
   name: "SyndicatedLoan"
   description: "bian-semantic - SyndicatedLoan"
   tags:
-  - "bian-semantic"
-  - "SyndicatedLoan"
+    - "bian-semantic"
+    - "SyndicatedLoan"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/SyndicatedLoan.yaml"
 spec:

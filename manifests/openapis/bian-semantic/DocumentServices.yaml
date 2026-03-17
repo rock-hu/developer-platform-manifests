@@ -5,8 +5,8 @@ metadata:
   name: "DocumentServices"
   description: "bian-semantic - DocumentServices"
   tags:
-  - "bian-semantic"
-  - "DocumentServices"
+    - "bian-semantic"
+    - "DocumentServices"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/DocumentServices.yaml"
 spec:

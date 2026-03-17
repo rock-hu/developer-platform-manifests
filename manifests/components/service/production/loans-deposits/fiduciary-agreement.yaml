@@ -11,7 +11,7 @@ spec:
   owner: "group:loans-deposits"
   system: "loans-deposits"
   subcomponentOf:
-  - "loans-deposits"
+    - "loans-deposits"
   providesApis: []
   consumesApis: []
   dependsOn: []

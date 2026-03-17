@@ -5,8 +5,8 @@ metadata:
   name: "ServiceDirectory"
   description: "bian-semantic - ServiceDirectory"
   tags:
-  - "bian-semantic"
-  - "ServiceDirectory"
+    - "bian-semantic"
+    - "ServiceDirectory"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ServiceDirectory.yaml"
 spec:

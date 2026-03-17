@@ -5,8 +5,8 @@ metadata:
   name: "TransactionAuthorization"
   description: "bian-semantic - TransactionAuthorization"
   tags:
-  - "bian-semantic"
-  - "TransactionAuthorization"
+    - "bian-semantic"
+    - "TransactionAuthorization"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/TransactionAuthorization.yaml"
 spec:

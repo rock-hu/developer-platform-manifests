@@ -5,8 +5,8 @@ metadata:
   name: "CreditRiskModels"
   description: "bian-semantic - CreditRiskModels"
   tags:
-  - "bian-semantic"
-  - "CreditRiskModels"
+    - "bian-semantic"
+    - "CreditRiskModels"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CreditRiskModels.yaml"
 spec:

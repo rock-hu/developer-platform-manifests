@@ -11,7 +11,7 @@ spec:
   owner: "group:account-management"
   system: "account-management"
   subcomponentOf:
-  - "account-management"
+    - "account-management"
   providesApis: []
   consumesApis: []
   dependsOn: []

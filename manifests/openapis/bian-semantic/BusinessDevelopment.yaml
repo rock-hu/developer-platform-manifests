@@ -5,8 +5,8 @@ metadata:
   name: "BusinessDevelopment"
   description: "bian-semantic - BusinessDevelopment"
   tags:
-  - "bian-semantic"
-  - "BusinessDevelopment"
+    - "bian-semantic"
+    - "BusinessDevelopment"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/BusinessDevelopment.yaml"
 spec:

@@ -5,8 +5,8 @@ metadata:
   name: "BankDrafts"
   description: "bian-semantic - BankDrafts"
   tags:
-  - "bian-semantic"
-  - "BankDrafts"
+    - "bian-semantic"
+    - "BankDrafts"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/BankDrafts.yaml"
 spec:

@@ -5,8 +5,8 @@ metadata:
   name: "ServiceProviderOperations"
   description: "bian-semantic - ServiceProviderOperations"
   tags:
-  - "bian-semantic"
-  - "ServiceProviderOperations"
+    - "bian-semantic"
+    - "ServiceProviderOperations"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ServiceProviderOperations.yaml"
 spec:

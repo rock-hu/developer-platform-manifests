@@ -5,8 +5,8 @@ metadata:
   name: "payment-initiation"
   description: "OpenBankingUK - Payment Initiation API"
   tags:
-  - "OpenBankingUK"
-  - "OBIE"
+    - "OpenBankingUK"
+    - "OBIE"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/OpenBankingUK/read-write-api-specs/v3.1.10/dist/openapi/payment-initiation-openapi.yaml"
 spec:

@@ -5,8 +5,8 @@ metadata:
   name: "BranchLocationManagement"
   description: "bian-semantic - BranchLocationManagement"
   tags:
-  - "bian-semantic"
-  - "BranchLocationManagement"
+    - "bian-semantic"
+    - "BranchLocationManagement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/BranchLocationManagement.yaml"
 spec:

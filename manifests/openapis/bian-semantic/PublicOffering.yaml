@@ -5,8 +5,8 @@ metadata:
   name: "PublicOffering"
   description: "bian-semantic - PublicOffering"
   tags:
-  - "bian-semantic"
-  - "PublicOffering"
+    - "bian-semantic"
+    - "PublicOffering"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/PublicOffering.yaml"
 spec:

@@ -11,7 +11,7 @@ spec:
   owner: "group:bank-portfolio-treasury"
   system: "bank-portfolio-treasury"
   subcomponentOf:
-  - "bank-portfolio-treasury"
+    - "bank-portfolio-treasury"
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -5,8 +5,8 @@ metadata:
   name: "RewardsMenu"
   description: "bian-semantic - RewardsMenu"
   tags:
-  - "bian-semantic"
-  - "RewardsMenu"
+    - "bian-semantic"
+    - "RewardsMenu"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/RewardsMenu.yaml"
 spec:

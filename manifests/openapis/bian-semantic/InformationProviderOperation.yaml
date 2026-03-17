@@ -5,8 +5,8 @@ metadata:
   name: "InformationProviderOperation"
   description: "bian-semantic - InformationProviderOperation"
   tags:
-  - "bian-semantic"
-  - "InformationProviderOperation"
+    - "bian-semantic"
+    - "InformationProviderOperation"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/InformationProviderOperation.yaml"
 spec:

@@ -7,5 +7,5 @@ metadata:
 spec:
   owner: "group:engineering"
   targets:
-  - "./domains/openbanking-aisp/*.yaml"
-  - "./domains/BIAN/*.yaml"
+    - "./domains/openbanking-aisp/*.yaml"
+    - "./domains/BIAN/*.yaml"

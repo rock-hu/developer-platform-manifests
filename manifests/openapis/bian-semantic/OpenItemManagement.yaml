@@ -5,8 +5,8 @@ metadata:
   name: "OpenItemManagement"
   description: "bian-semantic - OpenItemManagement"
   tags:
-  - "bian-semantic"
-  - "OpenItemManagement"
+    - "bian-semantic"
+    - "OpenItemManagement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/OpenItemManagement.yaml"
 spec:

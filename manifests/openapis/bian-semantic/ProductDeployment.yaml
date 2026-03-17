@@ -5,8 +5,8 @@ metadata:
   name: "ProductDeployment"
   description: "bian-semantic - ProductDeployment"
   tags:
-  - "bian-semantic"
-  - "ProductDeployment"
+    - "bian-semantic"
+    - "ProductDeployment"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ProductDeployment.yaml"
 spec:

@@ -5,8 +5,8 @@ metadata:
   name: "ProductDirectory"
   description: "bian-semantic - ProductDirectory"
   tags:
-  - "bian-semantic"
-  - "ProductDirectory"
+    - "bian-semantic"
+    - "ProductDirectory"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ProductDirectory.yaml"
 spec:

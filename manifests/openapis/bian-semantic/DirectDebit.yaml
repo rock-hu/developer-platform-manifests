@@ -5,8 +5,8 @@ metadata:
   name: "DirectDebit"
   description: "bian-semantic - DirectDebit"
   tags:
-  - "bian-semantic"
-  - "DirectDebit"
+    - "bian-semantic"
+    - "DirectDebit"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/DirectDebit.yaml"
 spec:

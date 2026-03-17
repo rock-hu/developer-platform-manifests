@@ -5,8 +5,8 @@ metadata:
   name: "PositionManagement"
   description: "bian-semantic - PositionManagement"
   tags:
-  - "bian-semantic"
-  - "PositionManagement"
+    - "bian-semantic"
+    - "PositionManagement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/PositionManagement.yaml"
 spec:

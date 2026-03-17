@@ -5,8 +5,8 @@ metadata:
   name: "ProductServiceAgency"
   description: "bian-semantic - ProductServiceAgency"
   tags:
-  - "bian-semantic"
-  - "ProductServiceAgency"
+    - "bian-semantic"
+    - "ProductServiceAgency"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ProductServiceAgency.yaml"
 spec:

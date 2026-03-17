@@ -5,8 +5,8 @@ metadata:
   name: "FiduciaryAgreement"
   description: "bian-semantic - FiduciaryAgreement"
   tags:
-  - "bian-semantic"
-  - "FiduciaryAgreement"
+    - "bian-semantic"
+    - "FiduciaryAgreement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/FiduciaryAgreement.yaml"
 spec:

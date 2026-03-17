@@ -5,8 +5,8 @@ metadata:
   name: "ProspectCampaignExecution"
   description: "bian-semantic - ProspectCampaignExecution"
   tags:
-  - "bian-semantic"
-  - "ProspectCampaignExecution"
+    - "bian-semantic"
+    - "ProspectCampaignExecution"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ProspectCampaignExecution.yaml"
 spec:

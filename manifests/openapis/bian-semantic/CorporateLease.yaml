@@ -5,8 +5,8 @@ metadata:
   name: "CorporateLease"
   description: "bian-semantic - CorporateLease"
   tags:
-  - "bian-semantic"
-  - "CorporateLease"
+    - "bian-semantic"
+    - "CorporateLease"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CorporateLease.yaml"
 spec:

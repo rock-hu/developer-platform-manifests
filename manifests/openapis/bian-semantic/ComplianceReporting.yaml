@@ -5,8 +5,8 @@ metadata:
   name: "ComplianceReporting"
   description: "bian-semantic - ComplianceReporting"
   tags:
-  - "bian-semantic"
-  - "ComplianceReporting"
+    - "bian-semantic"
+    - "ComplianceReporting"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ComplianceReporting.yaml"
 spec:

@@ -5,8 +5,8 @@ metadata:
   name: "ClaimAssessment"
   description: "bian-semantic - ClaimAssessment"
   tags:
-  - "bian-semantic"
-  - "ClaimAssessment"
+    - "bian-semantic"
+    - "ClaimAssessment"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ClaimAssessment.yaml"
 spec:

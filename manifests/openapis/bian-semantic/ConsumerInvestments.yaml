@@ -5,8 +5,8 @@ metadata:
   name: "ConsumerInvestments"
   description: "bian-semantic - ConsumerInvestments"
   tags:
-  - "bian-semantic"
-  - "ConsumerInvestments"
+    - "bian-semantic"
+    - "ConsumerInvestments"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ConsumerInvestments.yaml"
 spec:

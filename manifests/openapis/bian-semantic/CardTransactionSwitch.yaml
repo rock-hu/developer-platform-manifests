@@ -5,8 +5,8 @@ metadata:
   name: "CardTransactionSwitch"
   description: "bian-semantic - CardTransactionSwitch"
   tags:
-  - "bian-semantic"
-  - "CardTransactionSwitch"
+    - "bian-semantic"
+    - "CardTransactionSwitch"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CardTransactionSwitch.yaml"
 spec:

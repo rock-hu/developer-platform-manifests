@@ -11,7 +11,7 @@ spec:
   owner: "group:it-management"
   system: "it-management"
   subcomponentOf:
-  - "it-management"
+    - "it-management"
   providesApis: []
   consumesApis: []
   dependsOn: []

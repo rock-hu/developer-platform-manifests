@@ -11,7 +11,7 @@ spec:
   owner: "group:market-operations"
   system: "market-operations"
   subcomponentOf:
-  - "market-operations"
+    - "market-operations"
   providesApis: []
   consumesApis: []
   dependsOn: []

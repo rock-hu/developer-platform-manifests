@@ -5,8 +5,8 @@ metadata:
   name: "PaymentOrderInitiation"
   description: "bian-semantic - PaymentOrderInitiation"
   tags:
-  - "bian-semantic"
-  - "PaymentOrderInitiation"
+    - "bian-semantic"
+    - "PaymentOrderInitiation"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/PaymentOrderInitiation.yaml"
 spec:

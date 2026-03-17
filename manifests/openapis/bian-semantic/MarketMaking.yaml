@@ -5,8 +5,8 @@ metadata:
   name: "MarketMaking"
   description: "bian-semantic - MarketMaking"
   tags:
-  - "bian-semantic"
-  - "MarketMaking"
+    - "bian-semantic"
+    - "MarketMaking"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/MarketMaking.yaml"
 spec:

@@ -11,7 +11,7 @@ spec:
   owner: "group:sales"
   system: "sales"
   subcomponentOf:
-  - "sales"
+    - "sales"
   providesApis: []
   consumesApis: []
   dependsOn: []

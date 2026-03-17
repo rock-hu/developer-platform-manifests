@@ -5,8 +5,8 @@ metadata:
   name: "ConsumerLoan"
   description: "bian-semantic - ConsumerLoan"
   tags:
-  - "bian-semantic"
-  - "ConsumerLoan"
+    - "bian-semantic"
+    - "ConsumerLoan"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ConsumerLoan.yaml"
 spec:

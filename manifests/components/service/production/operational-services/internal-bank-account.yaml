@@ -11,7 +11,7 @@ spec:
   owner: "group:operational-services"
   system: "operational-services"
   subcomponentOf:
-  - "operational-services"
+    - "operational-services"
   providesApis: []
   consumesApis: []
   dependsOn: []

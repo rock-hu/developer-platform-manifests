@@ -5,8 +5,8 @@ metadata:
   name: "RewardsInventory"
   description: "bian-semantic - RewardsInventory"
   tags:
-  - "bian-semantic"
-  - "RewardsInventory"
+    - "bian-semantic"
+    - "RewardsInventory"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/RewardsInventory.yaml"
 spec:

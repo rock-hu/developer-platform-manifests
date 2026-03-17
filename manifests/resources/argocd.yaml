@@ -7,12 +7,12 @@ metadata:
   description: "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.\
     \ We use ArgoCD for the deployment of this showcase."
   links:
-  - url: "https://argocd.operate-first.cloud/"
-    title: "Instance of ArgoCD"
-    icon: "web"
-  - url: "https://argo-cd.readthedocs.io/en/stable/"
-    title: "Documentation"
-    icon: "web"
+    - url: "https://argocd.operate-first.cloud/"
+      title: "Instance of ArgoCD"
+      icon: "web"
+    - url: "https://argo-cd.readthedocs.io/en/stable/"
+      title: "Documentation"
+      icon: "web"
 spec:
   type: "gitops"
   lifecycle: "production"

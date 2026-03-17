@@ -5,8 +5,8 @@ metadata:
   name: "InternalAudit"
   description: "bian-semantic - InternalAudit"
   tags:
-  - "bian-semantic"
-  - "InternalAudit"
+    - "bian-semantic"
+    - "InternalAudit"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/InternalAudit.yaml"
 spec:

@@ -5,8 +5,8 @@ metadata:
   name: "CustomerBilling"
   description: "bian-semantic - CustomerBilling"
   tags:
-  - "bian-semantic"
-  - "CustomerBilling"
+    - "bian-semantic"
+    - "CustomerBilling"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerBilling.yaml"
 spec:

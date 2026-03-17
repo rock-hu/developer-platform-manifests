@@ -5,8 +5,8 @@ metadata:
   name: "MutualFundAdministration"
   description: "bian-semantic - MutualFundAdministration"
   tags:
-  - "bian-semantic"
-  - "MutualFundAdministration"
+    - "bian-semantic"
+    - "MutualFundAdministration"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/MutualFundAdministration.yaml"
 spec:

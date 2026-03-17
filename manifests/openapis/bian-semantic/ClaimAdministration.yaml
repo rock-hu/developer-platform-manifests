@@ -5,8 +5,8 @@ metadata:
   name: "ClaimAdministration"
   description: "bian-semantic - ClaimAdministration"
   tags:
-  - "bian-semantic"
-  - "ClaimAdministration"
+    - "bian-semantic"
+    - "ClaimAdministration"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ClaimAdministration.yaml"
 spec:

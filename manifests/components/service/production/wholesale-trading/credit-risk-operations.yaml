@@ -11,7 +11,7 @@ spec:
   owner: "group:wholesale-trading"
   system: "wholesale-trading"
   subcomponentOf:
-  - "wholesale-trading"
+    - "wholesale-trading"
   providesApis: []
   consumesApis: []
   dependsOn: []

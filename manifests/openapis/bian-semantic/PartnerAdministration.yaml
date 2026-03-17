@@ -5,8 +5,8 @@ metadata:
   name: "PartnerAdministration"
   description: "bian-semantic - PartnerAdministration"
   tags:
-  - "bian-semantic"
-  - "PartnerAdministration"
+    - "bian-semantic"
+    - "PartnerAdministration"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/PartnerAdministration.yaml"
 spec:

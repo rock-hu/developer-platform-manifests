@@ -5,8 +5,8 @@ metadata:
   name: "MarketInformationManagement"
   description: "bian-semantic - MarketInformationManagement"
   tags:
-  - "bian-semantic"
-  - "MarketInformationManagement"
+    - "bian-semantic"
+    - "MarketInformationManagement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/MarketInformationManagement.yaml"
 spec:

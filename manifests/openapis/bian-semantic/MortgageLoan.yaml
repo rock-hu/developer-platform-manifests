@@ -5,8 +5,8 @@ metadata:
   name: "MortgageLoan"
   description: "bian-semantic - MortgageLoan"
   tags:
-  - "bian-semantic"
-  - "MortgageLoan"
+    - "bian-semantic"
+    - "MortgageLoan"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/MortgageLoan.yaml"
 spec:

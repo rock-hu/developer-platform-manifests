@@ -5,8 +5,8 @@ metadata:
   name: "AdvancedVoiceServicesOperations"
   description: "bian-semantic - AdvancedVoiceServicesOperations"
   tags:
-  - "bian-semantic"
-  - "AdvancedVoiceServicesOperations"
+    - "bian-semantic"
+    - "AdvancedVoiceServicesOperations"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/AdvancedVoiceServicesOperations.yaml"
 spec:

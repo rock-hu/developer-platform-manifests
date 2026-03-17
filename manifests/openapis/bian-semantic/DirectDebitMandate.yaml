@@ -5,8 +5,8 @@ metadata:
   name: "DirectDebitMandate"
   description: "bian-semantic - DirectDebitMandate"
   tags:
-  - "bian-semantic"
-  - "DirectDebitMandate"
+    - "bian-semantic"
+    - "DirectDebitMandate"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/DirectDebitMandate.yaml"
 spec:

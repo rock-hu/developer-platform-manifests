@@ -5,8 +5,8 @@ metadata:
   name: "RewardsDelivery"
   description: "bian-semantic - RewardsDelivery"
   tags:
-  - "bian-semantic"
-  - "RewardsDelivery"
+    - "bian-semantic"
+    - "RewardsDelivery"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/RewardsDelivery.yaml"
 spec:

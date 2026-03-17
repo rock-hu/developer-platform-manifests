@@ -5,8 +5,8 @@ metadata:
   name: "SystemDevelopment"
   description: "bian-semantic - SystemDevelopment"
   tags:
-  - "bian-semantic"
-  - "SystemDevelopment"
+    - "bian-semantic"
+    - "SystemDevelopment"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/SystemDevelopment.yaml"
 spec:

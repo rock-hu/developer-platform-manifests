@@ -5,8 +5,8 @@ metadata:
   name: "AccountsReceivable"
   description: "bian-semantic - AccountsReceivable"
   tags:
-  - "bian-semantic"
-  - "AccountsReceivable"
+    - "bian-semantic"
+    - "AccountsReceivable"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/AccountsReceivable.yaml"
 spec:

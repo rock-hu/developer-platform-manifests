@@ -5,8 +5,8 @@ metadata:
   name: "FinancialAccounting"
   description: "bian-semantic - FinancialAccounting"
   tags:
-  - "bian-semantic"
-  - "FinancialAccounting"
+    - "bian-semantic"
+    - "FinancialAccounting"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/FinancialAccounting.yaml"
 spec:

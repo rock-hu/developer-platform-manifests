@@ -5,8 +5,8 @@ metadata:
   name: "RewardPointsAwardsAndRedemption"
   description: "bian-semantic - RewardPointsAwardsAndRedemption"
   tags:
-  - "bian-semantic"
-  - "RewardPointsAwardsAndRedemption"
+    - "bian-semantic"
+    - "RewardPointsAwardsAndRedemption"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/RewardPointsAwardsAndRedemption.yaml"
 spec:

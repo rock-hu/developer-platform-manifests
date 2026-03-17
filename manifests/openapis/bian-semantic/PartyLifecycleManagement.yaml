@@ -5,8 +5,8 @@ metadata:
   name: "PartyLifecycleManagement"
   description: "bian-semantic - PartyLifecycleManagement"
   tags:
-  - "bian-semantic"
-  - "PartyLifecycleManagement"
+    - "bian-semantic"
+    - "PartyLifecycleManagement"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/PartyLifecycleManagement.yaml"
 spec:

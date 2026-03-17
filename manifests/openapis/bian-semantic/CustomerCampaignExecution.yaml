@@ -5,8 +5,8 @@ metadata:
   name: "CustomerCampaignExecution"
   description: "bian-semantic - CustomerCampaignExecution"
   tags:
-  - "bian-semantic"
-  - "CustomerCampaignExecution"
+    - "bian-semantic"
+    - "CustomerCampaignExecution"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/CustomerCampaignExecution.yaml"
 spec:

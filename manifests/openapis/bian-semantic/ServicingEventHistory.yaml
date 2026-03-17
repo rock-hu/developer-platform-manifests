@@ -5,8 +5,8 @@ metadata:
   name: "ServicingEventHistory"
   description: "bian-semantic - ServicingEventHistory"
   tags:
-  - "bian-semantic"
-  - "ServicingEventHistory"
+    - "bian-semantic"
+    - "ServicingEventHistory"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ServicingEventHistory.yaml"
 spec:

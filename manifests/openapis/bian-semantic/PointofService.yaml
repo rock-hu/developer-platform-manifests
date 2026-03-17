@@ -5,8 +5,8 @@ metadata:
   name: "PointofService"
   description: "bian-semantic - PointofService"
   tags:
-  - "bian-semantic"
-  - "PointofService"
+    - "bian-semantic"
+    - "PointofService"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/PointofService.yaml"
 spec:

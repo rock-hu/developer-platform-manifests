@@ -5,8 +5,8 @@ metadata:
   name: "ProductSalesSupport"
   description: "bian-semantic - ProductSalesSupport"
   tags:
-  - "bian-semantic"
-  - "ProductSalesSupport"
+    - "bian-semantic"
+    - "ProductSalesSupport"
   annotations:
     backstage.io/definition-at-location: "url:https://raw.githubusercontent.com/bian-official/public/refs/heads/main/release14.0.0/apis-iso20022_ext-ddd/oas3/yamls/ProductSalesSupport.yaml"
 spec:

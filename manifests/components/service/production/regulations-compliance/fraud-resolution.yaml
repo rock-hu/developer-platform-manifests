@@ -11,7 +11,7 @@ spec:
   owner: "group:regulations-compliance"
   system: "regulations-compliance"
   subcomponentOf:
-  - "regulations-compliance"
+    - "regulations-compliance"
   providesApis: []
   consumesApis: []
   dependsOn: []

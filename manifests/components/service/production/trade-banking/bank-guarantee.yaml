@@ -11,7 +11,7 @@ spec:
   owner: "group:trade-banking"
   system: "trade-banking"
   subcomponentOf:
-  - "trade-banking"
+    - "trade-banking"
   providesApis: []
   consumesApis: []
   dependsOn: []

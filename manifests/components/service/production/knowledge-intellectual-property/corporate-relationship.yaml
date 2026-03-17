@@ -11,7 +11,7 @@ spec:
   owner: "group:knowledge-intellectual-property"
   system: "knowledge-intellectual-property"
   subcomponentOf:
-  - "knowledge-intellectual-property"
+    - "knowledge-intellectual-property"
   providesApis: []
   consumesApis: []
   dependsOn: []
