@@ -15,5 +15,5 @@ jobs:
         with:
           node-version: 24
       # - run: npm install --force --verbose
-      - run: npm install -g @roadiehq/backstage-entity-validator
-      - run: validate-entity manifests/groups.yaml
+      - run: yarn install
+      - run: yarn manifests-groups
