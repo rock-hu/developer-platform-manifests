@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "financial-market-analysis"
   apiVersion: "1.0.0"
-  description: null
+  description: market-data
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:market-data"
   system: "market-data"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

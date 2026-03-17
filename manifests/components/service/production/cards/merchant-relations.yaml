@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "merchant-relations"
   apiVersion: "1.0.0"
-  description: null
+  description: cards
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:cards"
   system: "cards"
-  subcomponentOf:
-    - "cards"
+  subcomponentOf: "cards"
   providesApis: []
   consumesApis: []
   dependsOn: []

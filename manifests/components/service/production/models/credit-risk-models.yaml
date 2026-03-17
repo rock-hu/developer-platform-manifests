@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "credit-risk-models"
   apiVersion: "1.0.0"
-  description: null
+  description: models
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:models"
   system: "models"
-  subcomponentOf:
-    - "models"
+  subcomponentOf: "models"
   providesApis: []
   consumesApis: []
   dependsOn: []

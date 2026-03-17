@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "market-data-switch-operation"
   apiVersion: "1.0.0"
-  description: null
+  description: market-data
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:market-data"
   system: "market-data"
-  subcomponentOf:
-    - "market-data"
+  subcomponentOf: "market-data"
   providesApis: []
   consumesApis: []
   dependsOn: []

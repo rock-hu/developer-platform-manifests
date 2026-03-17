@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "financial-control"
   apiVersion: "1.0.0"
-  description: null
+  description: finance
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:finance"
   system: "finance"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

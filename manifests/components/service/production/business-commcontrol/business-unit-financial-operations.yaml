@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "business-unit-financial-operations"
   apiVersion: "1.0.0"
-  description: null
+  description: business-commcontrol
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:business-commcontrol"
   system: "business-commcontrol"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

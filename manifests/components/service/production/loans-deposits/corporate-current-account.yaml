@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "corporate-current-account"
   apiVersion: "1.0.0"
-  description: null
+  description: loans-deposits
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:loans-deposits"
   system: "loans-deposits"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

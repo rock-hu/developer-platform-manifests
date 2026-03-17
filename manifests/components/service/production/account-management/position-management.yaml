@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "position-management"
   apiVersion: "1.0.0"
-  description: null
+  description: account-management
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:account-management"
   system: "account-management"
-  subcomponentOf:
-    - "account-management"
+  subcomponentOf: "account-management"
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "bank-portfolio-analysis"
   apiVersion: "1.0.0"
-  description: null
+  description: bank-portfolio-treasury
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:bank-portfolio-treasury"
   system: "bank-portfolio-treasury"
-  subcomponentOf:
-    - "bank-portfolio-treasury"
+  subcomponentOf: "bank-portfolio-treasury"
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "servicing-activity-analysis"
   apiVersion: "1.0.0"
-  description: null
+  description: cross-channel
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:cross-channel"
   system: "cross-channel"
-  subcomponentOf:
-  - "cross-channel"
+  subcomponentOf: "cross-channel"
   providesApis: []
   consumesApis: []
   dependsOn: []

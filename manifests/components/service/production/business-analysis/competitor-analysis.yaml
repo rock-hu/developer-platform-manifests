@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "competitor-analysis"
   apiVersion: "1.0.0"
-  description: null
+  description: business-analysis
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:business-analysis"
   system: "business-analysis"
-  subcomponentOf:
-    - "business-analysis"
+  subcomponentOf: "business-analysis"
   providesApis: []
   consumesApis: []
   dependsOn: []

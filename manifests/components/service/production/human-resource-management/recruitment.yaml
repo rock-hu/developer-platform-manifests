@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "recruitment"
   apiVersion: "1.0.0"
-  description: null
+  description: human-resource-management
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:human-resource-management"
   system: "human-resource-management"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

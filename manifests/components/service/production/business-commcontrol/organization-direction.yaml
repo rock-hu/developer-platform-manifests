@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "organization-direction"
   apiVersion: "1.0.0"
-  description: null
+  description: business-commcontrol
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:business-commcontrol"
   system: "business-commcontrol"
-  subcomponentOf:
-    - "business-commcontrol"
+  subcomponentOf: "business-commcontrol"
   providesApis: []
   consumesApis: []
   dependsOn: []

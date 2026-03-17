@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "party-routing-profile"
   apiVersion: "1.0.0"
-  description: null
+  description: party
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:party"
   system: "party"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

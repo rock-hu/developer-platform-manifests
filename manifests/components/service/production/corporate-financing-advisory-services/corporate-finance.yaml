@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "corporate-finance"
   apiVersion: "1.0.0"
-  description: null
+  description: corporate-financing-advisory-services
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:corporate-financing-advisory-services"
   system: "corporate-financing-advisory-services"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

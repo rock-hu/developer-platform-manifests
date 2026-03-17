@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "transaction-authorization"
   apiVersion: "1.0.0"
-  description: null
+  description: cross-channel
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:cross-channel"
   system: "cross-channel"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

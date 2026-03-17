@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "cheque-lock-box"
   apiVersion: "1.0.0"
-  description: null
+  description: trade-banking
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:trade-banking"
   system: "trade-banking"
-  subcomponentOf:
-    - "trade-banking"
+  subcomponentOf: "trade-banking"
   providesApis: []
   consumesApis: []
   dependsOn: []

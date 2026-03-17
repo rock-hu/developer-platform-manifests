@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "credit-margin-management"
   apiVersion: "1.0.0"
-  description: null
+  description: models
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:models"
   system: "models"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

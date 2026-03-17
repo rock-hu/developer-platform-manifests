@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "investor-relations"
   apiVersion: "1.0.0"
-  description: null
+  description: knowledge-intellectual-property
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:knowledge-intellectual-property"
   system: "knowledge-intellectual-property"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "branch-currency-distribution"
   apiVersion: "1.0.0"
-  description: null
+  description: channel-specific
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:channel-specific"
   system: "channel-specific"
-  subcomponentOf:
-    - "channel-specific"
+  subcomponentOf: "channel-specific"
   providesApis: []
   consumesApis: []
   dependsOn: []

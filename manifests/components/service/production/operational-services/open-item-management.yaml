@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "open-item-management"
   apiVersion: "1.0.0"
-  description: null
+  description: operational-services
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:operational-services"
   system: "operational-services"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

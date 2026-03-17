@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "commission-agreement"
   apiVersion: "1.0.0"
-  description: null
+  description: sales
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:sales"
   system: "sales"
-  subcomponentOf:
-    - "sales"
+  subcomponentOf: "sales"
   providesApis: []
   consumesApis: []
   dependsOn: []

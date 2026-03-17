@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "collateral-allocation-management"
   apiVersion: "1.0.0"
-  description: null
+  description: collateral-administration
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:collateral-administration"
   system: "collateral-administration"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

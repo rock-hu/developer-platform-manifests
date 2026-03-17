@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "investment-portfolio-planning"
   apiVersion: "1.0.0"
-  description: null
+  description: investment-management
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:investment-management"
   system: "investment-management"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

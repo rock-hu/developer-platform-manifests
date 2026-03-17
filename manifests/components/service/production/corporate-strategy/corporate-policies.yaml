@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "corporate-policies"
   apiVersion: "1.0.0"
-  description: null
+  description: corporate-strategy
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:corporate-strategy"
   system: "corporate-strategy"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

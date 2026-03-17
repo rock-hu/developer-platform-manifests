@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "term-deposit"
   apiVersion: "1.0.0"
-  description: null
+  description: loans-deposits
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:loans-deposits"
   system: "loans-deposits"
-  subcomponentOf:
-    - "loans-deposits"
+  subcomponentOf: "loans-deposits"
   providesApis: []
   consumesApis: []
   dependsOn: []

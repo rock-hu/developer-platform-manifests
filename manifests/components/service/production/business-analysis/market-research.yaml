@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "market-research"
   apiVersion: "1.0.0"
-  description: null
+  description: business-analysis
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:business-analysis"
   system: "business-analysis"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

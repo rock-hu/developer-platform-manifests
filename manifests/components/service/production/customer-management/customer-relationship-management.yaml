@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "customer-relationship-management"
   apiVersion: "1.0.0"
-  description: null
+  description: customer-management
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:customer-management"
   system: "customer-management"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

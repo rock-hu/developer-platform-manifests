@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "product-deployment"
   apiVersion: "1.0.0"
-  description: null
+  description: product-management
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:product-management"
   system: "product-management"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "correspondence"
   apiVersion: "1.0.0"
-  description: null
+  description: document-management-archive
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:document-management-archive"
   system: "document-management-archive"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

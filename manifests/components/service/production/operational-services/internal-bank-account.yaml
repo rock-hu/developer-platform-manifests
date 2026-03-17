@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "internal-bank-account"
   apiVersion: "1.0.0"
-  description: null
+  description: operational-services
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:operational-services"
   system: "operational-services"
-  subcomponentOf:
-    - "operational-services"
+  subcomponentOf: "operational-services"
   providesApis: []
   consumesApis: []
   dependsOn: []

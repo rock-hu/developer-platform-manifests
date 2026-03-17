@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "consumer-investments"
   apiVersion: "1.0.0"
-  description: null
+  description: consumer-services
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:consumer-services"
   system: "consumer-services"
-  subcomponentOf:
-    - "consumer-services"
+  subcomponentOf: "consumer-services"
   providesApis: []
   consumesApis: []
   dependsOn: []

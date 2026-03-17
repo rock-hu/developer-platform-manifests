@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "promotional-events"
   apiVersion: "1.0.0"
-  description: null
+  description: marketing
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:marketing"
   system: "marketing"
-  subcomponentOf:
-    - "marketing"
+  subcomponentOf: "marketing"
   providesApis: []
   consumesApis: []
   dependsOn: []

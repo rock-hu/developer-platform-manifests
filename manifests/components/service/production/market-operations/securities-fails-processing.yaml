@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "securities-fails-processing"
   apiVersion: "1.0.0"
-  description: null
+  description: market-operations
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:market-operations"
   system: "market-operations"
-  subcomponentOf:
-    - "market-operations"
+  subcomponentOf: "market-operations"
   providesApis: []
   consumesApis: []
   dependsOn: []

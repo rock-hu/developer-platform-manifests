@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "systems-help-desk"
   apiVersion: "1.0.0"
-  description: null
+  description: it-management
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:it-management"
   system: "it-management"
-  subcomponentOf:
-    - "it-management"
+  subcomponentOf: "it-management"
   providesApis: []
   consumesApis: []
   dependsOn: []

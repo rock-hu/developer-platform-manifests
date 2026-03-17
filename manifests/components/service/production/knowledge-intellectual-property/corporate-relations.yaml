@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "corporate-relations"
   apiVersion: "1.0.0"
-  description: null
+  description: knowledge-intellectual-property
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:knowledge-intellectual-property"
   system: "knowledge-intellectual-property"
-  subcomponentOf:
-    - "knowledge-intellectual-property"
+  subcomponentOf: "knowledge-intellectual-property"
   providesApis: []
   consumesApis: []
   dependsOn: []

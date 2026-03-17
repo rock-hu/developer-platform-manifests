@@ -10,7 +10,7 @@ spec:
   lifecycle: "experimental"
   owner: "group:microservices-development"
   system: "openbanking-aisp"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

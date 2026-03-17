@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "fraud-resolution"
   apiVersion: "1.0.0"
-  description: null
+  description: regulations-compliance
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:regulations-compliance"
   system: "regulations-compliance"
-  subcomponentOf:
-    - "regulations-compliance"
+  subcomponentOf: "regulations-compliance"
   providesApis: []
   consumesApis: []
   dependsOn: []

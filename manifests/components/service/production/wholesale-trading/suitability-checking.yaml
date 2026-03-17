@@ -10,8 +10,7 @@ spec:
   lifecycle: "production"
   owner: "group:wholesale-trading"
   system: "wholesale-trading"
-  subcomponentOf:
-    - "wholesale-trading"
+  subcomponentOf: "wholesale-trading"
   providesApis: []
   consumesApis: []
   dependsOn: []

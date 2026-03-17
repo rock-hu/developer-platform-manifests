@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "credit-card-position-keeping"
   apiVersion: "1.0.0"
-  description: null
+  description: cards
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:cards"
   system: "cards"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

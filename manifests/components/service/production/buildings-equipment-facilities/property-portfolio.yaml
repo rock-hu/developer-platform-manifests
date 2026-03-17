@@ -4,14 +4,13 @@ kind: "Component"
 metadata:
   name: "property-portfolio"
   apiVersion: "1.0.0"
-  description: null
+  description: buildings-equipment-facilities
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:buildings-equipment-facilities"
   system: "buildings-equipment-facilities"
-  subcomponentOf:
-    - "buildings-equipment-facilities"
+  subcomponentOf: "buildings-equipment-facilities"
   providesApis: []
   consumesApis: []
   dependsOn: []

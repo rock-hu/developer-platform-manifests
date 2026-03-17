@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "unit-trust-administration"
   apiVersion: "1.0.0"
-  description: null
+  description: market-operations
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:market-operations"
   system: "market-operations"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,13 +4,13 @@ kind: "Component"
 metadata:
   name: "correspondent-bank-operations"
   apiVersion: "1.0.0"
-  description: null
+  description: payments
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:payments"
   system: "payments"
-  subcomponentOf: []
+  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []
