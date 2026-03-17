@@ -3,14 +3,15 @@ apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
   name: "cash-concentration"
-  apiVersion: null
+  apiVersion: "1.0.0"
   description: null
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:trade-banking"
   system: "trade-banking"
-  subcomponentOf: []
+  subcomponentOf:
+  - "trade-banking"
   providesApis: []
   consumesApis: []
   dependsOn: []

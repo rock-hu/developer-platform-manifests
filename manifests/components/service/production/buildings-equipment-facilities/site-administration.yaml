@@ -3,14 +3,15 @@ apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
   name: "site-administration"
-  apiVersion: null
+  apiVersion: "1.0.0"
   description: null
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:buildings-equipment-facilities"
   system: "buildings-equipment-facilities"
-  subcomponentOf: []
+  subcomponentOf:
+  - "buildings-equipment-facilities"
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -3,7 +3,7 @@ apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
   name: "correspondent-bank-operations"
-  apiVersion: null
+  apiVersion: "1.0.0"
   description: null
 spec:
   type: "service"

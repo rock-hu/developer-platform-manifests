@@ -3,14 +3,15 @@ apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
   name: "customer-position"
-  apiVersion: null
+  apiVersion: "1.0.0"
   description: null
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:account-management"
   system: "account-management"
-  subcomponentOf: []
+  subcomponentOf:
+  - "account-management"
   providesApis: []
   consumesApis: []
   dependsOn: []

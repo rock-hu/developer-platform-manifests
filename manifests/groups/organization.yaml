@@ -5,9 +5,9 @@ metadata:
   name: "internal-developer-platform"
   description: "The internal-developer-platform organization"
   links:
-  - url: "https://gitlab.com/internal-developer-platform"
+  - url: "https://github.com/rock-hu/devx"
     title: "Website"
-  - url: "https://gitlab.com/internal-developer-platform"
+  - url: "https://github.com/rock-hu/developer-platform-manifests"
     title: "Intranet"
 spec:
   type: "organization"

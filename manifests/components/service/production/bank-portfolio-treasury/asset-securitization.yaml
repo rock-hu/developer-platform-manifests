@@ -3,14 +3,15 @@ apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
   name: "asset-securitization"
-  apiVersion: null
+  apiVersion: "1.0.0"
   description: null
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:bank-portfolio-treasury"
   system: "bank-portfolio-treasury"
-  subcomponentOf: []
+  subcomponentOf:
+  - "bank-portfolio-treasury"
   providesApis: []
   consumesApis: []
   dependsOn: []

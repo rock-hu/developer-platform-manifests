@@ -3,14 +3,15 @@ apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
   name: "business-unit-accounting"
-  apiVersion: null
+  apiVersion: "1.0.0"
   description: null
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:business-commcontrol"
   system: "business-commcontrol"
-  subcomponentOf: []
+  subcomponentOf:
+  - "business-commcontrol"
   providesApis: []
   consumesApis: []
   dependsOn: []

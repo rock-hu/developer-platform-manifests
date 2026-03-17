@@ -3,14 +3,15 @@ apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
   name: "branch-currency-distribution"
-  apiVersion: null
+  apiVersion: "1.0.0"
   description: null
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:channel-specific"
   system: "channel-specific"
-  subcomponentOf: []
+  subcomponentOf:
+  - "channel-specific"
   providesApis: []
   consumesApis: []
   dependsOn: []
