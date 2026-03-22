@@ -16,4 +16,4 @@ jobs:
           node-version: 24
       # - run: npm install --force --verbose
       - run: yarn install
-      - run: yarn install manifests-components
+      - run: yarn manifests-components
