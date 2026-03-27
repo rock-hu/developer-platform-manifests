@@ -10,7 +10,7 @@ spec:
     - "./groups.yaml"
     - "./openapis.yaml"
     - "./components.yaml"
-    - "./domais.yaml"
+    - "./domains.yaml"
     - "./resources.yaml"
     - "./systems.yaml"
     - "./templates.yaml"
