@@ -12,3 +12,9 @@ spec:
     - "https://github.com/backstage/software-templates/blob/main/scaffolder-templates/pull-request/template.yaml"
     - "https://github.com/backstage/software-templates/blob/main/scaffolder-templates/react-ssr-template/template.yaml"
     - "https://github.com/backstage/software-templates/blob/main/scaffolder-templates/springboot-grpc-template/template.yaml"
+
+    - "https://github.com/rock-hu/scaffolder-templates/blob/master/template-spring-batch.yaml"
+    - "https://github.com/rock-hu/scaffolder-templates/blob/master/template-spring-boot.yaml"
+    - "https://github.com/rock-hu/scaffolder-templates/blob/master/template-spring-cli.yaml"
+    - "https://github.com/rock-hu/scaffolder-templates/blob/master/template-spring-websocket.yaml"
+    - "https://github.com/rock-hu/scaffolder-templates/blob/master/template-spring-ws.yaml"

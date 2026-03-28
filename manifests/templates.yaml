@@ -7,4 +7,4 @@ metadata:
 spec:
   targets:
     - "./templates/*.yaml"
-    - "./templates/**/*.yaml"
+    # - "./templates/**/*.yaml"
