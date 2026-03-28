@@ -2,9 +2,9 @@
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
-  name: "management"
+  name: "knowledge-intellectual-property-management"
   apiVersion: "1.0.0"
-  description: knowledge-intellectual-property
+  description: knowledge-intellectual-property-management
 spec:
   type: "service"
   lifecycle: "production"

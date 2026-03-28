@@ -2,9 +2,9 @@
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
-  name: "management"
+  name: "market-data-management"
   apiVersion: "1.0.0"
-  description: market-data
+  description: market-data-management
 spec:
   type: "service"
   lifecycle: "production"

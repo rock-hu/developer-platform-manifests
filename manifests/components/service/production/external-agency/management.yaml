@@ -2,9 +2,9 @@
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
-  name: "management"
+  name: "external-agency-management"
   apiVersion: "1.0.0"
-  description: external-agency
+  description: external-agency-management
 spec:
   type: "service"
   lifecycle: "production"

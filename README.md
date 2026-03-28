@@ -86,18 +86,12 @@ validate-entity ...
 ```
 
 ```bash
-npm install --save-dev @roadiehq/backstage-entity-validator
+cat components.csv | sort | uniq -c
+```
 
-npx validate-entity manifests/catalog-entities.yaml
-
-npx validate-entity manifests/groups.yaml
-npx validate-entity manifests/openapis.yaml
-npx validate-entity manifests/components.yaml
-npx validate-entity manifests/domais.yaml
-npx validate-entity manifests/resources.yaml
-npx validate-entity manifests/systems.yaml
-npx validate-entity manifests/templates.yaml
-npx validate-entity manifests/users.yaml
+```
+      1 location-data-management
+      3 management
 ```
 
 ## spotless
