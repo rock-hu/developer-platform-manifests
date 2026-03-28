@@ -24,20 +24,13 @@
     },
     {
       "type": "object",
-      "required": [
-        "spec"
-      ],
+      "required": ["spec"],
       "properties": {
         "apiVersion": {
-          "enum": [
-            "backstage.io/v1alpha1",
-            "backstage.io/v1beta1"
-          ]
+          "enum": ["backstage.io/v1alpha1", "backstage.io/v1beta1"]
         },
         "kind": {
-          "enum": [
-            "Location"
-          ]
+          "enum": ["Location"]
         },
         "spec": {
           "type": "object",
@@ -46,17 +39,13 @@
             "type": {
               "type": "string",
               "description": "The single location type, that's common to the targets specified in the spec. If it is left out, it is inherited from the location type that originally read the entity data.",
-              "examples": [
-                "url"
-              ],
+              "examples": ["url"],
               "minLength": 1
             },
             "target": {
               "type": "string",
               "description": "A single target as a string. Can be either an absolute path/URL (depending on the type), or a relative path such as ./details/catalog-info.yaml which is resolved relative to the location of this Location entity itself.",
-              "examples": [
-                "./details/catalog-info.yaml"
-              ],
+              "examples": ["./details/catalog-info.yaml"],
               "minLength": 1
             },
             "targets": {
@@ -75,13 +64,8 @@
               "type": "string",
               "description": "Whether the presence of the location target is required and it should be considered an error if it can not be found",
               "default": "required",
-              "examples": [
-                "required"
-              ],
-              "enum": [
-                "required",
-                "optional"
-              ]
+              "examples": ["required"],
+              "enum": ["required", "optional"]
             }
           }
         }

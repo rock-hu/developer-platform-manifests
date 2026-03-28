@@ -21,8 +21,8 @@ A large catalogue of components, APIs and resources can be highly granular and h
 
 ## badges
 
-|           action           |                                                          badge                                                           |
-|----------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| action                     | badge                                                                                                                    |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | manifests-catalog-entities | ![](https://github.com/rock-hu/developer-platform-manifests/actions/workflows/manifests-catalog-entities.yaml/badge.svg) |
 | manifests-components       | ![](https://github.com/rock-hu/developer-platform-manifests/actions/workflows/manifests-components.yaml/badge.svg)       |
 | manifests-domains          | ![](https://github.com/rock-hu/developer-platform-manifests/actions/workflows/manifests-domains.yaml/badge.svg)          |
@@ -115,9 +115,6 @@ sudo apt-get install yamllint
 
 yamllint manifests/**/*.yaml
 
-yamllint manifests/groups.yaml
-yamllint manifests/openapis.yaml
-yamllint manifests/components.yaml
 
 yamllint manifests/components/**/*.yaml
 
@@ -128,10 +125,21 @@ yamllint manifests/templates.yaml
 ```
 
 ```bash
+java -jar yj-schema-validator-2.0.2.jar manifests/*.yaml --schema=schemas/Location.v1alpha1.schema.json --report-type=text --report-file-name=reports/locations.xml
+
+java -jar yj-schema-validator-2.0.2.jar --files=manifests/components/*.yaml,manifests/components/**/*.yaml --schema=schemas/Component.v1alpha1.schema.json --report-type=text --report-file-name=reports/components.xml
+java -jar yj-schema-validator-2.0.2.jar --files=manifests/domains/*.yaml,manifests/domains/**/*.yaml --schema=schemas/Domain.v1alpha1.schema.json --report-type=text --report-file-name=reports/domains.xml
+java -jar yj-schema-validator-2.0.2.jar --files=manifests/groups/*.yaml,manifests/groups/**/*.yaml --schema=schemas/Group.v1alpha1.schema.json --report-type=text --report-file-name=reports/groups.xml
+java -jar yj-schema-validator-2.0.2.jar --files=manifests/openapis/*.yaml,manifests/openapis/**/*.yaml --schema=schemas/API.v1alpha1.schema.json --report-type=text --report-file-name=reports/openapis.xml
+java -jar yj-schema-validator-2.0.2.jar --files=manifests/resources/*.yaml,manifests/resources/**/*.yaml --schema=schemas/Resource.v1alpha1.schema.json --report-type=text --report-file-name=reports/resources.xml
+java -jar yj-schema-validator-2.0.2.jar --files=manifests/systems/*.yaml,manifests/systems/**/*.yaml --schema=schemas/System.v1alpha1.schema.json --report-type=text --report-file-name=reports/systems.xml
+java -jar yj-schema-validator-2.0.2.jar --files=manifests/users/*.yaml,manifests/users/**/*.yaml --schema=schemas/User.v1alpha1.schema.json --report-type=text --report-file-name=reports/users.xml
+```
+
+```bash
 go install github.com/google/yamlfmt/cmd/yamlfmt@latest
 ```
 
 ```bash
 yamlfmt manifests/**/*.yaml
 ```
-

@@ -8,11 +8,7 @@
       "$id": "#reference",
       "type": "object",
       "description": "A reference by name to another entity.",
-      "required": [
-        "kind",
-        "namespace",
-        "name"
-      ],
+      "required": ["kind", "namespace", "name"],
       "additionalProperties": false,
       "properties": {
         "kind": {
@@ -36,10 +32,7 @@
       "$id": "#relation",
       "type": "object",
       "description": "A directed relation from one entity to another.",
-      "required": [
-        "type",
-        "targetRef"
-      ],
+      "required": ["type", "targetRef"],
       "additionalProperties": false,
       "properties": {
         "type": {
@@ -78,11 +71,7 @@
       "$id": "#statusItem",
       "type": "object",
       "description": "A specific status item on a well known format.",
-      "required": [
-        "type",
-        "level",
-        "message"
-      ],
+      "required": ["type", "level", "message"],
       "additionalProperties": true,
       "properties": {
         "type": {
@@ -107,28 +96,18 @@
       "$id": "#statusLevel",
       "type": "string",
       "description": "A status level / severity.",
-      "enum": [
-        "info",
-        "warning",
-        "error"
-      ]
+      "enum": ["info", "warning", "error"]
     },
     "error": {
       "$id": "#error",
       "type": "object",
       "description": "A serialized error object.",
-      "required": [
-        "name",
-        "message"
-      ],
+      "required": ["name", "message"],
       "additionalProperties": true,
       "properties": {
         "name": {
           "type": "string",
-          "examples": [
-            "Error",
-            "InputError"
-          ],
+          "examples": ["Error", "InputError"],
           "description": "The type name of the error",
           "minLength": 1
         },

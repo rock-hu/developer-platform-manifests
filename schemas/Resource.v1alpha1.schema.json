@@ -23,45 +23,28 @@
     },
     {
       "type": "object",
-      "required": [
-        "spec"
-      ],
+      "required": ["spec"],
       "properties": {
         "apiVersion": {
-          "enum": [
-            "backstage.io/v1alpha1",
-            "backstage.io/v1beta1"
-          ]
+          "enum": ["backstage.io/v1alpha1", "backstage.io/v1beta1"]
         },
         "kind": {
-          "enum": [
-            "Resource"
-          ]
+          "enum": ["Resource"]
         },
         "spec": {
           "type": "object",
-          "required": [
-            "type",
-            "owner"
-          ],
+          "required": ["type", "owner"],
           "properties": {
             "type": {
               "type": "string",
               "description": "The type of resource.",
-              "examples": [
-                "database",
-                "s3-bucket",
-                "cluster"
-              ],
+              "examples": ["database", "s3-bucket", "cluster"],
               "minLength": 1
             },
             "owner": {
               "type": "string",
               "description": "An entity reference to the owner of the resource.",
-              "examples": [
-                "artist-relations-team",
-                "user:john.johnson"
-              ],
+              "examples": ["artist-relations-team", "user:john.johnson"],
               "minLength": 1
             },
             "dependsOn": {

@@ -21,7 +21,7 @@
         "lifecycle": "production",
         "owner": "artist-relations-team",
         "system": "artist-engagement-portal",
-        "definition": "openapi: "
+        "definition": "openapi: \"3.0.0\"\ninfo:..."
       }
     }
   ],
@@ -31,59 +31,34 @@
     },
     {
       "type": "object",
-      "required": [
-        "spec"
-      ],
+      "required": ["spec"],
       "properties": {
         "apiVersion": {
-          "enum": [
-            "backstage.io/v1alpha1",
-            "backstage.io/v1beta1"
-          ]
+          "enum": ["backstage.io/v1alpha1", "backstage.io/v1beta1"]
         },
         "kind": {
-          "enum": [
-            "API"
-          ]
+          "enum": ["API"]
         },
         "spec": {
           "type": "object",
-          "required": [
-            "type",
-            "lifecycle",
-            "owner",
-            "definition"
-          ],
+          "required": ["type", "lifecycle", "owner", "definition"],
           "properties": {
             "type": {
               "type": "string",
               "description": "The type of the API definition.",
-              "examples": [
-                "openapi",
-                "asyncapi",
-                "graphql",
-                "grpc",
-                "trpc"
-              ],
+              "examples": ["openapi", "asyncapi", "graphql", "grpc", "trpc"],
               "minLength": 1
             },
             "lifecycle": {
               "type": "string",
               "description": "The lifecycle state of the API.",
-              "examples": [
-                "experimental",
-                "production",
-                "deprecated"
-              ],
+              "examples": ["experimental", "production", "deprecated"],
               "minLength": 1
             },
             "owner": {
               "type": "string",
               "description": "An entity reference to the owner of the API.",
-              "examples": [
-                "artist-relations-team",
-                "user:john.johnson"
-              ],
+              "examples": ["artist-relations-team", "user:john.johnson"],
               "minLength": 1
             },
             "system": {

@@ -18,10 +18,7 @@
           "picture": "https://example.com/groups/bu-infrastructure.jpeg"
         },
         "parent": "ops",
-        "children": [
-          "backstage",
-          "other"
-        ]
+        "children": ["backstage", "other"]
       }
     }
   ],
@@ -31,37 +28,22 @@
     },
     {
       "type": "object",
-      "required": [
-        "spec"
-      ],
+      "required": ["spec"],
       "properties": {
         "apiVersion": {
-          "enum": [
-            "backstage.io/v1alpha1",
-            "backstage.io/v1beta1"
-          ]
+          "enum": ["backstage.io/v1alpha1", "backstage.io/v1beta1"]
         },
         "kind": {
-          "enum": [
-            "Group"
-          ]
+          "enum": ["Group"]
         },
         "spec": {
           "type": "object",
-          "required": [
-            "type",
-            "children"
-          ],
+          "required": ["type", "children"],
           "properties": {
             "type": {
               "type": "string",
               "description": "The type of group. There is currently no enforced set of values for this field, so it is left up to the adopting organization to choose a nomenclature that matches their org hierarchy.",
-              "examples": [
-                "team",
-                "business-unit",
-                "product-area",
-                "root"
-              ],
+              "examples": ["team", "business-unit", "product-area", "root"],
               "minLength": 1
             },
             "profile": {
@@ -71,17 +53,13 @@
                 "displayName": {
                   "type": "string",
                   "description": "A simple display name to present to users.",
-                  "examples": [
-                    "Infrastructure"
-                  ],
+                  "examples": ["Infrastructure"],
                   "minLength": 1
                 },
                 "email": {
                   "type": "string",
                   "description": "An email where this entity can be reached.",
-                  "examples": [
-                    "infrastructure@example.com"
-                  ],
+                  "examples": ["infrastructure@example.com"],
                   "minLength": 1
                 },
                 "picture": {
@@ -97,9 +75,7 @@
             "parent": {
               "type": "string",
               "description": "The immediate parent group in the hierarchy, if any. Not all groups must have a parent; the catalog supports multi-root hierarchies. Groups may however not have more than one parent. This field is an entity reference.",
-              "examples": [
-                "ops"
-              ],
+              "examples": ["ops"],
               "minLength": 1
             },
             "children": {
@@ -107,10 +83,7 @@
               "description": "The immediate child groups of this group in the hierarchy (whose parent field points to this group). The list must be present, but may be empty if there are no child groups. The items are not guaranteed to be ordered in any particular way. The entries of this array are entity references.",
               "items": {
                 "type": "string",
-                "examples": [
-                  "backstage",
-                  "other"
-                ],
+                "examples": ["backstage", "other"],
                 "minLength": 1
               }
             },
@@ -119,9 +92,7 @@
               "description": "The users that are members of this group. The entries of this array are entity references.",
               "items": {
                 "type": "string",
-                "examples": [
-                  "jdoe"
-                ],
+                "examples": ["jdoe"],
                 "minLength": 1
               }
             }

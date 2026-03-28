@@ -15,10 +15,7 @@
           "email": "jenny-doe@example.com",
           "picture": "https://example.com/staff/jenny-with-party-hat.jpeg"
         },
-        "memberOf": [
-          "team-b",
-          "employees"
-        ]
+        "memberOf": ["team-b", "employees"]
       }
     }
   ],
@@ -28,26 +25,17 @@
     },
     {
       "type": "object",
-      "required": [
-        "spec"
-      ],
+      "required": ["spec"],
       "properties": {
         "apiVersion": {
-          "enum": [
-            "backstage.io/v1alpha1",
-            "backstage.io/v1beta1"
-          ]
+          "enum": ["backstage.io/v1alpha1", "backstage.io/v1beta1"]
         },
         "kind": {
-          "enum": [
-            "User"
-          ]
+          "enum": ["User"]
         },
         "spec": {
           "type": "object",
-          "required": [
-            "memberOf"
-          ],
+          "required": ["memberOf"],
           "properties": {
             "profile": {
               "type": "object",
@@ -56,17 +44,13 @@
                 "displayName": {
                   "type": "string",
                   "description": "A simple display name to present to users.",
-                  "examples": [
-                    "Jenny Doe"
-                  ],
+                  "examples": ["Jenny Doe"],
                   "minLength": 1
                 },
                 "email": {
                   "type": "string",
                   "description": "An email where this user can be reached.",
-                  "examples": [
-                    "jenny-doe@example.com"
-                  ],
+                  "examples": ["jenny-doe@example.com"],
                   "minLength": 1
                 },
                 "picture": {
@@ -84,10 +68,7 @@
               "description": "The list of groups that the user is a direct member of (i.e., no transitive memberships are listed here). The list must be present, but may be empty if the user is not member of any groups. The items are not guaranteed to be ordered in any particular way. The entries of this array are entity references.",
               "items": {
                 "type": "string",
-                "examples": [
-                  "team-b",
-                  "employees"
-                ],
+                "examples": ["team-b", "employees"],
                 "minLength": 1
               }
             }
