@@ -6,7 +6,6 @@ metadata:
   description: "internal-developer-platform"
   backstage.io/techdocs-ref: "url:https://github.com/rock-hu/devx"
 spec:
-  type: "file"
   targets:
   - "./groups.yaml"
   - "./openapis.yaml"
