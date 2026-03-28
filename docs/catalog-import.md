@@ -130,3 +130,9 @@ spec:
     - "./resources/*.yaml"
     - "./resources/**/*.yaml"
 ```
+
+
+
+```
+Duplicate nested entity: user:default/rock-hu
+```
