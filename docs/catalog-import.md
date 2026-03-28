@@ -114,3 +114,19 @@ https://github.com/backstage/backstage/blob/master/catalog-info.yaml
   ]
 }
 ```
+
+```
+NotFoundError: Unable to read url, no matching files found for https://github.com/rock-hu/developer-platform-manifests/tree/master/manifests/resources/*/*.yaml
+```
+
+```yaml
+apiVersion: "backstage.io/v1alpha1"
+kind: "Location"
+metadata:
+  name: "all-resources"
+  description: "A collection of all Backstage example resources"
+spec:
+  targets:
+    - "./resources/*.yaml"
+    - "./resources/**/*.yaml"
+```

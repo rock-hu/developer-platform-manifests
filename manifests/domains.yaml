@@ -6,5 +6,5 @@ metadata:
   description: "A collection of all Backstage example domains"
 spec:
   targets:
-  - "./domains/openbanking-aisp/*.yaml"
-  - "./domains/BIAN/*.yaml"
+    - "./domains/*.yaml"
+    - "./domains/**/*.yaml"
