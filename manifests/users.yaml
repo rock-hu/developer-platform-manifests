@@ -5,6 +5,5 @@ metadata:
   name: "all-users"
   description: "A collection of all Backstage users"
 spec:
-  owner: "group:engineering"
   targets:
     - "./users/*.yaml"

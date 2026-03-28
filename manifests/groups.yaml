@@ -5,6 +5,5 @@ metadata:
   name: "all-groups"
   description: "A collection of all Backstage groups"
 spec:
-  owner: "group:engineering"
   targets:
     - "./groups/*.yaml"
