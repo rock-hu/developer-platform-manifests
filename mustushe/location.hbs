@@ -1,0 +1,19 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format/#kind-location
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Location"
+metadata:
+  name: "entities"
+  description: "internal-developer-platform"
+  backstage.io/techdocs-ref: "url:https://github.com/rock-hu/devx"
+spec:
+  type: "file" # file, url
+  targets:
+    - "./groups.yaml"
+    - "./openapis.yaml"
+    - "./components.yaml"
+    - "./domains.yaml"
+    - "./resources.yaml"
+    - "./systems.yaml"
+    - "./templates.yaml"
+    - "./users.yaml"

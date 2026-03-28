@@ -5,5 +5,6 @@ metadata:
   name: "all-components"
   description: "A collection of all Backstage example components"
 spec:
+  type: "file"
   targets:
-    - "./components/*/*.yaml"
+  - "./components/*/*.yaml"
