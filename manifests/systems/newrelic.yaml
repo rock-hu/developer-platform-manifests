@@ -1,0 +1,10 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: newrelic
+  description: newrelic
+spec:
+  owner: platform-engineering
+  domain: platform
+  type: product #product,service,feature-set

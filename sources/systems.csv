@@ -1,0 +1,10 @@
+argocd,platform-engineering,platform,product
+database,platform-engineering,platform,product
+gateway,platform-engineering,platform,product
+github,platform-engineering,platform,product
+idp,platform-engineering,platform,product
+istio,platform-engineering,platform,product
+kubernetes,platform-engineering,platform,product
+newrelic,platform-engineering,platform,product
+consent-dashboard,web-development,consent-dashboard,feature-set
+splunk,platform-engineering,platform,product

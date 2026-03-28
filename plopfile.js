@@ -221,4 +221,37 @@ module.exports = function (plop) {
       },
     ],
   });
+  plop.setGenerator("backstage-system", {
+    description: "backstage.kind.System",
+    prompts: [
+      {
+        type: "input",
+        name: "name",
+        message: "name",
+      },      
+      {
+        type: "input",
+        name: "owner",
+        message: "owner",
+      },
+      {
+        type: "input",
+        name: "domain",
+        message: "domain",
+      },
+      {
+        type: "input",
+        name: "type",
+        message: "type",
+      }            
+    ],
+    actions: [
+      {
+        type: "add",
+        path: "manifests/systems/{{name}}.yaml",
+        templateFile: "mustushe/system.hbs",
+        force: true,
+      },
+    ],
+  });    
 };
