@@ -4,12 +4,10 @@ kind: "Resource"
 metadata:
   name: "kubernetes"
   title: "kubernetes"
-  description: "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.\
-    \ We use ArgoCD for the deployment of this showcase."
+  description: "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.We use ArgoCD for the deployment of this showcase."
   links:
     - url: "https://kubernetes.io/"
-      title: "An open-source system for automating deployment, scaling, and management\
-      \ of containerized applications."
+      title: "An open-source system for automating deployment, scaling, and management of containerized applications."
       icon: "web"
 spec:
   type: "microservices-hosting"
