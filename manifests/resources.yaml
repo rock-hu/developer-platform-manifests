@@ -5,6 +5,5 @@ metadata:
   name: "all-resources"
   description: "A collection of all Backstage example resources"
 spec:
-  type: "file"
   targets:
   - "./resources/*/*.yaml"

@@ -5,7 +5,6 @@ metadata:
   name: "all-domains"
   description: "A collection of all Backstage example domains"
 spec:
-  type: "file"
   targets:
   - "./domains/openbanking-aisp/*.yaml"
   - "./domains/BIAN/*.yaml"

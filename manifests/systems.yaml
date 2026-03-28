@@ -5,6 +5,5 @@ metadata:
   name: "all-systems"
   description: "A collection of all Backstage example systems"
 spec:
-  type: "file"
   targets:
   - "./systems/*.yaml"

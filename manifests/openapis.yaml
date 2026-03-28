@@ -5,6 +5,5 @@ metadata:
   name: "all-openapis"
   description: "A collection of all APIs"
 spec:
-  type: "file"
   targets:
   - "./openapis/*.yaml"
