@@ -7,4 +7,4 @@ metadata:
 spec:
   targets:
     - "./systems/*.yaml"
-    - "./systems/**/*.yaml"
+    # - "./systems/**/*.yaml"
