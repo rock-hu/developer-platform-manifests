@@ -137,3 +137,41 @@ go install github.com/google/yamlfmt/cmd/yamlfmt@latest
 ```bash
 yamlfmt manifests/**/*.yaml
 ```
+
+
+```
+   - backstage:validate-entity
+      concurrently --timings --max-processes 10 --kill-others false 'yarn:validate-entity:*'
+   - config:check
+      backstage-cli config:check --strict --deprecated --config app-config.koyeb.yaml
+   - config:docs
+      backstage-cli config:docs
+   - config:print
+      backstage-cli config:print --config app-config.koyeb.yaml
+   - config:schema
+      backstage-cli config:schema
+   - http-server
+      http-server ./manifests --port 8080 -d 
+   - plop
+      plop
+   - validate-entity
+      validate-entity -q
+   - validate-entity:manifests-catalog-entities
+      validate-entity manifests/catalog-entities.yaml
+   - validate-entity:manifests-components
+      validate-entity manifests/components.yaml && validate-entity manifests/components/**/*.yaml
+   - validate-entity:manifests-domains
+      validate-entity manifests/domains.yaml && validate-entity manifests/domains/**/*.yaml
+   - validate-entity:manifests-groups
+      validate-entity manifests/groups.yaml && validate-entity manifests/groups/**/*.yaml
+   - validate-entity:manifests-openapis
+      validate-entity manifests/openapis.yaml && validate-entity manifests/openapis/**/*.yaml
+   - validate-entity:manifests-resources
+      validate-entity manifests/resources.yaml && validate-entity manifests/resources/**/*.yaml
+   - validate-entity:manifests-systems
+      validate-entity manifests/systems.yaml && validate-entity manifests/systems/**/*.yaml
+   - validate-entity:manifests-templates
+      validate-entity manifests/templates.yaml && validate-entity manifests/templates/**/*.yaml
+   - validate-entity:manifests-users
+      validate-entity manifests/users.yaml && validate-entity manifests/users/**/*.yaml
+```

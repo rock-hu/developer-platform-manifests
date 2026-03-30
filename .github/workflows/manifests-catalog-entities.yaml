@@ -14,6 +14,6 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-      # - run: npm install --force --verbose
+      - run: npm install -g @roadiehq/backstage-entity-validator
       - run: yarn install
       - run: yarn manifests-catalog-entities
