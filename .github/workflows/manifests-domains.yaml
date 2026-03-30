@@ -4,7 +4,7 @@ on:
     branches:
       - "master"
     paths:
-      - ".github/workflows/manifests-domais.yaml"
+      - ".github/workflows/manifests-domains.yaml"
       - "manifests/domains/**"
 jobs:
   validate-entity:
