@@ -1,4 +1,4 @@
-name: manifests-domais
+name: manifests-domains
 on:
   push:
     branches:
