@@ -1,0 +1,6 @@
+  /accounts_{AccountId}_parties:
+    $ref: paths/accounts_{AccountId}_parties.yaml
+  /accounts_{AccountId}_party:
+    $ref: paths/accounts_{AccountId}_party.yaml
+  /party:
+    $ref: paths/party.yaml

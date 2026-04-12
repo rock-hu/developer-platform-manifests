@@ -1,0 +1,12 @@
+  /international-scheduled-payment-consents_{ConsentId}_funds-confirmation:
+    $ref: paths/international-scheduled-payment-consents_{ConsentId}_funds-confirmation.yaml
+  /international-scheduled-payment-consents_{ConsentId}:
+    $ref: paths/international-scheduled-payment-consents_{ConsentId}.yaml
+  /international-scheduled-payment-consents:
+    $ref: paths/international-scheduled-payment-consents.yaml
+  /international-scheduled-payments_{InternationalScheduledPaymentId}_payment-details:
+    $ref: paths/international-scheduled-payments_{InternationalScheduledPaymentId}_payment-details.yaml
+  /international-scheduled-payments_{InternationalScheduledPaymentId}:
+    $ref: paths/international-scheduled-payments_{InternationalScheduledPaymentId}.yaml
+  /international-scheduled-payments:
+    $ref: paths/international-scheduled-payments.yaml

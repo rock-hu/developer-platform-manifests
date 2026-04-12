@@ -1,0 +1,12 @@
+  /domestic-payment-consents_{ConsentId}_funds-confirmation:
+    $ref: paths/domestic-payment-consents_{ConsentId}_funds-confirmation.yaml
+  /domestic-payment-consents_{ConsentId}:
+    $ref: paths/domestic-payment-consents_{ConsentId}.yaml
+  /domestic-payment-consents:
+    $ref: paths/domestic-payment-consents.yaml
+  /domestic-payments_{DomesticPaymentId}_payment-details:
+    $ref: paths/domestic-payments_{DomesticPaymentId}_payment-details.yaml
+  /domestic-payments_{DomesticPaymentId}:
+    $ref: paths/domestic-payments_{DomesticPaymentId}.yaml
+  /domestic-payments:
+    $ref: paths/domestic-payments.yaml

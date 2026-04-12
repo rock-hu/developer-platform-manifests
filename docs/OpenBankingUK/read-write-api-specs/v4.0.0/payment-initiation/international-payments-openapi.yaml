@@ -1,0 +1,12 @@
+  /international-payment-consents_{ConsentId}_funds-confirmation:
+    $ref: paths/international-payment-consents_{ConsentId}_funds-confirmation.yaml
+  /international-payment-consents_{ConsentId}:
+    $ref: paths/international-payment-consents_{ConsentId}.yaml
+  /international-payment-consents:
+    $ref: paths/international-payment-consents.yaml
+  /international-payments_{InternationalPaymentId}_payment-details:
+    $ref: paths/international-payments_{InternationalPaymentId}_payment-details.yaml
+  /international-payments_{InternationalPaymentId}:
+    $ref: paths/international-payments_{InternationalPaymentId}.yaml
+  /international-payments:
+    $ref: paths/international-payments.yaml

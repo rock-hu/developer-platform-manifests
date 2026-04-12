@@ -1,0 +1,4 @@
+  /account-access-consents_{ConsentId}:
+    $ref: paths/account-access-consents_{ConsentId}.yaml
+  /account-access-consents:
+    $ref: paths/account-access-consents.yaml

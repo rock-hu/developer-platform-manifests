@@ -1,0 +1,10 @@
+  /accounts_{AccountId}_statements_{StatementId}_file:
+    $ref: paths/accounts_{AccountId}_statements_{StatementId}_file.yaml
+  /accounts_{AccountId}_statements_{StatementId}_transactions:
+    $ref: paths/accounts_{AccountId}_statements_{StatementId}_transactions.yaml
+  /accounts_{AccountId}_statements_{StatementId}:
+    $ref: paths/accounts_{AccountId}_statements_{StatementId}.yaml
+  /accounts_{AccountId}_statements:
+    $ref: paths/accounts_{AccountId}_statements.yaml
+  /statements:
+    $ref: paths/statements.yaml

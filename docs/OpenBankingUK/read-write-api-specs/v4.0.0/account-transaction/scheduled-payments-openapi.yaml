@@ -1,0 +1,4 @@
+  /accounts_{AccountId}_scheduled-payments:
+    $ref: paths/accounts_{AccountId}_scheduled-payments.yaml
+  /scheduled-payments:
+    $ref: paths/scheduled-payments.yaml

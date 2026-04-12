@@ -1,0 +1,4 @@
+  /accounts_{AccountId}:
+    $ref: paths/accounts_{AccountId}.yaml
+  /accounts:
+    $ref: paths/accounts.yaml

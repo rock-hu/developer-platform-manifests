@@ -1,0 +1,14 @@
+  /file-payment-consents_{ConsentId}_file:
+    $ref: paths/file-payment-consents_{ConsentId}_file.yaml
+  /file-payment-consents_{ConsentId}:
+    $ref: paths/file-payment-consents_{ConsentId}.yaml
+  /file-payment-consents:
+    $ref: paths/file-payment-consents.yaml
+  /file-payments_{FilePaymentId}_payment-details:
+    $ref: paths/file-payments_{FilePaymentId}_payment-details.yaml
+  /file-payments_{FilePaymentId}_report-file:
+    $ref: paths/file-payments_{FilePaymentId}_report-file.yaml
+  /file-payments_{FilePaymentId}:
+    $ref: paths/file-payments_{FilePaymentId}.yaml
+  /file-payments:
+    $ref: paths/file-payments.yaml

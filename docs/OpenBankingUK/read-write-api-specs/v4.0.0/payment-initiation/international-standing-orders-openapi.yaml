@@ -1,0 +1,8 @@
+  /international-standing-order-consents_{ConsentId}:
+    $ref: paths/international-standing-order-consents_{ConsentId}.yaml
+  /international-standing-order-consents:
+    $ref: paths/international-standing-order-consents.yaml
+  /international-standing-orders_{InternationalStandingOrderPaymentId}_payment-details:
+    $ref: paths/international-standing-orders_{InternationalStandingOrderPaymentId}_payment-details.yaml
+  /international-standing-orders_{InternationalStandingOrderPaymentId}:
+    $ref: paths/international-standing-orders_{InternationalStandingOrderPaymentId}.yaml

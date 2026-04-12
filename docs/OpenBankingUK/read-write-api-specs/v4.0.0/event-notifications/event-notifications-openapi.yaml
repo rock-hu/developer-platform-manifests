@@ -1,0 +1,2 @@
+  /event-notifications:
+    $ref: paths/event-notifications.yaml

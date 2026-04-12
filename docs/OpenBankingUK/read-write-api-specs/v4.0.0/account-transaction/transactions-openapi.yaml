@@ -1,0 +1,4 @@
+  /accounts_{AccountId}_transactions:
+    $ref: paths/accounts_{AccountId}_transactions.yaml
+  /transactions:
+    $ref: paths/transactions.yaml

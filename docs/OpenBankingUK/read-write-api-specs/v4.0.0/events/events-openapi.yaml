@@ -1,0 +1,6 @@
+  /event-subscriptions_{EventSubscriptionId}:
+    $ref: paths/event-subscriptions_{EventSubscriptionId}.yaml
+  /event-subscriptions:
+    $ref: paths/event-subscriptions.yaml
+  /events:
+    $ref: paths/events.yaml

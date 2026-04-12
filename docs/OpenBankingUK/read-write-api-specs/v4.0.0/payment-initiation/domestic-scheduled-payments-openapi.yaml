@@ -1,0 +1,10 @@
+  /domestic-scheduled-payment-consents_{ConsentId}:
+    $ref: paths/domestic-scheduled-payment-consents_{ConsentId}.yaml
+  /domestic-scheduled-payment-consents:
+    $ref: paths/domestic-scheduled-payment-consents.yaml
+  /domestic-scheduled-payments_{DomesticScheduledPaymentId}_payment-details:
+    $ref: paths/domestic-scheduled-payments_{DomesticScheduledPaymentId}_payment-details.yaml
+  /domestic-scheduled-payments_{DomesticScheduledPaymentId}:
+    $ref: paths/domestic-scheduled-payments_{DomesticScheduledPaymentId}.yaml
+  /domestic-scheduled-payments:
+    $ref: paths/domestic-scheduled-payments.yaml

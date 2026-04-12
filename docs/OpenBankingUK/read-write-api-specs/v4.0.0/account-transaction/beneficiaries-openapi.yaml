@@ -1,0 +1,4 @@
+  /accounts_{AccountId}_beneficiaries:
+    $ref: paths/accounts_{AccountId}_beneficiaries.yaml
+  /beneficiaries:
+    $ref: paths/beneficiaries.yaml

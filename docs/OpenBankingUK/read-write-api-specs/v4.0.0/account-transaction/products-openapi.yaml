@@ -1,0 +1,4 @@
+  /accounts_{AccountId}_product:
+    $ref: paths/accounts_{AccountId}_product.yaml
+  /products:
+    $ref: paths/products.yaml

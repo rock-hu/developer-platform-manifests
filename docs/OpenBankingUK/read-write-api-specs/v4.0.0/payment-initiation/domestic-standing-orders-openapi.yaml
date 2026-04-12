@@ -1,0 +1,10 @@
+  /domestic-standing-order-consents_{ConsentId}:
+    $ref: paths/domestic-standing-order-consents_{ConsentId}.yaml
+  /domestic-standing-order-consents:
+    $ref: paths/domestic-standing-order-consents.yaml
+  /domestic-standing-orders_{DomesticStandingOrderId}_payment-details:
+    $ref: paths/domestic-standing-orders_{DomesticStandingOrderId}_payment-details.yaml
+  /domestic-standing-orders_{DomesticStandingOrderId}:
+    $ref: paths/domestic-standing-orders_{DomesticStandingOrderId}.yaml
+  /domestic-standing-orders:
+    $ref: paths/domestic-standing-orders.yaml

@@ -1,0 +1,6 @@
+  /funds-confirmation-consents_{ConsentId}:
+    $ref: paths/funds-confirmation-consents_{ConsentId}.yaml
+  /funds-confirmation-consents:
+    $ref: paths/funds-confirmation-consents.yaml
+  /funds-confirmations:
+    $ref: paths/funds-confirmations.yaml

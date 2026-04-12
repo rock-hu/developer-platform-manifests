@@ -1,0 +1,4 @@
+  /accounts_{AccountId}_direct-debits:
+    $ref: paths/accounts_{AccountId}_direct-debits.yaml
+  /direct-debits:
+    $ref: paths/direct-debits.yaml

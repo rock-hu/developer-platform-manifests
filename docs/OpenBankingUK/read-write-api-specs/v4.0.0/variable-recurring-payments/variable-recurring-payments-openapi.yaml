@@ -1,0 +1,12 @@
+  /domestic-vrp-consents_{ConsentId}_funds-confirmation:
+    $ref: paths/domestic-vrp-consents_{ConsentId}_funds-confirmation.yaml
+  /domestic-vrp-consents_{ConsentId}:
+    $ref: paths/domestic-vrp-consents_{ConsentId}.yaml
+  /domestic-vrp-consents:
+    $ref: paths/domestic-vrp-consents.yaml
+  /domestic-vrps_{DomesticVRPId}_payment-details:
+    $ref: paths/domestic-vrps_{DomesticVRPId}_payment-details.yaml
+  /domestic-vrps_{DomesticVRPId}:
+    $ref: paths/domestic-vrps_{DomesticVRPId}.yaml
+  /domestic-vrps:
+    $ref: paths/domestic-vrps.yaml
