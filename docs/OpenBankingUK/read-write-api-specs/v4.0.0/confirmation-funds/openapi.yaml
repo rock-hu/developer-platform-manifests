@@ -1,0 +1,42 @@
+openapi: 3.0.0
+info:
+  title: Confirmation of Funds API Specification
+  description: Swagger for Confirmation of Funds API Specification
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+  version: 4.0.0
+paths:
+  /funds-confirmation-consents:
+    $ref: paths/funds-confirmation-consents.yaml
+  /funds-confirmation-consents/{ConsentId}:
+    $ref: paths/funds-confirmation-consents_{ConsentId}.yaml
+  /funds-confirmations:
+    $ref: paths/funds-confirmations.yaml
+servers:
+  - url: /open-banking/v4.0/cbpii
+components:
+  securitySchemes:
+    TPPOAuth2Security:
+      type: oauth2
+      description: TPP client credential authorisation flow with the ASPSP
+      flows:
+        clientCredentials:
+          tokenUrl: https://authserver.example/token
+          scopes:
+            fundsconfirmations: Funds confirmation entitlement
+    PSUOAuth2Security:
+      type: oauth2
+      description: >-
+        OAuth flow, it is required when the PSU needs to perform SCA with the
+        ASPSP when a TPP wants to access an ASPSP resource owned by the PSU
+      flows:
+        authorizationCode:
+          authorizationUrl: https://authserver.example/authorization
+          tokenUrl: https://authserver.example/token
+          scopes:
+            fundsconfirmations: Funds confirmation entitlement
