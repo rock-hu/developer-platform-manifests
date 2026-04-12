@@ -1,3 +1,16 @@
+openapi: 3.0.0
+info:
+  title: Confirmation of Funds API Specification
+  description: Swagger for Confirmation of Funds API Specification
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+  version: 4.0.0
+paths:
   /funds-confirmation-consents_{ConsentId}:
     $ref: paths/funds-confirmation-consents_{ConsentId}.yaml
   /funds-confirmation-consents:

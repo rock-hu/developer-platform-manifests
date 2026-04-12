@@ -1,2 +1,15 @@
+openapi: 3.0.0
+info:
+  title: Event Notification API Specification - TPP Endpoints
+  description: Swagger for Event Notification API Specification - TPP Endpoints
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+  version: 4.0.0
+paths:
   /event-notifications:
     $ref: paths/event-notifications.yaml

@@ -1,3 +1,16 @@
+openapi: 3.0.0
+info:
+  title: Account and Transaction API Specification
+  description: Swagger for Account and Transaction API Specification
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+  version: 4.0.0
+paths:
   /accounts_{AccountId}_direct-debits:
     $ref: paths/accounts_{AccountId}_direct-debits.yaml
   /direct-debits:

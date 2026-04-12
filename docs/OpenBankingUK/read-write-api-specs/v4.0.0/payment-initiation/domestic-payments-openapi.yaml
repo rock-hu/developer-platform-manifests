@@ -1,3 +1,16 @@
+openapi: 3.0.0
+info:
+  title: Payment Initiation API
+  description: Swagger for Payment Initiation API Specification
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+  version: 4.0.0
+paths:
   /domestic-payment-consents_{ConsentId}_funds-confirmation:
     $ref: paths/domestic-payment-consents_{ConsentId}_funds-confirmation.yaml
   /domestic-payment-consents_{ConsentId}:

@@ -1,3 +1,21 @@
+openapi: 3.0.0
+servers:
+  - url: /open-banking/v4.0/pisp
+info:
+  title: OBL VRP Profile
+  description: VRP OpenAPI Specification
+  version: 4.0.0
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+tags:
+  - name: Domestic VRP Consents
+  - name: Domestic VRPs
+paths:
   /domestic-vrp-consents_{ConsentId}_funds-confirmation:
     $ref: paths/domestic-vrp-consents_{ConsentId}_funds-confirmation.yaml
   /domestic-vrp-consents_{ConsentId}:
