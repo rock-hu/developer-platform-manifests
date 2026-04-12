@@ -1,0 +1,29 @@
+description: >-
+  Specifies the external proxy account type code, as published in the proxy
+  account type external code set.<br> For more information and a full list of
+  values see `ExternalProxyAccountType1Code`
+  [here](https://github.com/OpenBankingUK/External_Internal_CodeSets)
+type: string
+example: TELE
+enum:
+  - TELE
+  - EMAL
+  - DNAM
+  - CINC
+  - COTX
+  - COID
+  - CUST
+  - DRLC
+  - EIDN
+  - EWAL
+  - PVTX
+  - LEIC
+  - MBNO
+  - NIDN
+  - CCPT
+  - SHID
+  - SOSE
+  - TOKN
+  - UBIL
+  - VIPN
+  - BIID

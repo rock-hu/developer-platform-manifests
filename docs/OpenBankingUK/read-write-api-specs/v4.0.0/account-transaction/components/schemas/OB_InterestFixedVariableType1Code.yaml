@@ -1,0 +1,5 @@
+description: Type of interest rate, Fixed or Variable
+type: string
+enum:
+  - INFI
+  - INVA

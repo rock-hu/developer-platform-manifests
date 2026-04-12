@@ -1,0 +1,16 @@
+type: object
+required:
+  - FeeCategory
+  - Name
+  - Description
+description: Other Fee/charge type which is not available in the standard code set
+properties:
+  Code:
+    $ref: ./OB_CodeMnemonic.yaml
+  FeeCategory:
+    $ref: ./OB_FeeCategory1Code.yaml
+  Name:
+    $ref: ./Name_4.yaml
+  Description:
+    $ref: ./Description_3.yaml
+additionalProperties: false

@@ -1,0 +1,11 @@
+description: >-
+  Rate type for Fee/Charge (where it is charged in terms of a rate rather than
+  an amount)
+type: string
+enum:
+  - INBB
+  - INFR
+  - INGR
+  - INLR
+  - INNE
+  - INOT

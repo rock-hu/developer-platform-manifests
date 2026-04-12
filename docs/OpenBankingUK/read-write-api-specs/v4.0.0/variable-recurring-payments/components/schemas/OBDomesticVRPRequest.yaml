@@ -1,0 +1,37 @@
+type: object
+required:
+  - Data
+  - Risk
+properties:
+  Data:
+    type: object
+    required:
+      - ConsentId
+      - PSUAuthenticationMethod
+      - VRPType
+      - Initiation
+      - Instruction
+    properties:
+      ConsentId:
+        type: string
+        minLength: 1
+        maxLength: 128
+        description: >-
+          Identifier for the Domestic VRP Consent that this payment is made
+          under.
+      PSUAuthenticationMethod:
+        allOf:
+          - $ref: ./OBVRPAuthenticationMethods.yaml
+          - description: The authentication method that was used to authenticate the PSU.
+      PSUInteractionType:
+        allOf:
+          - $ref: ./OBVRPInteractionTypes.yaml
+          - description: The interaction style used.
+      VRPType:
+        $ref: ./OBVRPConsentType.yaml
+      Initiation:
+        $ref: ./OBDomesticVRPInitiation.yaml
+      Instruction:
+        $ref: ./OBDomesticVRPInstruction.yaml
+  Risk:
+    $ref: ./OBRisk1.yaml

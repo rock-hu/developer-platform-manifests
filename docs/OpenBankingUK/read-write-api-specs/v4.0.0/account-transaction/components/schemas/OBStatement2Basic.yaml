@@ -1,0 +1,143 @@
+type: object
+description: Provides further details on a statement resource.
+required:
+  - AccountId
+  - Type
+  - StartDateTime
+  - EndDateTime
+  - CreationDateTime
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  StatementId:
+    $ref: ./StatementId.yaml
+  StatementReference:
+    $ref: ./StatementReference.yaml
+  Type:
+    $ref: ./OBInternalStatementType1Code.yaml
+  StartDateTime:
+    $ref: ./StartDateTime.yaml
+  EndDateTime:
+    $ref: ./EndDateTime.yaml
+  CreationDateTime:
+    $ref: ./CreationDateTime.yaml
+  StatementDescription:
+    type: array
+    items:
+      description: Other descriptions that may be available for the statement resource.
+      type: string
+      minLength: 1
+      maxLength: 500
+  StatementBenefit:
+    type: array
+    items:
+      type: object
+      description: >-
+        Set of elements used to provide details of a benefit or reward amount
+        for the statement resource.
+      required:
+        - Type
+        - Amount
+      properties:
+        Type:
+          $ref: ./OBInternalStatementBenefitType1Code.yaml
+        Amount:
+          $ref: ./OBActiveOrHistoricCurrencyAndAmount_5.yaml
+  StatementFee:
+    type: array
+    items:
+      type: object
+      description: >-
+        Set of elements used to provide details of a fee for the statement
+        resource.
+      required:
+        - CreditDebitIndicator
+        - Type
+        - Amount
+      properties:
+        Description:
+          $ref: ./Description_1.yaml
+        CreditDebitIndicator:
+          $ref: ./OBCreditDebitCode_0.yaml
+        Type:
+          $ref: ./OBInternalStatementFeeType1Code.yaml
+        Rate:
+          $ref: ./OBRate1_0.yaml
+        RateType:
+          $ref: ./OBInternalStatementFeeRateType1Code.yaml
+        Frequency:
+          $ref: ./OBInternalStatementFeeFrequency1Code.yaml
+        Amount:
+          $ref: ./OBActiveOrHistoricCurrencyAndAmount_6.yaml
+  StatementInterest:
+    type: array
+    items:
+      type: object
+      description: >-
+        Set of elements used to provide details of a generic interest amount
+        related to the statement resource.
+      required:
+        - CreditDebitIndicator
+        - Type
+        - Amount
+      properties:
+        Description:
+          $ref: ./Description_2.yaml
+        CreditDebitIndicator:
+          $ref: ./OBCreditDebitCode_0.yaml
+        Type:
+          $ref: ./OBInternalStatementInterestType1Code.yaml
+        Rate:
+          $ref: ./OBRate1_1.yaml
+        RateType:
+          $ref: ./OBInternalStatementInterestType1Code.yaml
+        Frequency:
+          $ref: ./OBInternalStatementInterestFrequency1Code.yaml
+        Amount:
+          $ref: ./OBActiveOrHistoricCurrencyAndAmount_7.yaml
+  StatementDateTime:
+    type: array
+    items:
+      type: object
+      description: >-
+        Set of elements used to provide details of a generic date time for the
+        statement resource.
+      required:
+        - DateTime
+        - Type
+      properties:
+        DateTime:
+          $ref: ./DateTime.yaml
+        Type:
+          $ref: ./OBInternalStatementDateTimeType1Code.yaml
+  StatementRate:
+    type: array
+    items:
+      type: object
+      description: >-
+        Set of elements used to provide details of a generic rate related to the
+        statement resource.
+      required:
+        - Rate
+        - Type
+      properties:
+        Rate:
+          $ref: ./Rate.yaml
+        Type:
+          $ref: ./OBInternalStatementRateType1Code.yaml
+  StatementValue:
+    type: array
+    items:
+      type: object
+      description: >-
+        Set of elements used to provide details of a generic number value
+        related to the statement resource.
+      required:
+        - Value
+        - Type
+      properties:
+        Value:
+          $ref: ./Value.yaml
+        Type:
+          $ref: ./OBInternalStatementValueType1Code.yaml
+additionalProperties: false

@@ -1,0 +1,6 @@
+name: DomesticPaymentId
+in: path
+description: DomesticPaymentId
+required: true
+schema:
+  type: string

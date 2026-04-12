@@ -1,0 +1,9 @@
+description: Statement type, in a coded form.
+type: string
+example: RegularPeriodic
+enum:
+  - AccountClosure
+  - AccountOpening
+  - Annual
+  - Interim
+  - RegularPeriodic

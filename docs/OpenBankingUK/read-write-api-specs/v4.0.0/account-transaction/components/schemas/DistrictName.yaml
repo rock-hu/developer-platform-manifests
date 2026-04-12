@@ -1,0 +1,7 @@
+description: >-
+  Number that of the regional area, known as a district, which forms part of an
+  address
+type: string
+example: Greater London
+minLength: 1
+maxLength: 140

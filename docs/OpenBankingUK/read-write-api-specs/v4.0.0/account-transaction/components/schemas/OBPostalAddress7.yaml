@@ -1,0 +1,63 @@
+type: object
+description: >-
+  Information that locates and identifies a specific address, as defined by
+  postal services.
+properties:
+  AddressType:
+    $ref: ./OBAddressType2Code.yaml
+  Department:
+    description: Identification of a division of a large organisation or building.
+    example: Finance
+    type: string
+    minLength: 1
+    maxLength: 70
+  SubDepartment:
+    description: Identification of a sub-division of a large organisation or building.
+    example: Payroll
+    type: string
+    minLength: 1
+    maxLength: 70
+  StreetName:
+    $ref: ./StreetName.yaml
+  BuildingNumber:
+    $ref: ./BuildingNumber.yaml
+  BuildingName:
+    $ref: ./BuildingName.yaml
+  Floor:
+    $ref: ./Floor.yaml
+  UnitNumber:
+    $ref: ./UnitNumber.yaml
+  Room:
+    $ref: ./Room.yaml
+  PostBox:
+    $ref: ./PostBox.yaml
+  TownLocationName:
+    $ref: ./TownName.yaml
+  DistrictName:
+    $ref: ./DistrictName.yaml
+  CareOf:
+    $ref: ./CareOf.yaml
+  PostCode:
+    $ref: ./PostCode.yaml
+  TownName:
+    $ref: ./TownName.yaml
+  CountrySubDivision:
+    description: Identifies a subdivision of a country such as state, region, county.
+    type: string
+    minLength: 1
+    maxLength: 35
+  Country:
+    description: Nation with its own government.
+    type: string
+    pattern: ^[A-Z]{2,2}$
+  AddressLine:
+    type: array
+    items:
+      description: >-
+        Information that locates and identifies a specific address, as defined
+        by postal services, presented in free format text.
+      type: string
+      minLength: 1
+      maxLength: 70
+    minItems: 0
+    maxItems: 7

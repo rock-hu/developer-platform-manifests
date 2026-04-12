@@ -1,0 +1,21 @@
+description: Ultimate party to which an amount of money is due.
+type: object
+properties:
+  Name:
+    description: >-
+      Name by which a party is known and which is usually used to identify that
+      party.
+    type: string
+    minLength: 1
+    maxLength: 140
+  Identification:
+    description: Identification assigned by an institution.
+    type: string
+    minLength: 1
+    maxLength: 256
+  LEI:
+    $ref: ./LEI.yaml
+  SchemeName:
+    $ref: ./OBInternalAccountIdentification4Code.yaml
+  PostalAddress:
+    $ref: ./OBPostalAddress7.yaml

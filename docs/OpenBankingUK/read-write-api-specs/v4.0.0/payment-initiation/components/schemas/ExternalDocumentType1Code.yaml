@@ -1,0 +1,24 @@
+type: string
+minLength: 1
+maxLength: 4
+description: >-
+  Specifies the document type as published in an external document type code
+  list. For more information see `ExternalDocumentType1Code`
+  [here](https://github.com/OpenBankingUK/External_Internal_CodeSets)
+enum:
+  - CINV
+  - CNFA
+  - CONT
+  - CREN
+  - DEBN
+  - DISP
+  - DNFA
+  - HIRI
+  - INVS
+  - MSIN
+  - PROF
+  - PUOR
+  - QUOT
+  - SBIN
+  - SPRR
+  - TISH

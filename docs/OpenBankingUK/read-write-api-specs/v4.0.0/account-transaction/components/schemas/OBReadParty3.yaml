@@ -1,0 +1,16 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    properties:
+      Party:
+        type: array
+        items:
+          $ref: ./OBParty2.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml
+additionalProperties: false

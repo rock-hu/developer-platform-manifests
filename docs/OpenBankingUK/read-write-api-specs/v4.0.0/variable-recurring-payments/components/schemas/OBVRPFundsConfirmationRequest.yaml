@@ -1,0 +1,30 @@
+type: object
+required:
+  - Data
+description: >-
+  The OBVRPFundsConfirmationRequest object must be used to request funds
+  availability for a specific amount in the Debtor Account included in the VRP
+  consents.
+properties:
+  Data:
+    type: object
+    required:
+      - ConsentId
+      - InstructedAmount
+    properties:
+      ConsentId:
+        type: string
+        minLength: 1
+        maxLength: 128
+        description: >-
+          Unique identification as assigned by the ASPSP to uniquely identify
+          the funds confirmation consent resource.
+      Reference:
+        type: string
+        minLength: 1
+        maxLength: 35
+        description: >-
+          Unique reference, as assigned by the PISP, to unambiguously refer to
+          the request related to the payment transaction.
+      InstructedAmount:
+        $ref: ./OBActiveOrHistoricCurrencyAndAmount.yaml

@@ -1,0 +1,10 @@
+description: Period e.g. day, week, month etc. for which the fee/charge is capped
+type: string
+enum:
+  - PACT
+  - PDAY
+  - PHYR
+  - PMTH
+  - PQTR
+  - PWEK
+  - PYER

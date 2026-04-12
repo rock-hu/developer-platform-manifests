@@ -1,0 +1,13 @@
+description: '`OBFrequency6Code` on External Codeset Repo'
+type: string
+example: MNTH
+enum:
+  - ADHO
+  - YEAR
+  - DAIL
+  - FRTN
+  - INDA
+  - MNTH
+  - QURT
+  - MIAN
+  - WEEK

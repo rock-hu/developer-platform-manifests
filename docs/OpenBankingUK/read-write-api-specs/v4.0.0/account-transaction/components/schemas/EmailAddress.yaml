@@ -1,0 +1,5 @@
+description: Address for electronic mail (e-mail).
+type: string
+example: d.user@semiotec.co.jp
+minLength: 1
+maxLength: 256

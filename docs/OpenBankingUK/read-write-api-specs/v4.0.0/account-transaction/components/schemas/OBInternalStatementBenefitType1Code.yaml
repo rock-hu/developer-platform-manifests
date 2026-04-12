@@ -1,0 +1,8 @@
+description: Benefit type, in a coded form.
+type: string
+example: UK.OBIE.Cashback
+x-namespaced-enum:
+  - UK.OBIE.Cashback
+  - UK.OBIE.Insurance
+  - UK.OBIE.TravelDiscount
+  - UK.OBIE.TravelInsurance

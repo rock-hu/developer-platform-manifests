@@ -1,0 +1,6 @@
+name: FilePaymentId
+in: path
+description: FilePaymentId
+required: true
+schema:
+  type: string

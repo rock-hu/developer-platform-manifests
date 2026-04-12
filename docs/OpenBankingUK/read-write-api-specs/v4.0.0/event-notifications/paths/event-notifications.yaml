@@ -1,0 +1,19 @@
+post:
+  summary: Send an event notification
+  operationId: CreateEventNotification
+  tags:
+    - Event Notification
+  parameters:
+    - $ref: ../components/parameters/x-fapi-financial-id-Param.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id-Param.yaml
+  requestBody:
+    content:
+      application/jwt:
+        schema:
+          type: string
+          format: base64
+    description: Create an Callback URI
+    required: true
+  responses:
+    '202':
+      description: Accepted

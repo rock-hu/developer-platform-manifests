@@ -1,0 +1,9 @@
+description: Specifies the status of account resource in code form.
+type: string
+example: Enabled
+enum:
+  - Deleted
+  - Disabled
+  - Enabled
+  - Pending
+  - ProForma

@@ -1,0 +1,5 @@
+type: string
+enum:
+  - UK.OBIE.CHAPSOut
+  - UK.OBIE.BalanceTransferOut
+  - UK.OBIE.MoneyTransferOut

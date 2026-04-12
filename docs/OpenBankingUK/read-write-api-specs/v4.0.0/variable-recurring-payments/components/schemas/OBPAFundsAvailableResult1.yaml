@@ -1,0 +1,20 @@
+type: object
+description: >-
+  Availability result, clearly indicating the availability of funds given the
+  Amount in the request.
+required:
+  - FundsAvailableDateTime
+  - FundsAvailable
+properties:
+  FundsAvailableDateTime:
+    type: string
+    format: date-time
+    description: Date and time at which the funds availability check was generated.
+  FundsAvailable:
+    type: string
+    description: >-
+      Availability result, clearly indicating the availability of funds given
+      the Amount in the request.
+    enum:
+      - Available
+      - NotAvailable

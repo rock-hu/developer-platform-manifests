@@ -1,0 +1,24 @@
+description: Period e.g. day, week, month etc. for which the fee/charge is capped
+type: string
+enum:
+  - FEAC
+  - FEAO
+  - FECP
+  - FEDA
+  - FEHO
+  - FEI
+  - FEMO
+  - FEOA
+  - FEOT
+  - FEPC
+  - FEPH
+  - FEPO
+  - FEPS
+  - FEPT
+  - FEPTA
+  - FEPTP
+  - FEQU
+  - FESM
+  - FEST
+  - FEWE
+  - FEYE

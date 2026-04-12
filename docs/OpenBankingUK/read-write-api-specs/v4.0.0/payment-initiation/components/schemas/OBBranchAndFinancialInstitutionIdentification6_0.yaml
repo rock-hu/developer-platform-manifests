@@ -1,0 +1,18 @@
+type: object
+description: >-
+  Party that manages the account on behalf of the account owner, that is manages
+  the registration and booking of entries on the account, calculates balances on
+  the account and provides information about the account.
+
+  This is the servicer of the beneficiary account.
+properties:
+  SchemeName:
+    $ref: ./OBInternalFinancialInstitutionIdentification4Code.yaml
+  Identification:
+    $ref: ./Identification_1.yaml
+  Name:
+    $ref: ./Name.yaml
+  PostalAddress:
+    $ref: ./OBPostalAddress7.yaml
+  LEI:
+    $ref: ./LEI.yaml

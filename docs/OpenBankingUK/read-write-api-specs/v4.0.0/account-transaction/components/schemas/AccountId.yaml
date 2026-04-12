@@ -1,0 +1,7 @@
+description: >-
+  A unique and immutable identifier used to identify the account resource. This
+  identifier has no meaning to the account owner.
+type: string
+example: '22289'
+minLength: 1
+maxLength: 40

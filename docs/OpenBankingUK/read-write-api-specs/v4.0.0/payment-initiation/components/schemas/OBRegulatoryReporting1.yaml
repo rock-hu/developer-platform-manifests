@@ -1,0 +1,19 @@
+type: object
+description: Information needed due to regulatory and statutory requirements
+properties:
+  DebitCreditReportingIndicator:
+    type: string
+    description: >-
+      Identifies whether the regulatory reporting information applies to the
+      debit side, to the credit side or to both debit and credit sides of the
+      transaction. 
+    enum:
+      - CRED
+      - DEBT
+      - BOTH
+  Authority:
+    $ref: ./OBRegulatoryAuthority2.yaml
+  Details:
+    type: array
+    items:
+      $ref: ./OBStructuredRegulatoryReporting3.yaml

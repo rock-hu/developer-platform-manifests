@@ -1,0 +1,6 @@
+name: InternationalScheduledPaymentId
+in: path
+description: InternationalScheduledPaymentId
+required: true
+schema:
+  type: string

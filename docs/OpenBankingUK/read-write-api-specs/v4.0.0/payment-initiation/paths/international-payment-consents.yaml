@@ -1,0 +1,52 @@
+post:
+  tags:
+    - International Payments
+  summary: Create International Payment Consents
+  operationId: CreateInternationalPaymentConsents
+  parameters:
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-idempotency-key.yaml
+    - $ref: ../components/parameters/x-jws-signature.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  requestBody:
+    content:
+      application/json; charset=utf-8:
+        schema:
+          $ref: ../components/schemas/OBWriteInternationalConsent5.yaml
+      application/json:
+        schema:
+          $ref: ../components/schemas/OBWriteInternationalConsent5.yaml
+      application/jose+jwe:
+        schema:
+          $ref: ../components/schemas/OBWriteInternationalConsent5.yaml
+    description: Default
+    required: true
+  responses:
+    '201':
+      $ref: ../components/responses/201InternationalPaymentConsentsCreated.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '404':
+      $ref: ../components/responses/404Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '409':
+      $ref: ../components/responses/409Error.yaml
+    '415':
+      $ref: ../components/responses/415Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/500Error.yaml
+  security:
+    - TPPOAuth2Security:
+        - payments

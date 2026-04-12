@@ -1,0 +1,8 @@
+in: header
+name: payload-version
+description: >-
+  Optional header to aid migration across API versions.  Indicates the version
+  of JSON schema being sent/received
+schema:
+  type: string
+  example: 3.1.11

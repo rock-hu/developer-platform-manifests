@@ -1,0 +1,3 @@
+title: MetaData
+type: object
+description: Meta Data relevant to the payload. At present no fields are used for VRP.

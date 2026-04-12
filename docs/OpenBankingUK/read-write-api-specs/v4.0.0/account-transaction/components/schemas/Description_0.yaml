@@ -1,0 +1,4 @@
+description: Specifies the description of the account type.
+type: string
+minLength: 1
+maxLength: 35

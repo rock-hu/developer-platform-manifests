@@ -1,0 +1,72 @@
+type: object
+description: Provides further details on an entry in the report.
+required:
+  - AccountId
+  - CreditDebitIndicator
+  - Status
+  - BookingDateTime
+  - Amount
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  TransactionId:
+    $ref: ./TransactionId.yaml
+  TransactionReference:
+    $ref: ./TransactionReference.yaml
+  StatementReference:
+    type: array
+    items:
+      $ref: ./StatementReference.yaml
+  CreditDebitIndicator:
+    $ref: ./OBCreditDebitCode_1.yaml
+  Status:
+    $ref: ./ExternalEntryStatus1Code.yaml
+  TransactionMutability:
+    $ref: ./OBInternalTransactionMutability1Code.yaml
+  BookingDateTime:
+    $ref: ./BookingDateTime.yaml
+  ValueDateTime:
+    $ref: ./ValueDateTime.yaml
+  TransactionInformation:
+    $ref: ./TransactionInformation.yaml
+  AddressLine:
+    $ref: ./AddressLine.yaml
+  Amount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount_9.yaml
+  ChargeAmount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount_10.yaml
+  CurrencyExchange:
+    $ref: ./OBCurrencyExchange5.yaml
+  BankTransactionCode:
+    $ref: ./OBBankTransactionCodeStructure1.yaml
+  ProprietaryBankTransactionCode:
+    $ref: ./ProprietaryBankTransactionCodeStructure1.yaml
+  ExtendedProprietaryBankTransactionCodes:
+    type: array
+    items:
+      $ref: ./OBExtendedProprietaryBankTransactionCode.yaml
+  Balance:
+    $ref: ./OBTransactionCashBalance.yaml
+  MerchantDetails:
+    $ref: ./OBMerchantDetails1.yaml
+  CreditorAgent:
+    $ref: ./OBBranchAndFinancialInstitutionIdentification5_1.yaml
+  CreditorAccount:
+    $ref: ./OBCashAccount6_0.yaml
+  DebtorAgent:
+    $ref: ./OBBranchAndFinancialInstitutionIdentification6_2.yaml
+  DebtorAccount:
+    $ref: ./OBCashAccount6_1.yaml
+  CardInstrument:
+    $ref: ./OBTransactionCardInstrument1.yaml
+  SupplementaryData:
+    $ref: ./OBSupplementaryData1.yaml
+  CategoryPurposeCode:
+    $ref: ./ExternalCategoryPurpose1Code.yaml
+  PaymentPurposeCode:
+    $ref: ./OBExternalPurpose1Code.yaml
+  UltimateCreditor:
+    $ref: ./OBUltimateCreditor1.yaml
+  UltimateDebtor:
+    $ref: ./OBUltimateDebtor1.yaml
+additionalProperties: false

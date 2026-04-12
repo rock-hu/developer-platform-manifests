@@ -1,0 +1,11 @@
+description: Specifies the statement fee type requested
+type: string
+example: UK.OBIE.Monthly
+x-namespaced-enum:
+  - UK.OBIE.Daily
+  - UK.OBIE.HalfYearly
+  - UK.OBIE.Monthly
+  - UK.OBIE.PerStatementDate
+  - UK.OBIE.Quarterly
+  - UK.OBIE.Weekly
+  - UK.OBIE.Yearly

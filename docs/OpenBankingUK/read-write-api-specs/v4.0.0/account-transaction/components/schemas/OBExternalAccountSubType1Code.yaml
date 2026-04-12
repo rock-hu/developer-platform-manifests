@@ -1,0 +1,30 @@
+description: >-
+  Specifies the sub type of account (product family group) using ISO 20022
+  values.
+type: string
+enum:
+  - CACC
+  - CARD
+  - CASH
+  - CHAR
+  - CISH
+  - COMM
+  - CPAC
+  - LLSV
+  - LOAN
+  - MGLD
+  - MOMA
+  - NFCA
+  - NREX
+  - ODFT
+  - ONDP
+  - OTHR
+  - SACC
+  - SLRY
+  - SVGS
+  - TAXE
+  - TRAN
+  - TRAS
+  - VACC
+  - MORT
+  - WALT

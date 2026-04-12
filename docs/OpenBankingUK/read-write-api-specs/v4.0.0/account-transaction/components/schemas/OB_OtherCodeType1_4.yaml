@@ -1,0 +1,13 @@
+type: object
+required:
+  - Name
+  - Description
+description: Other fee rate type code which is not available in the standard code set
+properties:
+  Code:
+    $ref: ./OB_CodeMnemonic.yaml
+  Name:
+    $ref: ./Name_4.yaml
+  Description:
+    $ref: ./Description_3.yaml
+additionalProperties: false

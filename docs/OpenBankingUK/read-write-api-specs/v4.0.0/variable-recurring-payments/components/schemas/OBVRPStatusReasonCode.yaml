@@ -1,0 +1,7 @@
+type: string
+x-namespaced-enum:
+  - UK.OBIE.ExemptionNotApplied
+  - UK.OBIE.OtherReason
+description: >
+  Reason Code provided for the status of a VRP. To be documented in the
+  Developer Portal.

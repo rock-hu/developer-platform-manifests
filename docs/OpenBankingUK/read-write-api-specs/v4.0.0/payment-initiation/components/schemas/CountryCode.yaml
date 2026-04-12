@@ -1,0 +1,3 @@
+description: Nation with its own government.
+type: string
+pattern: ^[A-Z]{2,2}$

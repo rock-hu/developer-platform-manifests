@@ -1,0 +1,21 @@
+type: object
+properties:
+  DebtorAccount:
+    $ref: ./OBCashAccountDebtorWithName.yaml
+  CreditorAccount:
+    $ref: ./OBCashAccountCreditor3.yaml
+  CreditorPostalAddress:
+    $ref: ./OBPostalAddress7.yaml
+  UltimateCreditor:
+    $ref: ./OBUltimateCreditor1.yaml
+  CreditorAgent:
+    $ref: ./OBBranchAndFinancialInstitutionIdentification6_0.yaml
+  UltimateDebtor:
+    $ref: ./OBUltimateDebtor1.yaml
+  RemittanceInformation:
+    $ref: ./OBRemittanceInformation2.yaml
+  RegulatoryReporting:
+    type: array
+    items:
+      $ref: ./OBRegulatoryReporting1.yaml
+    maxItems: 10

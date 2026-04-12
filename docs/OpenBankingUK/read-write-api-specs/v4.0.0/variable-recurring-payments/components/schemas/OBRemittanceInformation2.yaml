@@ -1,0 +1,20 @@
+type: object
+description: >-
+  Information supplied to enable the matching of an entry with the items that
+  the transfer is intended to settle, such as commercial invoices in an
+  accounts' receivable system
+properties:
+  Structured:
+    type: array
+    items:
+      $ref: ./OBRemittanceInformationStructured.yaml
+  Unstructured:
+    type: array
+    description: >-
+      Information supplied to enable the matching/reconciliation of an entry
+      with the items that the payment is intended to settle, such as commercial
+      invoices in an accounts' receivable system, in an unstructured form.
+    items:
+      type: string
+      maxLength: 256
+      minLength: 1

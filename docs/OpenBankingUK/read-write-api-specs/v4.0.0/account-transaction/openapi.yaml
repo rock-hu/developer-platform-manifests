@@ -1,0 +1,92 @@
+openapi: 3.0.0
+info:
+  title: Account and Transaction API Specification
+  description: Swagger for Account and Transaction API Specification
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+  version: 4.0.0
+paths:
+  /account-access-consents:
+    $ref: paths/account-access-consents.yaml
+  /account-access-consents/{ConsentId}:
+    $ref: paths/account-access-consents_{ConsentId}.yaml
+  /accounts:
+    $ref: paths/accounts.yaml
+  /accounts/{AccountId}:
+    $ref: paths/accounts_{AccountId}.yaml
+  /accounts/{AccountId}/balances:
+    $ref: paths/accounts_{AccountId}_balances.yaml
+  /accounts/{AccountId}/beneficiaries:
+    $ref: paths/accounts_{AccountId}_beneficiaries.yaml
+  /accounts/{AccountId}/direct-debits:
+    $ref: paths/accounts_{AccountId}_direct-debits.yaml
+  /accounts/{AccountId}/offers:
+    $ref: paths/accounts_{AccountId}_offers.yaml
+  /accounts/{AccountId}/parties:
+    $ref: paths/accounts_{AccountId}_parties.yaml
+  /accounts/{AccountId}/party:
+    $ref: paths/accounts_{AccountId}_party.yaml
+  /accounts/{AccountId}/product:
+    $ref: paths/accounts_{AccountId}_product.yaml
+  /accounts/{AccountId}/scheduled-payments:
+    $ref: paths/accounts_{AccountId}_scheduled-payments.yaml
+  /accounts/{AccountId}/standing-orders:
+    $ref: paths/accounts_{AccountId}_standing-orders.yaml
+  /accounts/{AccountId}/statements:
+    $ref: paths/accounts_{AccountId}_statements.yaml
+  /accounts/{AccountId}/statements/{StatementId}:
+    $ref: paths/accounts_{AccountId}_statements_{StatementId}.yaml
+  /accounts/{AccountId}/statements/{StatementId}/file:
+    $ref: paths/accounts_{AccountId}_statements_{StatementId}_file.yaml
+  /accounts/{AccountId}/statements/{StatementId}/transactions:
+    $ref: paths/accounts_{AccountId}_statements_{StatementId}_transactions.yaml
+  /accounts/{AccountId}/transactions:
+    $ref: paths/accounts_{AccountId}_transactions.yaml
+  /balances:
+    $ref: paths/balances.yaml
+  /beneficiaries:
+    $ref: paths/beneficiaries.yaml
+  /direct-debits:
+    $ref: paths/direct-debits.yaml
+  /offers:
+    $ref: paths/offers.yaml
+  /party:
+    $ref: paths/party.yaml
+  /products:
+    $ref: paths/products.yaml
+  /scheduled-payments:
+    $ref: paths/scheduled-payments.yaml
+  /standing-orders:
+    $ref: paths/standing-orders.yaml
+  /statements:
+    $ref: paths/statements.yaml
+  /transactions:
+    $ref: paths/transactions.yaml
+servers:
+  - url: /open-banking/v4.0/aisp
+components:
+  securitySchemes:
+    TPPOAuth2Security:
+      type: oauth2
+      description: TPP client credential authorisation flow with the ASPSP
+      flows:
+        clientCredentials:
+          tokenUrl: https://authserver.example/token
+          scopes:
+            accounts: Ability to read Accounts information
+    PSUOAuth2Security:
+      type: oauth2
+      description: >-
+        OAuth flow, it is required when the PSU needs to perform SCA with the
+        ASPSP when a TPP wants to access an ASPSP resource owned by the PSU
+      flows:
+        authorizationCode:
+          authorizationUrl: https://authserver.example/authorization
+          tokenUrl: https://authserver.example/token
+          scopes:
+            accounts: Ability to read Accounts information

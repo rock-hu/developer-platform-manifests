@@ -1,0 +1,7 @@
+description: >-
+  Name by which a party is known and which is usually used to identify that
+  party.
+type: string
+example: Mx Jane Smith
+minLength: 1
+maxLength: 350

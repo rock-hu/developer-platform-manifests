@@ -1,0 +1,8 @@
+description: Events.
+type: object
+properties:
+  urn:uk:org:openbanking:events:resource-update:
+    $ref: ./OBEventResourceUpdate1.yaml
+required:
+  - urn:uk:org:openbanking:events:resource-update
+additionalProperties: false

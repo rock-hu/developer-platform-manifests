@@ -1,0 +1,6 @@
+name: EventSubscriptionId
+in: path
+description: EventSubscriptionId
+required: true
+schema:
+  type: string

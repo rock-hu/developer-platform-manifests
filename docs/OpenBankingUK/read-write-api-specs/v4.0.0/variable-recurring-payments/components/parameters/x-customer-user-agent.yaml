@@ -1,0 +1,6 @@
+in: header
+name: x-customer-user-agent
+description: Indicates the user-agent that the PSU is using.
+required: false
+schema:
+  type: string

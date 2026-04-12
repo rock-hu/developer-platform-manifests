@@ -1,0 +1,5 @@
+description: >-
+  Rate charged for Statement Fee (where it is charged in terms of a rate rather
+  than an amount)
+example: 0.05
+type: number

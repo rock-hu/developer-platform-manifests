@@ -1,0 +1,15 @@
+type: object
+properties:
+  StatusReasonCode:
+    type: string
+    description: |-
+      Specifies the status reason in a code form 
+       For more information and enum values see `OBExternalStatusReason1Code [here](https://github.com/OpenBankingUK/External_Internal_CodeSets)
+    minLength: 1
+    maxLength: 4
+    example: ERIN
+  StatusReasonDescription:
+    type: string
+    description: Description supporting the StatusReasonCode.
+    minLength: 1
+    maxLength: 500

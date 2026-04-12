@@ -1,0 +1,12 @@
+description: Date time type, in a coded form.
+type: string
+example: UK.OBIE.NextStatement
+x-namespaced-enum:
+  - UK.OBIE.BalanceTransferPromoEnd
+  - UK.OBIE.DirectDebitDue
+  - UK.OBIE.LastPayment
+  - UK.OBIE.LastStatement
+  - UK.OBIE.NextStatement
+  - UK.OBIE.PaymentDue
+  - UK.OBIE.PurchasePromoEnd
+  - UK.OBIE.StatementAvailable

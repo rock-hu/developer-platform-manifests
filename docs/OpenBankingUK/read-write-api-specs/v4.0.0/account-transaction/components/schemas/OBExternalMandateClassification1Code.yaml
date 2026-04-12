@@ -1,0 +1,7 @@
+description: Type of mandate instruction.
+type: string
+example: FIXE
+enum:
+  - FIXE
+  - USGB
+  - VARI

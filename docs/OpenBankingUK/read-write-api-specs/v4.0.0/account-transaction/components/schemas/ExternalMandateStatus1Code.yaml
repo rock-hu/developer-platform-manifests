@@ -1,0 +1,7 @@
+description: >-
+  Specifies the status of the standing order in code form. See or a full list of
+  enumeration values refer to `External_CodeSet` here -
+  https://github.com/OpenBankingUK/External_Internal_CodeSets 
+type: string
+maxLength: 4
+example: ACTV

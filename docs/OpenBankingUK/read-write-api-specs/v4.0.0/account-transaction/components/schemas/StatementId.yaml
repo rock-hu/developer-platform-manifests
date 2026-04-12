@@ -1,0 +1,7 @@
+description: >-
+  Unique identifier for the statement resource within an servicing institution.
+  This identifier is both unique and immutable.
+type: string
+example: 8sfhke-sifhkeuf-97813
+minLength: 1
+maxLength: 40

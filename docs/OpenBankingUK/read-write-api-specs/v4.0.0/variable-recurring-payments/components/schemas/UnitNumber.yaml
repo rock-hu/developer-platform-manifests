@@ -1,0 +1,4 @@
+description: Number that identifies the unit of a specific address .
+type: string
+minLength: 1
+maxLength: 16

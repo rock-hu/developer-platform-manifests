@@ -1,0 +1,10 @@
+type: object
+description: 'Entity requiring the regulatory reporting information. '
+properties:
+  Name:
+    type: string
+    description: Name of the entity requiring the regulatory reporting information.
+    minLength: 1
+    maxLength: 140
+  Country:
+    $ref: ./CountryCode.yaml

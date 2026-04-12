@@ -1,0 +1,13 @@
+type: object
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  BeneficiaryId:
+    $ref: ./BeneficiaryId.yaml
+  BeneficiaryType:
+    $ref: ./OBInternalBeneficiaryType1Code.yaml
+  Reference:
+    $ref: ./Reference.yaml
+  SupplementaryData:
+    $ref: ./OBSupplementaryData1.yaml
+additionalProperties: false

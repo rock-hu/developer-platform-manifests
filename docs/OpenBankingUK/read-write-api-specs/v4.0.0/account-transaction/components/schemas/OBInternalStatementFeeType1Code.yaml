@@ -1,0 +1,19 @@
+description: Fee type, in a coded form.
+type: string
+example: UK.OBIE.Annual
+x-namespaced-enum:
+  - UK.OBIE.Annual
+  - UK.OBIE.BalanceTransfer
+  - UK.OBIE.CashAdvance
+  - UK.OBIE.CashTransaction
+  - UK.OBIE.ForeignCashTransaction
+  - UK.OBIE.ForeignTransaction
+  - UK.OBIE.Gambling
+  - UK.OBIE.LatePayment
+  - UK.OBIE.MoneyTransfer
+  - UK.OBIE.Monthly
+  - UK.OBIE.Overlimit
+  - UK.OBIE.PostalOrder
+  - UK.OBIE.PrizeEntry
+  - UK.OBIE.StatementCopy
+  - UK.OBIE.Total

@@ -1,0 +1,6 @@
+description: Specifies the Beneficiary Type.
+type: string
+example: Ordinary
+enum:
+  - Trusted
+  - Ordinary

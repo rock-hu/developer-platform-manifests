@@ -1,0 +1,6 @@
+in: header
+name: x-jws-signature
+required: true
+description: A detached JWS signature of the body of the payload.
+schema:
+  type: string

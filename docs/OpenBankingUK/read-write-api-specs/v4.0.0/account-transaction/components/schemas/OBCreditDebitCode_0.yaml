@@ -1,0 +1,8 @@
+description: |-
+  Indicates whether the amount is a credit or a debit. 
+  Usage: A zero amount is considered to be a credit amount.
+type: string
+example: Credit
+enum:
+  - Credit
+  - Debit

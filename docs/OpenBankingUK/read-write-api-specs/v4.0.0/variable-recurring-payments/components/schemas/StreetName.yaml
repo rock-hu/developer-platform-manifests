@@ -1,0 +1,4 @@
+type: string
+minLength: 1
+maxLength: 140
+description: Name of a street or thoroughfare.

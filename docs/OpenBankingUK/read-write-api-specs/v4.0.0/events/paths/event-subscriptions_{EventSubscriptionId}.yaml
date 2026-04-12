@@ -1,0 +1,87 @@
+put:
+  tags:
+    - Event Subscriptions
+  summary: Change Event Subscription
+  operationId: ChangeEventSubscriptionsEventSubscriptionId
+  parameters:
+    - $ref: ../components/parameters/EventSubscriptionId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-jws-signature.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  requestBody:
+    content:
+      application/json; charset=utf-8:
+        schema:
+          $ref: ../components/schemas/OBEventSubscriptionResponse1.yaml
+      application/jose+jwe:
+        schema:
+          $ref: ../components/schemas/OBEventSubscriptionResponse1.yaml
+    description: Default
+    required: true
+  responses:
+    '200':
+      $ref: >-
+        ../components/responses/200EventSubscriptionsEventSubscriptionIdChanged.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '404':
+      $ref: ../components/responses/404Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '415':
+      $ref: ../components/responses/415Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/500Error.yaml
+  security:
+    - TPPOAuth2Security:
+        - accounts
+        - payments
+        - fundsconfirmations
+delete:
+  tags:
+    - Event Subscriptions
+  summary: Delete Event Subscription
+  operationId: DeleteEventSubscriptionsEventSubscriptionId
+  parameters:
+    - $ref: ../components/parameters/EventSubscriptionId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  responses:
+    '204':
+      $ref: >-
+        ../components/responses/204EventSubscriptionsEventSubscriptionIdDeleted.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '404':
+      $ref: ../components/responses/404Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/500Error.yaml
+  security:
+    - TPPOAuth2Security:
+        - accounts
+        - payments
+        - fundsconfirmations

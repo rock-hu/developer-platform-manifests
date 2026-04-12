@@ -1,0 +1,15 @@
+type: object
+description: >-
+  Unambiguous identification of the account of the debtor, in the case of a
+  crebit transaction.
+properties:
+  SchemeName:
+    $ref: ./OBInternalAccountIdentification4Code.yaml
+  Identification:
+    $ref: ./Identification_0.yaml
+  Name:
+    $ref: ./Name_0.yaml
+  SecondaryIdentification:
+    $ref: ./SecondaryIdentification.yaml
+  Proxy:
+    $ref: ./OBProxy1.yaml

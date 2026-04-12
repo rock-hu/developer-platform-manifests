@@ -1,0 +1,5 @@
+description: >-
+  Every additional tranche of an overdraft balance to which an overdraft fee is
+  applied
+type: string
+pattern: ^(-?\d{1,14}){1}(\.\d{1,4}){0,1}$

@@ -1,0 +1,7 @@
+type: object
+properties:
+  Statement:
+    type: array
+    items:
+      $ref: ./OBStatement2.yaml
+additionalProperties: false

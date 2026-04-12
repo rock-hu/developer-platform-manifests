@@ -1,0 +1,10 @@
+type: object
+required:
+  - Amount
+  - Currency
+description: Amount of money associated with the statement interest amount type.
+properties:
+  Amount:
+    $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+  Currency:
+    $ref: ./ActiveOrHistoricCurrencyCode_1.yaml

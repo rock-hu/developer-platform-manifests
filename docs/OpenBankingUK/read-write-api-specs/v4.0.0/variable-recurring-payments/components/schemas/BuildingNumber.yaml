@@ -1,0 +1,4 @@
+type: string
+minLength: 1
+maxLength: 16
+description: Number that identifies the position of a building on a street.

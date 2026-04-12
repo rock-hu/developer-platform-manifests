@@ -1,0 +1,108 @@
+type: object
+required:
+  - Data
+  - Risk
+  - Links
+  - Meta
+properties:
+  Data:
+    type: object
+    required:
+      - DomesticVRPId
+      - ConsentId
+      - CreationDateTime
+      - Status
+      - StatusUpdateDateTime
+      - Initiation
+      - Instruction
+    description: >
+      `Data.Refund` only included in the response if `Data.ReadRefundAccount` is
+      set to `Yes` in the consent.
+    properties:
+      DomesticVRPId:
+        type: string
+        minLength: 1
+        maxLength: 40
+        description: >
+          Unique identification as assigned by the ASPSP to uniquely identify
+          the domestic payment resource.
+      ConsentId:
+        type: string
+        minLength: 1
+        maxLength: 128
+        description: >
+          Identifier for the Domestic VRP Consent that this payment is made
+          under.
+      CreationDateTime:
+        type: string
+        format: date-time
+        description: |
+          Date and time at which the resource was created.
+      Status:
+        type: string
+        description: Specifies the status of the payment information group.
+        enum:
+          - RCVD
+          - RJCT
+          - CANC
+          - PDNG
+          - ACTC
+          - ACCP
+          - ACFC
+          - ACSP
+          - ACWC
+          - ACSC
+          - ACWP
+          - ACCC
+          - BLCK
+      StatusReason:
+        type: array
+        items:
+          $ref: ./OBStatusReason.yaml
+      StatusUpdateDateTime:
+        type: string
+        format: date-time
+        description: |
+          Date and time at which the resource status was updated.
+      ExpectedExecutionDateTime:
+        type: string
+        format: date-time
+        description: |
+          Expected execution date and time for the payment resource.
+      ExpectedSettlementDateTime:
+        type: string
+        format: date-time
+        description: |
+          Expected settlement date and time for the payment resource.
+      Refund:
+        $ref: ./OBCashAccountDebtorWithName.yaml
+      Charges:
+        type: array
+        items:
+          required:
+            - Amount
+            - ChargeBearer
+            - Type
+          type: object
+          properties:
+            ChargeBearer:
+              $ref: ./OBInternalChargeBearerType1Code.yaml
+            Type:
+              $ref: ./OBInternalPaymentChargeType1Code.yaml
+            Amount:
+              $ref: ./OBActiveOrHistoricCurrencyAndAmount.yaml
+          description: >-
+            Set of elements used to provide details of a charge for the payment
+            initiation.
+      Initiation:
+        $ref: ./OBDomesticVRPInitiation.yaml
+      Instruction:
+        $ref: ./OBDomesticVRPInstruction.yaml
+      DebtorAccount:
+        $ref: ./OBCashAccountDebtorWithName.yaml
+  Risk:
+    $ref: ./OBRisk1.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml

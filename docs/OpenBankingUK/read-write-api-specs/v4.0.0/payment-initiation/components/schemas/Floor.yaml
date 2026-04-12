@@ -1,0 +1,4 @@
+description: Number that identifies the level within a building
+type: string
+minLength: 1
+maxLength: 70

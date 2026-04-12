@@ -1,0 +1,8 @@
+description: Resource-Update Event.
+type: object
+properties:
+  subject:
+    $ref: ./OBEventSubject1.yaml
+required:
+  - subject
+additionalProperties: false

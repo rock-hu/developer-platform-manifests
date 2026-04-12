@@ -1,0 +1,7 @@
+description: >-
+  A reference value provided by the PSU to the PISP while setting up the
+  scheduled payment.
+type: string
+example: REF51561806
+minLength: 1
+maxLength: 35

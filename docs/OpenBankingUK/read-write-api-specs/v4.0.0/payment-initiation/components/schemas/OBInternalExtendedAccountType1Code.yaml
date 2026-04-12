@@ -1,0 +1,18 @@
+description: Specifies the extended type of account.
+type: string
+enum:
+  - Business
+  - BusinessSavingsAccount
+  - Charity
+  - Collection
+  - Corporate
+  - Ewallet
+  - Government
+  - Investment
+  - ISA
+  - JointPersonal
+  - Pension
+  - Personal
+  - PersonalSavingsAccount
+  - Premier
+  - Wealth

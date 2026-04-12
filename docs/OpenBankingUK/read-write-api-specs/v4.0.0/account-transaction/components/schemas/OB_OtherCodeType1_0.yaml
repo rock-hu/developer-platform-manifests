@@ -1,0 +1,12 @@
+type: object
+required:
+  - Name
+  - Description
+properties:
+  Code:
+    $ref: ./OB_CodeMnemonic.yaml
+  Name:
+    $ref: ./Name_4.yaml
+  Description:
+    $ref: ./Description_3.yaml
+additionalProperties: false

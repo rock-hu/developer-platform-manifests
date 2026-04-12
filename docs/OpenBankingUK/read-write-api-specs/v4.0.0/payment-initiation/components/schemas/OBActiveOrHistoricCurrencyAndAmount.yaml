@@ -1,0 +1,11 @@
+type: object
+additionalProperties: false
+required:
+  - Amount
+  - Currency
+description: Amount of money associated with the charge type.
+properties:
+  Amount:
+    $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+  Currency:
+    $ref: ./ActiveOrHistoricCurrencyCode.yaml

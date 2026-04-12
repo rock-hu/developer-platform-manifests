@@ -1,0 +1,3 @@
+description: Cap amount charged for a fee/charge
+type: string
+pattern: ^(-?\d{1,14}){1}(\.\d{1,4}){0,1}$

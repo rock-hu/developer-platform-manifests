@@ -1,0 +1,26 @@
+type: object
+required:
+  - AccountId
+  - ScheduledPaymentDateTime
+  - ScheduledType
+  - InstructedAmount
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  ScheduledPaymentId:
+    $ref: ./ScheduledPaymentId.yaml
+  ScheduledPaymentDateTime:
+    $ref: ./ScheduledPaymentDateTime.yaml
+  ScheduledType:
+    $ref: ./OBInternalScheduleType1Code.yaml
+  Reference:
+    $ref: ./Reference.yaml
+  DebtorReference:
+    $ref: ./DebtorReference.yaml
+  InstructedAmount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount_1.yaml
+  CreditorAgent:
+    $ref: ./OBBranchAndFinancialInstitutionIdentification5_1.yaml
+  CreditorAccount:
+    $ref: ./OBCashAccount5_1.yaml
+additionalProperties: false

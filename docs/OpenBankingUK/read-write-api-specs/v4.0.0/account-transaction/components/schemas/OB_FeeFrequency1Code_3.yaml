@@ -1,0 +1,24 @@
+description: How frequently the fee/charge is calculated
+type: string
+enum:
+  - FEAC
+  - FEAO
+  - FECP
+  - FEDA
+  - FEHO
+  - FEI
+  - FEMO
+  - FEOA
+  - FEOT
+  - FEPC
+  - FEPH
+  - FEPO
+  - FEPS
+  - FEPT
+  - FEPTA
+  - FEPTP
+  - FEQU
+  - FESM
+  - FEST
+  - FEWE
+  - FEYE

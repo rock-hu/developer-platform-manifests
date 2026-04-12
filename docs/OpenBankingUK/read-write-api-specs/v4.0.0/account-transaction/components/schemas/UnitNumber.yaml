@@ -1,0 +1,5 @@
+description: Number that identifies the unit of a specific address .
+type: string
+example: A88
+minLength: 1
+maxLength: 16

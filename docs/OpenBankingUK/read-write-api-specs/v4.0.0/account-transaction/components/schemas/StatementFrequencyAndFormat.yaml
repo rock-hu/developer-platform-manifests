@@ -1,0 +1,13 @@
+type: array
+items:
+  type: object
+  description: Frequency and format of statments for an account
+  properties:
+    Frequency:
+      $ref: ./OBFrequency2.yaml
+    CommunicationMethod:
+      $ref: ./OBCommunicationMethod.yaml
+    Format:
+      $ref: ./OBFileFormat.yaml
+    DeliveryAddress:
+      $ref: ./OBPostalAddress7.yaml

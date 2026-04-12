@@ -1,0 +1,4 @@
+description: Long name associated with the code
+type: string
+minLength: 1
+maxLength: 70

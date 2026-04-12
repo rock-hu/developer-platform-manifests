@@ -1,0 +1,6 @@
+name: ConsentId
+in: path
+description: ConsentId
+required: true
+schema:
+  type: string

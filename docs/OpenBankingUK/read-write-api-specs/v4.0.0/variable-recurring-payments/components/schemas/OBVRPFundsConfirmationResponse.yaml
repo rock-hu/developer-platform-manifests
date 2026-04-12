@@ -1,0 +1,45 @@
+type: object
+required:
+  - Data
+description: >-
+  The confirmation of funds response contains the result of a funds availability
+  check.
+properties:
+  Data:
+    type: object
+    required:
+      - FundsConfirmationId
+      - ConsentId
+      - CreationDateTime
+      - FundsAvailableResult
+      - InstructedAmount
+    properties:
+      FundsConfirmationId:
+        type: string
+        minLength: 1
+        maxLength: 40
+        description: >-
+          Unique identification as assigned by the ASPSP to uniquely identify
+          the funds confirmation resource.
+      ConsentId:
+        type: string
+        minLength: 1
+        maxLength: 128
+        description: >-
+          Unique identification as assigned by the ASPSP to uniquely identify
+          the funds confirmation consent resource.
+      CreationDateTime:
+        type: string
+        format: date-time
+        description: Date and time at which the resource was created.
+      Reference:
+        type: string
+        minLength: 1
+        maxLength: 35
+        description: >-
+          Unique reference, as assigned by the PISP, to unambiguously refer to
+          the request related to the payment transaction.
+      FundsAvailableResult:
+        $ref: ./OBPAFundsAvailableResult1.yaml
+      InstructedAmount:
+        $ref: ./OBActiveOrHistoricCurrencyAndAmount.yaml

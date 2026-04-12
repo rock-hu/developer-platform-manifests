@@ -1,0 +1,6 @@
+name: DomesticScheduledPaymentId
+in: path
+description: DomesticScheduledPaymentId
+required: true
+schema:
+  type: string

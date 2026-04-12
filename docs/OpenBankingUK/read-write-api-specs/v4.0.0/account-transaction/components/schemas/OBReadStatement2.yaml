@@ -1,0 +1,11 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    $ref: ./OBReadDataStatement2.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml
+additionalProperties: false

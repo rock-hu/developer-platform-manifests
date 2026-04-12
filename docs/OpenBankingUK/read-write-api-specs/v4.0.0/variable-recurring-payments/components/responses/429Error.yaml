@@ -1,0 +1,11 @@
+description: Too Many Requests
+headers:
+  Retry-After:
+    description: Number in seconds to wait
+    schema:
+      type: integer
+  x-fapi-interaction-id:
+    description: An RFC4122 UID used as a correlation id.
+    required: true
+    schema:
+      type: string

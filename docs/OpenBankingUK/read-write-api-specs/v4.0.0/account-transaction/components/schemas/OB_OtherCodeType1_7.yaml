@@ -1,0 +1,13 @@
+type: object
+required:
+  - Name
+  - Description
+description: Other calculation frequency which is not available in standard code set.
+properties:
+  Code:
+    $ref: ./OB_CodeMnemonic.yaml
+  Name:
+    $ref: ./Name_4.yaml
+  Description:
+    $ref: ./Description_3.yaml
+additionalProperties: false

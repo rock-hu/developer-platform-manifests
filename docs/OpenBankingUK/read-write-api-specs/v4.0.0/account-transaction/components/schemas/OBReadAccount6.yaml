@@ -1,0 +1,16 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    properties:
+      Account:
+        type: array
+        items:
+          $ref: ./OBAccount6.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml
+additionalProperties: false

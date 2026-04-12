@@ -1,0 +1,16 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    properties:
+      StandingOrder:
+        type: array
+        items:
+          $ref: ./OBStandingOrder6.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml
+additionalProperties: false

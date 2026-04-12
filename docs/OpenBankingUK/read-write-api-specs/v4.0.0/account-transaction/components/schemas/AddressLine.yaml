@@ -1,0 +1,6 @@
+description: >-
+  Information that locates and identifies a specific address for a transaction
+  entry, that is presented in free format text.
+type: string
+minLength: 1
+maxLength: 70

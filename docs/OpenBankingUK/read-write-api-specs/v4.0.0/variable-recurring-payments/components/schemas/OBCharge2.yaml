@@ -1,0 +1,8 @@
+type: object
+required:
+  - ChargeBearer
+  - Type
+  - Amount
+properties:
+  ChargeBearer:
+    $ref: ./OBInternalChargeBearerType1Code.yaml

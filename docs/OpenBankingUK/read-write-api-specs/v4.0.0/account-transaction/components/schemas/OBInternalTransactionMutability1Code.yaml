@@ -1,0 +1,5 @@
+description: Specifies the Mutability of the Transaction record.
+type: string
+enum:
+  - Mutable
+  - Immutable

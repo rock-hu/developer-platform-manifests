@@ -1,0 +1,25 @@
+type: object
+required:
+  - Data
+  - Risk
+properties:
+  Data:
+    type: object
+    required:
+      - ControlParameters
+      - Initiation
+    properties:
+      ReadRefundAccount:
+        type: string
+        enum:
+          - 'Yes'
+          - 'No'
+        description: >
+          Indicates whether information about RefundAccount should be included
+          in the payment response.
+      ControlParameters:
+        $ref: ./OBDomesticVRPControlParameters.yaml
+      Initiation:
+        $ref: ./OBDomesticVRPInitiation.yaml
+  Risk:
+    $ref: ./OBRisk1.yaml

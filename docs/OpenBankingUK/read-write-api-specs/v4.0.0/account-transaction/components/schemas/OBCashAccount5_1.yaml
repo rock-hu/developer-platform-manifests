@@ -1,0 +1,19 @@
+type: object
+required:
+  - SchemeName
+  - Identification
+description: Provides the details to identify the beneficiary account.
+properties:
+  SchemeName:
+    $ref: ./OBInternalAccountIdentification4Code.yaml
+  Identification:
+    description: Beneficiary account identification.
+    type: string
+    minLength: 1
+    maxLength: 256
+  Name:
+    $ref: ./Name_0.yaml
+  SecondaryIdentification:
+    $ref: ./SecondaryIdentification.yaml
+  Proxy:
+    $ref: ./OBProxy1.yaml

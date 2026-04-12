@@ -1,0 +1,7 @@
+description: >-
+  Date and time associated with the date time type.All dates in the JSON
+  payloads are represented in ISO 8601 date format. 
+   An example is below:
+  2017-04-05
+type: string
+format: date

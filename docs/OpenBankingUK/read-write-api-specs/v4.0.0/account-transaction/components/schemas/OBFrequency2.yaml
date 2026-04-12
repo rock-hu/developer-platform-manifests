@@ -1,0 +1,15 @@
+description: >-
+  For a full description see `OBFrequency2Code`
+  [here](https://github.com/OpenBankingUK/External_internal_CodeSets)
+type: string
+enum:
+  - YEAR
+  - DAIL
+  - INDA
+  - FRTN
+  - MNTH
+  - QURT
+  - MIAN
+  - TEND
+  - MOVE
+  - WEEK

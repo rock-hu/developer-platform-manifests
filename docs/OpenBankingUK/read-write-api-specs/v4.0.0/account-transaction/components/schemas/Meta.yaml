@@ -1,0 +1,12 @@
+title: MetaData
+type: object
+description: Meta Data relevant to the payload
+properties:
+  TotalPages:
+    type: integer
+    format: int32
+  FirstAvailableDateTime:
+    $ref: ./ISODateTime.yaml
+  LastAvailableDateTime:
+    $ref: ./ISODateTime.yaml
+additionalProperties: false

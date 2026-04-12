@@ -1,0 +1,4 @@
+type: string
+x-namespaced-enum:
+  - UK.OBIE.SCA
+  - UK.OBIE.SCANotRequired

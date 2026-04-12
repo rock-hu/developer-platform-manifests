@@ -1,0 +1,7 @@
+description: Party type, in a coded form.
+type: string
+example: Joint
+enum:
+  - Delegate
+  - Joint
+  - Sole

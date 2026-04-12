@@ -1,0 +1,4 @@
+description: Charge type, in a coded form.
+type: string
+x-namespaced-enum:
+  - UK.OBIE.CHAPSOut

@@ -1,0 +1,51 @@
+openapi: 3.0.0
+servers:
+  - url: /open-banking/v4.0/pisp
+info:
+  title: OBL VRP Profile
+  description: VRP OpenAPI Specification
+  version: 4.0.0
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+tags:
+  - name: Domestic VRP Consents
+  - name: Domestic VRPs
+paths:
+  /domestic-vrp-consents:
+    $ref: paths/domestic-vrp-consents.yaml
+  /domestic-vrp-consents/{ConsentId}:
+    $ref: paths/domestic-vrp-consents_{ConsentId}.yaml
+  /domestic-vrp-consents/{ConsentId}/funds-confirmation:
+    $ref: paths/domestic-vrp-consents_{ConsentId}_funds-confirmation.yaml
+  /domestic-vrps:
+    $ref: paths/domestic-vrps.yaml
+  /domestic-vrps/{DomesticVRPId}:
+    $ref: paths/domestic-vrps_{DomesticVRPId}.yaml
+  /domestic-vrps/{DomesticVRPId}/payment-details:
+    $ref: paths/domestic-vrps_{DomesticVRPId}_payment-details.yaml
+components:
+  securitySchemes:
+    TPPOAuth2Security:
+      type: oauth2
+      description: TPP client credential authorisation flow with the ASPSP
+      flows:
+        clientCredentials:
+          tokenUrl: https://authserver.example/token
+          scopes:
+            payments: Generic payment scope
+    PSUOAuth2Security:
+      type: oauth2
+      description: >-
+        OAuth flow, it is required when the PSU needs to perform SCA with the
+        ASPSP when a TPP wants to access an ASPSP resource owned by the PSU
+      flows:
+        authorizationCode:
+          authorizationUrl: https://authserver.example/authorization
+          tokenUrl: https://authserver.example/token
+          scopes:
+            payments: Generic payment scope

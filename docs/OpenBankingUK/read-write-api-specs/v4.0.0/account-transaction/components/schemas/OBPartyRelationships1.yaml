@@ -1,0 +1,23 @@
+type: object
+description: The Party's relationships with other resources.
+properties:
+  Account:
+    type: object
+    required:
+      - Related
+      - Id
+    description: Relationship to the Account resource.
+    properties:
+      Related:
+        description: Absolute URI to the related resource.
+        type: string
+        example: https://api.alphabank.com/open-banking/v4.0/aisp/accounts/89019
+        format: uri
+      Id:
+        description: >-
+          Unique identification as assigned by the ASPSP to uniquely identify
+          the related resource.
+        type: string
+        example: '89019'
+        minLength: 1
+        maxLength: 40

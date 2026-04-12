@@ -1,0 +1,5 @@
+description: Amount sub type, in a coded form.
+type: string
+enum:
+  - BCUR
+  - LCUR

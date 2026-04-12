@@ -1,0 +1,6 @@
+name: StatementId
+in: path
+description: StatementId
+required: true
+schema:
+  type: string

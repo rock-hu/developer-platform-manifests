@@ -1,0 +1,24 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    required:
+      - Version
+    properties:
+      CallbackUrl:
+        description: >-
+          Callback URL for a TPP hosted service. Will be used by ASPSPs, in
+          conjunction with the resource name, to construct a URL to send event
+          notifications to.
+        type: string
+        format: uri
+      Version:
+        $ref: ./Version.yaml
+      EventTypes:
+        type: array
+        items:
+          description: Array of event types the subscription applies to.
+          type: string
+additionalProperties: false

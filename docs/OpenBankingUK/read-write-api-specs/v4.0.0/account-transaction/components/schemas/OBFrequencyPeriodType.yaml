@@ -1,0 +1,19 @@
+description: |-
+  Individual Definitions:
+   ADHO - Adhoc 
+   YEAR - Annual
+  DAIL - Daily
+  INDA - Intra Day
+  MNTH - Monthly
+  QURT - Quarterly
+  WEEK - Weekly 
+type: string
+enum:
+  - ADHO
+  - YEAR
+  - DAIL
+  - INDA
+  - MNTH
+  - QURT
+  - MIAN
+  - WEEK

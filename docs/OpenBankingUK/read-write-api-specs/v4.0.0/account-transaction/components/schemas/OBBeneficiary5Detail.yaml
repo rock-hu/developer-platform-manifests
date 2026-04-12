@@ -1,0 +1,19 @@
+type: object
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  BeneficiaryId:
+    $ref: ./BeneficiaryId.yaml
+  BeneficiaryType:
+    $ref: ./OBInternalBeneficiaryType1Code.yaml
+  Reference:
+    $ref: ./Reference.yaml
+  SupplementaryData:
+    $ref: ./OBSupplementaryData1.yaml
+  CreditorAgent:
+    $ref: ./OBBranchAndFinancialInstitutionIdentification6_0.yaml
+  CreditorAccount:
+    $ref: ./OBCashAccount5_0.yaml
+additionalProperties: false
+required:
+  - CreditorAccount

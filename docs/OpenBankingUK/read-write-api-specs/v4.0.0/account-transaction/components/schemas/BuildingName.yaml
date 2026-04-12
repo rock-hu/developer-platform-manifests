@@ -1,0 +1,4 @@
+description: Name of a referenced building.
+type: string
+minLength: 1
+maxLength: 140

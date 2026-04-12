@@ -1,0 +1,5 @@
+description: Information that locates and identifies a room to form part of an address
+type: string
+example: Basement 03
+minLength: 1
+maxLength: 70

@@ -1,0 +1,6 @@
+name: DomesticStandingOrderId
+in: path
+description: DomesticStandingOrderId
+required: true
+schema:
+  type: string

@@ -1,0 +1,51 @@
+type: object
+additionalProperties: false
+description: >-
+  Information that locates and identifies a specific address, as defined by
+  postal services.
+properties:
+  AddressType:
+    $ref: ./OBAddressType2Code.yaml
+  Department:
+    $ref: ./Department.yaml
+  SubDepartment:
+    $ref: ./SubDepartment.yaml
+  StreetName:
+    $ref: ./StreetName.yaml
+  BuildingNumber:
+    $ref: ./BuildingNumber.yaml
+  BuildingName:
+    $ref: ./BuildingName.yaml
+  Floor:
+    $ref: ./Floor.yaml
+  UnitNumber:
+    $ref: ./UnitNumber.yaml
+  Room:
+    $ref: ./Room.yaml
+  PostBox:
+    $ref: ./PostBox.yaml
+  TownLocationName:
+    $ref: ./TownName.yaml
+  DistrictName:
+    $ref: ./DistrictName.yaml
+  CareOf:
+    $ref: ./CareOf.yaml
+  PostCode:
+    $ref: ./PostCode.yaml
+  TownName:
+    $ref: ./TownName.yaml
+  CountrySubDivision:
+    $ref: ./CountrySubDivision.yaml
+  Country:
+    $ref: ./CountryCode.yaml
+  AddressLine:
+    type: array
+    items:
+      description: >-
+        Information that locates and identifies a specific address, as defined
+        by postal services, presented in free format text.
+      type: string
+      minLength: 1
+      maxLength: 70
+    minItems: 0
+    maxItems: 7

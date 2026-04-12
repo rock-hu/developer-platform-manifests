@@ -1,0 +1,5 @@
+description: Min Max type
+type: string
+enum:
+  - FMMN
+  - FMMX

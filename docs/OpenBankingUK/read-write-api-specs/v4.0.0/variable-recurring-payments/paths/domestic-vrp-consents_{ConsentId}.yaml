@@ -1,0 +1,173 @@
+get:
+  operationId: domesticVrpConsentsGet
+  tags:
+    - Domestic VRP Consents
+  summary: Retrieve a domestic VRP consent
+  description: Retrieve a domestic VRP consent
+  parameters:
+    - $ref: ../components/parameters/ConsentId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  responses:
+    '200':
+      $ref: ../components/responses/20xOBDomesticVRPConsentResponse.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '415':
+      $ref: ../components/responses/415Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/InternalError.yaml
+  security:
+    - TPPOAuth2Security:
+        - payments
+delete:
+  operationId: domesticVrpConsentsDelete
+  tags:
+    - Domestic VRP Consents
+  summary: Delete a domestic VRP
+  description: Delete a domestic VRP
+  parameters:
+    - $ref: ../components/parameters/ConsentId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  responses:
+    '204':
+      description: delete successful
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '415':
+      $ref: ../components/responses/415Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/InternalError.yaml
+  security:
+    - TPPOAuth2Security:
+        - payments
+put:
+  operationId: domesticVrpConsentsPut
+  tags:
+    - Domestic VRP Consents
+  summary: Update a domestic VRP consent - only to be used for version migrations
+  description: >-
+    Update a domestic VRP consent by submitting a full consent resource body -
+    only to be used for version migrations
+  parameters:
+    - $ref: ../components/parameters/ConsentId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-idempotency-key.yaml
+    - $ref: ../components/parameters/x-jws-signature.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  responses:
+    '200':
+      $ref: ../components/responses/20xOBDomesticVRPConsentResponse.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '409':
+      $ref: ../components/responses/409Error.yaml
+    '415':
+      $ref: ../components/responses/415Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/InternalError.yaml
+  requestBody:
+    content:
+      application/json; charset=utf-8:
+        schema:
+          $ref: ../components/schemas/OBDomesticVRPConsentRequest.yaml
+      application/json:
+        schema:
+          $ref: ../components/schemas/OBDomesticVRPConsentRequest.yaml
+      application/jose+jwe:
+        schema:
+          $ref: ../components/schemas/OBDomesticVRPConsentRequest.yaml
+    description: Default
+    required: true
+  security:
+    - TPPOAuth2Security:
+        - payments
+patch:
+  operationId: domesticVrpConsentsPatch
+  tags:
+    - Domestic VRP Consents
+  summary: Update a domestic VRP consent - only to be used for version migrations
+  description: >-
+    Update a domestic VRP consent by submitting a JSON Patch payload - only to
+    be used for version migrations
+  parameters:
+    - $ref: ../components/parameters/ConsentId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-idempotency-key.yaml
+    - $ref: ../components/parameters/x-jws-signature.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  responses:
+    '200':
+      $ref: ../components/responses/20xOBDomesticVRPConsentResponse.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '409':
+      $ref: ../components/responses/409Error.yaml
+    '415':
+      $ref: ../components/responses/415Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/InternalError.yaml
+  requestBody:
+    content:
+      application/json-patch+json:
+        schema:
+          type: string
+          format: Array of patch operations
+    description: Default
+    required: true
+  security:
+    - TPPOAuth2Security:
+        - payments

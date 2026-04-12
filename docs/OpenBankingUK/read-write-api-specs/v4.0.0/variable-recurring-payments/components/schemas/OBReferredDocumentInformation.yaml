@@ -1,0 +1,18 @@
+type: object
+properties:
+  Code:
+    $ref: ./ExternalDocumentType1Code.yaml
+  Issuer:
+    type: string
+    maxLength: 140
+    minLength: 1
+  Number:
+    type: string
+    maxLength: 140
+    minLength: 1
+  RelatedDate:
+    $ref: ./ISODateTime.yaml
+  LineDetails:
+    type: array
+    items:
+      type: string

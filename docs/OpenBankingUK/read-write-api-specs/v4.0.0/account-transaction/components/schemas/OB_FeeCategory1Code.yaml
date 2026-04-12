@@ -1,0 +1,6 @@
+description: Categorisation of fees and charges into standard categories.
+type: string
+enum:
+  - FCOT
+  - FCRE
+  - FCSV

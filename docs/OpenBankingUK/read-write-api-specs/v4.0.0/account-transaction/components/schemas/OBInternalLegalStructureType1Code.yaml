@@ -1,0 +1,16 @@
+description: Legal standing of the party.
+type: string
+example: UK.OBIE.Individual
+x-namespaced-enum:
+  - UK.OBIE.CIC
+  - UK.OBIE.CIO
+  - UK.OBIE.Charity
+  - UK.OBIE.CoOp
+  - UK.OBIE.GeneralPartnership
+  - UK.OBIE.Individual
+  - UK.OBIE.LimitedLiabilityPartnership
+  - UK.OBIE.LimitedPartnership
+  - UK.OBIE.PrivateLimitedCompany
+  - UK.OBIE.PublicLimitedCompany
+  - UK.OBIE.ScottishLimitedPartnership
+  - UK.OBIE.Sole

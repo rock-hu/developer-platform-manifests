@@ -1,0 +1,10 @@
+description: >-
+  For a full description see `ExternalCommunicationFormat1Code`
+  [here](https://github.com/OpenBankingUK/External_internal_CodeSets) 
+type: string
+enum:
+  - EMAL
+  - FAXI
+  - FILE
+  - ONLI
+  - POST

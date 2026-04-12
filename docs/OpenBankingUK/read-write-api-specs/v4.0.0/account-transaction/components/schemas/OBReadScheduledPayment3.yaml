@@ -1,0 +1,16 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    properties:
+      ScheduledPayment:
+        type: array
+        items:
+          $ref: ./OBScheduledPayment3.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml
+additionalProperties: false

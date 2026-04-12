@@ -1,0 +1,12 @@
+description: Fee/Charge Type
+type: string
+enum:
+  - FEPF
+  - FTOT
+  - FYAF
+  - FYAM
+  - FYAQ
+  - FYCP
+  - FYDB
+  - FYMI
+  - FYXX

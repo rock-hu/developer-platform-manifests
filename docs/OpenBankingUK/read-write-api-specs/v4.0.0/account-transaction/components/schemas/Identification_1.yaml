@@ -1,0 +1,5 @@
+description: Unique and unambiguous identification of the servicing institution.
+type: string
+example: '80200112344562'
+minLength: 1
+maxLength: 35

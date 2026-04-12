@@ -1,0 +1,59 @@
+type: object
+properties:
+  PaymentStatus:
+    type: object
+    required:
+      - PaymentTransactionId
+      - Status
+      - StatusUpdateDateTime
+    properties:
+      PaymentTransactionId:
+        type: string
+        minLength: 1
+        maxLength: 210
+        description: >-
+          Unique identifier for the transaction within an servicing institution.
+          This identifier is both unique and immutable.
+      Status:
+        type: string
+        description: Status of a transfer, as assigned by the transaction administrator.
+        enum:
+          - PDNG
+          - ACTC
+          - PATC
+          - ACCP
+          - ACFC
+          - ACSP
+          - ACWC
+          - ACSC
+          - ACWP
+          - ACCC
+          - BLCK
+          - RJCT
+      StatusUpdateDateTime:
+        type: string
+        format: date-time
+        description: |
+          Date and time at which the status was assigned to the transfer.
+      StatusDetail:
+        type: object
+        properties:
+          Status:
+            description: >-
+              Status of a transfer, as assigned by the transaction
+              administrator.
+            type: string
+            minLength: 1
+            maxLength: 4
+          StatusReason:
+            description: Reason Code provided for the status of a transfer.
+            type: string
+            minLength: 1
+            maxLength: 4
+          StatusReasonDescription:
+            description: Reason provided for the status of a transfer.
+            type: string
+            minLength: 1
+            maxLength: 256
+          LocalInstrument:
+            $ref: ./OBInternalLocalInstrument1Code.yaml

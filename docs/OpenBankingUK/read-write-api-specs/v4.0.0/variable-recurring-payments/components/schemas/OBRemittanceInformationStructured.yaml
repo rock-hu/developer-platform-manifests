@@ -1,0 +1,37 @@
+type: object
+properties:
+  ReferredDocumentInformation:
+    type: array
+    items:
+      $ref: ./OBReferredDocumentInformation.yaml
+  ReferredDocumentAmount:
+    type: integer
+    format: int32
+  CreditorReferenceInformation:
+    type: object
+    properties:
+      Code:
+        $ref: ./ExternalCreditorReferenceType1Code.yaml
+      Issuer:
+        type: string
+        minLength: 1
+        maxLength: 35
+      Reference:
+        type: string
+        minLength: 1
+        maxLength: 35
+  Invoicer:
+    $ref: ./Identification_0.yaml
+  Invoicee:
+    $ref: ./Identification_0.yaml
+  TaxRemittance:
+    type: string
+    maxLength: 140
+    minLength: 1
+  AdditionalRemittanceInformation:
+    type: array
+    items:
+      type: string
+      maxLength: 140
+      minLength: 1
+    maxItems: 3

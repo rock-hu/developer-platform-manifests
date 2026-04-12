@@ -1,0 +1,60 @@
+type: object
+description: >-
+  Unambiguous identification of the account to which credit and debit entries
+  are made. The following fields are optional only for accounts that are
+  switched:
+
+    * Data.Currency  
+    * Data.AccountCategory  
+    * Data. AccountTypeCode
+
+  For all other accounts, the fields must be populated by the ASPSP.
+required:
+  - AccountId
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  Status:
+    $ref: ./OBInternalAccountStatus1Code.yaml
+  StatusUpdateDateTime:
+    $ref: ./StatusUpdateDateTime.yaml
+  Currency:
+    $ref: ./ActiveOrHistoricCurrencyCode_0.yaml
+  AccountCategory:
+    $ref: ./OBInternalAccountType1Code.yaml
+  AccountTypeCode:
+    $ref: ./OBExternalAccountSubType1Code.yaml
+  Description:
+    $ref: ./Description_0.yaml
+  Nickname:
+    $ref: ./Nickname.yaml
+  OpeningDate:
+    $ref: ./OpeningDate.yaml
+  MaturityDate:
+    $ref: ./MaturityDate.yaml
+  SwitchStatus:
+    $ref: ./OBInternalSwitchStatusCode.yaml
+  Account:
+    type: array
+    items:
+      type: object
+      description: Provides the details to identify an account.
+      required:
+        - SchemeName
+        - Identification
+      properties:
+        SchemeName:
+          $ref: ./OBInternalAccountIdentification4Code.yaml
+        Identification:
+          $ref: ./Identification_0.yaml
+        Name:
+          $ref: ./Name_0.yaml
+        LEI:
+          $ref: ./LEI.yaml
+        SecondaryIdentification:
+          $ref: ./SecondaryIdentification.yaml
+  StatementFrequencyAndFormat:
+    $ref: ./StatementFrequencyAndFormat.yaml
+  Servicer:
+    $ref: ./OBBranchAndFinancialInstitutionIdentification5_0.yaml
+additionalProperties: false

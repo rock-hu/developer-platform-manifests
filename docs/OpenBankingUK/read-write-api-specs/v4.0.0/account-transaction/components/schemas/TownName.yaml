@@ -1,0 +1,5 @@
+description: Name of a built-up area, with defined boundaries, and a local government.
+type: string
+example: London
+minLength: 1
+maxLength: 140

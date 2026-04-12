@@ -1,0 +1,13 @@
+type: object
+description: Financial institution servicing an account for the debtor.
+properties:
+  SchemeName:
+    $ref: ./OBInternalFinancialInstitutionIdentification4Code.yaml
+  Identification:
+    $ref: ./Identification_2.yaml
+  Name:
+    $ref: ./Name_1.yaml
+  LEI:
+    $ref: ./LEI.yaml
+  PostalAddress:
+    $ref: ./OBPostalAddress7.yaml

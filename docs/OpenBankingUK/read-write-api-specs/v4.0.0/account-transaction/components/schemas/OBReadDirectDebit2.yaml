@@ -1,0 +1,35 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    properties:
+      DirectDebit:
+        type: array
+        items:
+          type: object
+          description: Account to or from which a cash entry is made.
+          required:
+            - AccountId
+            - Name
+          properties:
+            AccountId:
+              $ref: ./AccountId.yaml
+            DirectDebitId:
+              $ref: ./DirectDebitId.yaml
+            DirectDebitStatusCode:
+              $ref: ./ExternalMandateStatus1Code.yaml
+            MandateRelatedInformation:
+              $ref: ./OBMandateRelatedInformation1.yaml
+            Name:
+              $ref: ./Name_2.yaml
+            PreviousPaymentDateTime:
+              $ref: ./PreviousPaymentDateTime.yaml
+            PreviousPaymentAmount:
+              $ref: ./OBActiveOrHistoricCurrencyAndAmount_0.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml
+additionalProperties: false

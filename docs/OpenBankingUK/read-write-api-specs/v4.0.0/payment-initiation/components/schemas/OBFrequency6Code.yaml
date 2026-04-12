@@ -1,0 +1,12 @@
+description: '`OBFrequency6Code` on External Codset Repo'
+type: string
+enum:
+  - ADHO
+  - YEAR
+  - DAIL
+  - FRTN
+  - INDA
+  - MNTH
+  - QURT
+  - MIAN
+  - WEEK

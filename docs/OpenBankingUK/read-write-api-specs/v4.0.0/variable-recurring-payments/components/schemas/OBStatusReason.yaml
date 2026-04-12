@@ -1,0 +1,22 @@
+type: object
+properties:
+  StatusReasonCode:
+    type: string
+    description: |-
+      Specifies the status reason in a code form. 
+       For a full description see `OBExternalStatusReason1Code` [here](https://github.com/OpenBankingUK/External_Internal_CodeSets)
+    minLength: 1
+    maxLength: 4
+    example: ERIN
+  StatusReasonDescription:
+    description: Description supporting the StatusReasonCode.
+    type: string
+    minLength: 1
+    maxLength: 500
+  Path:
+    type: string
+    description: >-
+      Recommended but optional reference to the JSON Path of the field with
+      error, e.g., Data.Initiation.InstructedAmount.Currency
+    minLength: 1
+    maxLength: 500

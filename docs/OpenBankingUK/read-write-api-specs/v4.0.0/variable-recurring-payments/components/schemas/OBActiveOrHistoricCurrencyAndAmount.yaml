@@ -1,0 +1,9 @@
+required:
+  - Amount
+  - Currency
+type: object
+properties:
+  Amount:
+    $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+  Currency:
+    $ref: ./ActiveOrHistoricCurrencyCode.yaml

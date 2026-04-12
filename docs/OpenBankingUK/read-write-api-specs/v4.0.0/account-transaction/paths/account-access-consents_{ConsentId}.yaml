@@ -1,0 +1,64 @@
+get:
+  tags:
+    - Account Access
+  summary: Get Account Access Consents
+  operationId: GetAccountAccessConsentsConsentId
+  parameters:
+    - $ref: ../components/parameters/ConsentId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  responses:
+    '200':
+      $ref: ../components/responses/200AccountAccessConsentsConsentIdRead.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/500Error.yaml
+  security:
+    - TPPOAuth2Security:
+        - accounts
+delete:
+  tags:
+    - Account Access
+  summary: Delete Account Access Consents
+  operationId: DeleteAccountAccessConsentsConsentId
+  parameters:
+    - $ref: ../components/parameters/ConsentId.yaml
+    - $ref: ../components/parameters/x-fapi-auth-date.yaml
+    - $ref: ../components/parameters/x-fapi-customer-ip-address.yaml
+    - $ref: ../components/parameters/x-fapi-interaction-id.yaml
+    - $ref: ../components/parameters/Authorization.yaml
+    - $ref: ../components/parameters/x-customer-user-agent.yaml
+  responses:
+    '204':
+      $ref: ../components/responses/204AccountAccessConsentsConsentIdDeleted.yaml
+    '400':
+      $ref: ../components/responses/400Error.yaml
+    '401':
+      $ref: ../components/responses/401Error.yaml
+    '403':
+      $ref: ../components/responses/403Error.yaml
+    '405':
+      $ref: ../components/responses/405Error.yaml
+    '406':
+      $ref: ../components/responses/406Error.yaml
+    '429':
+      $ref: ../components/responses/429Error.yaml
+    '500':
+      $ref: ../components/responses/500Error.yaml
+  security:
+    - TPPOAuth2Security:
+        - accounts

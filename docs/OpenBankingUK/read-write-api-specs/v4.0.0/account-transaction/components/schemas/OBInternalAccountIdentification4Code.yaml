@@ -1,0 +1,13 @@
+description: Balance type, in a coded form.
+type: string
+example: CLAV
+enum:
+  - CLAV
+  - XPCH
+  - FWAV
+  - INFO
+  - ITAV
+  - ITBD
+  - OPAV
+  - OPBD
+  - PRCD

@@ -1,0 +1,6 @@
+description: >-
+  Collection of information that identifies a phone number, as defined by
+  telecom services.
+example: '+442079460000'
+type: string
+pattern: \+[0-9]{1,3}-[0-9()+\-]{1,30}

@@ -1,0 +1,14 @@
+description: Statement rate type, in a coded form.
+type: string
+example: UK.OBIE.AnnualCash
+x-namespaced-enum:
+  - UK.OBIE.AnnualBalanceTransfer
+  - UK.OBIE.AnnualBalanceTransferAfterPromo
+  - UK.OBIE.AnnualBalanceTransferPromo
+  - UK.OBIE.AnnualCash
+  - UK.OBIE.AnnualPurchase
+  - UK.OBIE.AnnualPurchaseAfterPromo
+  - UK.OBIE.AnnualPurchasePromo
+  - UK.OBIE.MonthlyBalanceTransfer
+  - UK.OBIE.MonthlyCash
+  - UK.OBIE.MonthlyPurchase

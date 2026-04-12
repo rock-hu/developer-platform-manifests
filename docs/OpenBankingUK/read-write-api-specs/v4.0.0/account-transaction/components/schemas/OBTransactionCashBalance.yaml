@@ -1,0 +1,28 @@
+type: object
+required:
+  - CreditDebitIndicator
+  - Type
+  - Amount
+description: >-
+  Set of elements used to define the balance as a numerical representation of
+  the net increases and decreases in an account after a transaction entry is
+  applied to the account.
+properties:
+  CreditDebitIndicator:
+    $ref: ./OBCreditDebitCode_2.yaml
+  Type:
+    $ref: ./OBInternalAccountIdentification4Code.yaml
+  Amount:
+    type: object
+    required:
+      - Amount
+      - Currency
+    description: >-
+      Amount of money of the cash balance after a transaction entry is applied
+      to the account..
+    properties:
+      Amount:
+        $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+      Currency:
+        $ref: ./ActiveOrHistoricCurrencyCode_1.yaml
+additionalProperties: false

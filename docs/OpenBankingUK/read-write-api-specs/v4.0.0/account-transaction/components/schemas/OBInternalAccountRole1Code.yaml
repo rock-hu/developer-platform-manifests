@@ -1,0 +1,17 @@
+description: A party’s role with respect to the related account.
+type: string
+x-namespaced-enum:
+  - UK.OBIE.Administrator
+  - UK.OBIE.Beneficiary
+  - UK.OBIE.CustodianForMinor
+  - UK.OBIE.Granter
+  - UK.OBIE.LegalGuardian
+  - UK.OBIE.OtherParty
+  - UK.OBIE.PowerOfAttorney
+  - UK.OBIE.Principal
+  - UK.OBIE.Protector
+  - UK.OBIE.RegisteredShareholderName
+  - UK.OBIE.SecondaryOwner
+  - UK.OBIE.SeniorManagingOfficial
+  - UK.OBIE.Settlor
+  - UK.OBIE.SuccessorOnDeath

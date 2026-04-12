@@ -1,0 +1,6 @@
+name: InternationalStandingOrderPaymentId
+in: path
+description: InternationalStandingOrderPaymentId
+required: true
+schema:
+  type: string

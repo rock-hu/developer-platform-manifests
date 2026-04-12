@@ -1,0 +1,27 @@
+type: object
+description: >-
+  Set of elements used to provide details on the regulatory reporting
+  information.
+properties:
+  Type:
+    type: string
+    description: >-
+      Specifies the type of the information supplied in the regulatory reporting
+      details
+    minLength: 1
+    maxLength: 35
+  Date:
+    $ref: ./ISODateTime.yaml
+  Country:
+    $ref: ./CountryCode.yaml
+  Amount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount.yaml
+  Information:
+    description: >-
+      Additional details that cater for specific domestic regulatory
+      requirements. 
+    type: array
+    items:
+      type: string
+      minLength: 1
+      maxLength: 35

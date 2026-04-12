@@ -1,0 +1,21 @@
+description: Specifies an alternate assumed name for the identification of the account.
+type: object
+required:
+  - Identification
+  - Code
+properties:
+  Identification:
+    description: >-
+      Identification used to indicate the account identification under another
+      specified name.
+    type: string
+    example: '2360549017905188'
+    minLength: 1
+    maxLength: 2048
+  Code:
+    $ref: ./ExternalProxyAccountType1Code.yaml
+  Type:
+    type: string
+    description: Type of the proxy identification.
+    minLength: 1
+    maxLength: 35

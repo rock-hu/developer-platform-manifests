@@ -1,0 +1,24 @@
+description: Frequency at which the overdraft charge is applied to the account
+type: string
+enum:
+  - FEAC
+  - FEAO
+  - FECP
+  - FEDA
+  - FEHO
+  - FEI
+  - FEMO
+  - FEOA
+  - FEOT
+  - FEPC
+  - FEPH
+  - FEPO
+  - FEPS
+  - FEPT
+  - FEPTA
+  - FEPTP
+  - FEQU
+  - FESM
+  - FEST
+  - FEWE
+  - FEYE

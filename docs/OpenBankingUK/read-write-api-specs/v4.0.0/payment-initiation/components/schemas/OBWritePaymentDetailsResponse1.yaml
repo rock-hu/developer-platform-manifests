@@ -1,0 +1,12 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: array
+    items:
+      $ref: ./OBWritePaymentDetails1.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml

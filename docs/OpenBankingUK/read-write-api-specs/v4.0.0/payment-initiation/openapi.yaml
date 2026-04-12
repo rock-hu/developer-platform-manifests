@@ -1,0 +1,123 @@
+openapi: 3.0.0
+info:
+  title: Payment Initiation API
+  description: Swagger for Payment Initiation API Specification
+  termsOfService: https://www.openbanking.org.uk/terms
+  contact:
+    name: Service Desk
+    email: ServiceDesk@openbanking.org.uk
+  license:
+    name: open-licence
+    url: https://www.openbanking.org.uk/open-licence
+  version: 4.0.0
+paths:
+  /domestic-payment-consents:
+    $ref: paths/domestic-payment-consents.yaml
+  /domestic-payment-consents/{ConsentId}:
+    $ref: paths/domestic-payment-consents_{ConsentId}.yaml
+  /domestic-payment-consents/{ConsentId}/funds-confirmation:
+    $ref: paths/domestic-payment-consents_{ConsentId}_funds-confirmation.yaml
+  /domestic-payments:
+    $ref: paths/domestic-payments.yaml
+  /domestic-payments/{DomesticPaymentId}:
+    $ref: paths/domestic-payments_{DomesticPaymentId}.yaml
+  /domestic-payments/{DomesticPaymentId}/payment-details:
+    $ref: paths/domestic-payments_{DomesticPaymentId}_payment-details.yaml
+  /domestic-scheduled-payment-consents:
+    $ref: paths/domestic-scheduled-payment-consents.yaml
+  /domestic-scheduled-payment-consents/{ConsentId}:
+    $ref: paths/domestic-scheduled-payment-consents_{ConsentId}.yaml
+  /domestic-scheduled-payments:
+    $ref: paths/domestic-scheduled-payments.yaml
+  /domestic-scheduled-payments/{DomesticScheduledPaymentId}:
+    $ref: paths/domestic-scheduled-payments_{DomesticScheduledPaymentId}.yaml
+  /domestic-scheduled-payments/{DomesticScheduledPaymentId}/payment-details:
+    $ref: >-
+      paths/domestic-scheduled-payments_{DomesticScheduledPaymentId}_payment-details.yaml
+  /domestic-standing-order-consents:
+    $ref: paths/domestic-standing-order-consents.yaml
+  /domestic-standing-order-consents/{ConsentId}:
+    $ref: paths/domestic-standing-order-consents_{ConsentId}.yaml
+  /domestic-standing-orders:
+    $ref: paths/domestic-standing-orders.yaml
+  /domestic-standing-orders/{DomesticStandingOrderId}:
+    $ref: paths/domestic-standing-orders_{DomesticStandingOrderId}.yaml
+  /domestic-standing-orders/{DomesticStandingOrderId}/payment-details:
+    $ref: >-
+      paths/domestic-standing-orders_{DomesticStandingOrderId}_payment-details.yaml
+  /file-payment-consents:
+    $ref: paths/file-payment-consents.yaml
+  /file-payment-consents/{ConsentId}:
+    $ref: paths/file-payment-consents_{ConsentId}.yaml
+  /file-payment-consents/{ConsentId}/file:
+    $ref: paths/file-payment-consents_{ConsentId}_file.yaml
+  /file-payments:
+    $ref: paths/file-payments.yaml
+  /file-payments/{FilePaymentId}:
+    $ref: paths/file-payments_{FilePaymentId}.yaml
+  /file-payments/{FilePaymentId}/payment-details:
+    $ref: paths/file-payments_{FilePaymentId}_payment-details.yaml
+  /file-payments/{FilePaymentId}/report-file:
+    $ref: paths/file-payments_{FilePaymentId}_report-file.yaml
+  /international-payment-consents:
+    $ref: paths/international-payment-consents.yaml
+  /international-payment-consents/{ConsentId}:
+    $ref: paths/international-payment-consents_{ConsentId}.yaml
+  /international-payment-consents/{ConsentId}/funds-confirmation:
+    $ref: paths/international-payment-consents_{ConsentId}_funds-confirmation.yaml
+  /international-payments:
+    $ref: paths/international-payments.yaml
+  /international-payments/{InternationalPaymentId}:
+    $ref: paths/international-payments_{InternationalPaymentId}.yaml
+  /international-payments/{InternationalPaymentId}/payment-details:
+    $ref: paths/international-payments_{InternationalPaymentId}_payment-details.yaml
+  /international-scheduled-payment-consents:
+    $ref: paths/international-scheduled-payment-consents.yaml
+  /international-scheduled-payment-consents/{ConsentId}:
+    $ref: paths/international-scheduled-payment-consents_{ConsentId}.yaml
+  /international-scheduled-payment-consents/{ConsentId}/funds-confirmation:
+    $ref: >-
+      paths/international-scheduled-payment-consents_{ConsentId}_funds-confirmation.yaml
+  /international-scheduled-payments:
+    $ref: paths/international-scheduled-payments.yaml
+  /international-scheduled-payments/{InternationalScheduledPaymentId}:
+    $ref: >-
+      paths/international-scheduled-payments_{InternationalScheduledPaymentId}.yaml
+  /international-scheduled-payments/{InternationalScheduledPaymentId}/payment-details:
+    $ref: >-
+      paths/international-scheduled-payments_{InternationalScheduledPaymentId}_payment-details.yaml
+  /international-standing-order-consents:
+    $ref: paths/international-standing-order-consents.yaml
+  /international-standing-order-consents/{ConsentId}:
+    $ref: paths/international-standing-order-consents_{ConsentId}.yaml
+  /international-standing-orders:
+    $ref: paths/international-standing-orders.yaml
+  /international-standing-orders/{InternationalStandingOrderPaymentId}:
+    $ref: >-
+      paths/international-standing-orders_{InternationalStandingOrderPaymentId}.yaml
+  /international-standing-orders/{InternationalStandingOrderPaymentId}/payment-details:
+    $ref: >-
+      paths/international-standing-orders_{InternationalStandingOrderPaymentId}_payment-details.yaml
+servers:
+  - url: /open-banking/v4.0/pisp
+components:
+  securitySchemes:
+    TPPOAuth2Security:
+      type: oauth2
+      description: TPP client credential authorisation flow with the ASPSP
+      flows:
+        clientCredentials:
+          tokenUrl: https://authserver.example/token
+          scopes:
+            payments: Generic payment scope
+    PSUOAuth2Security:
+      type: oauth2
+      description: >-
+        OAuth flow, it is required when the PSU needs to perform SCA with the
+        ASPSP when a TPP wants to access an ASPSP resource owned by the PSU
+      flows:
+        authorizationCode:
+          authorizationUrl: https://authserver.example/authorization
+          tokenUrl: https://authserver.example/token
+          scopes:
+            payments: Generic payment scope

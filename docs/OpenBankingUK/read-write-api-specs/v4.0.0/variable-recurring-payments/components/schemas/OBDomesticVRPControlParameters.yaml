@@ -1,0 +1,77 @@
+type: object
+required:
+  - VRPType
+  - PSUAuthenticationMethods
+  - MaximumIndividualAmount
+  - PeriodicLimits
+properties:
+  ValidFromDateTime:
+    type: string
+    format: date-time
+    description: ^ Start date time for which the consent remains valid.
+  ValidToDateTime:
+    type: string
+    format: date-time
+    description: ^ End date time for which the consent remains valid.
+  MaximumIndividualAmount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount.yaml
+  PeriodicLimits:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required:
+        - PeriodType
+        - PeriodAlignment
+        - Amount
+        - Currency
+      properties:
+        PeriodType:
+          type: string
+          enum:
+            - Day
+            - Week
+            - Fortnight
+            - Month
+            - Half-year
+            - Year
+          description: ^ Period type for this period limit
+        PeriodAlignment:
+          type: string
+          enum:
+            - Consent
+            - Calendar
+          description: >-
+            ^ Specifies whether the period starts on the date of consent
+            creation or lines up with a calendar
+        Amount:
+          $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+        Currency:
+          $ref: ./ActiveOrHistoricCurrencyCode.yaml
+  VRPType:
+    type: array
+    items:
+      $ref: ./OBVRPConsentType.yaml
+    minItems: 1
+    description: >-
+      ^ The types of payments that can be made under this VRP consent. This can
+      be used to indicate whether this include sweeping payment or other
+      ecommerce payments.
+  PSUAuthenticationMethods:
+    type: array
+    items:
+      $ref: ./OBVRPAuthenticationMethods.yaml
+    minItems: 1
+    description: ^ Indicates that the PSU authentication methods supported.
+  PSUInteractionTypes:
+    type: array
+    items:
+      $ref: ./OBVRPInteractionTypes.yaml
+    description: >-
+      ^ Indicates interaction type, currently if customer is present or not
+      present.
+  SupplementaryData:
+    type: object
+    description: >-
+      ^ Additional information that can not be captured in the structured fields
+      and/or any other specific block

@@ -1,0 +1,15 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    properties:
+      Beneficiary:
+        type: array
+        items:
+          $ref: ./OBBeneficiary5.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml

@@ -1,0 +1,12 @@
+description: Statement value type, in a coded form.
+type: string
+example: UK.OBIE.Credit
+x-namespaced-enum:
+  - UK.OBIE.AirMilesPoints
+  - UK.OBIE.AirMilesPointsBalance
+  - UK.OBIE.Credits
+  - UK.OBIE.Debits
+  - UK.OBIE.HotelPoints
+  - UK.OBIE.HotelPointsBalance
+  - UK.OBIE.RetailShoppingPoints
+  - UK.OBIE.RetailShoppingPointsBalance

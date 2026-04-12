@@ -1,0 +1,4 @@
+description: Identification of a sub-division of a large organisation or building.
+type: string
+minLength: 1
+maxLength: 70

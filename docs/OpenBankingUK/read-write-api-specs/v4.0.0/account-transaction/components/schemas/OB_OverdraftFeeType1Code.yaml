@@ -1,0 +1,15 @@
+description: Overdraft fee type
+type: string
+enum:
+  - FBAO
+  - FBAR
+  - FBEB
+  - FBIT
+  - FBOR
+  - FBOS
+  - FBSC
+  - FBTO
+  - FBUB
+  - FBUT
+  - FTOT
+  - FTUT

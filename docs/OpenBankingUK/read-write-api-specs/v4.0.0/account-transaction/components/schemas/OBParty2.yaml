@@ -1,0 +1,35 @@
+type: object
+required:
+  - PartyId
+properties:
+  PartyId:
+    $ref: ./PartyId.yaml
+  PartyNumber:
+    $ref: ./PartyNumber.yaml
+  PartyType:
+    $ref: ./OBInternalPartyType1Code.yaml
+  Name:
+    $ref: ./Name_3.yaml
+  FullLegalName:
+    $ref: ./FullLegalName.yaml
+  LegalStructure:
+    $ref: ./OBInternalLegalStructureType1Code.yaml
+  LEI:
+    $ref: ./LEI.yaml
+  BeneficialOwnership:
+    type: boolean
+  AccountRole:
+    $ref: ./OBInternalAccountRole1Code.yaml
+  EmailAddress:
+    $ref: ./EmailAddress.yaml
+  Phone:
+    $ref: ./PhoneNumber_0.yaml
+  Mobile:
+    $ref: ./PhoneNumber_1.yaml
+  Relationships:
+    $ref: ./OBPartyRelationships1.yaml
+  Address:
+    type: array
+    items:
+      $ref: ./OBPostalAddress7.yaml
+additionalProperties: false

@@ -1,0 +1,33 @@
+type: object
+description: >-
+  Unambiguous identification of the account to which credit and debit entries
+  are made.
+required:
+  - AccountId
+  - Currency
+  - AccountCategory
+  - AccountTypeCode
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  Status:
+    $ref: ./OBInternalAccountStatus1Code.yaml
+  StatusUpdateDateTime:
+    $ref: ./StatusUpdateDateTime.yaml
+  Currency:
+    $ref: ./ActiveOrHistoricCurrencyCode_0.yaml
+  AccountCategory:
+    $ref: ./OBInternalAccountType1Code.yaml
+  AccountTypeCode:
+    $ref: ./OBExternalAccountSubType1Code.yaml
+  Description:
+    $ref: ./Description_0.yaml
+  Nickname:
+    $ref: ./Nickname.yaml
+  OpeningDate:
+    $ref: ./OpeningDate.yaml
+  MaturityDate:
+    $ref: ./MaturityDate.yaml
+  SwitchStatus:
+    $ref: ./OBInternalSwitchStatusCode.yaml
+additionalProperties: false

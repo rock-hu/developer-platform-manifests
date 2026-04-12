@@ -1,0 +1,10 @@
+description: How frequently the fee is applied to the Account.
+type: string
+example: UK.OBIE.StatementMonthly
+x-namespaced-enum:
+  - UK.OBIE.ChargingPeriod
+  - UK.OBIE.PerTransactionAmount
+  - UK.OBIE.PerTransactionPercentage
+  - UK.OBIE.Quarterly
+  - UK.OBIE.StatementMonthly
+  - UK.OBIE.Weekly

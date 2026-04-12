@@ -1,0 +1,6 @@
+name: DomesticVRPId
+in: path
+description: DomesticVRPId
+required: true
+schema:
+  type: string

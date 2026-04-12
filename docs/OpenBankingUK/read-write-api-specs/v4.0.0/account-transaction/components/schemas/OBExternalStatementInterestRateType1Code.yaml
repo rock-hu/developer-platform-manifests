@@ -1,0 +1,9 @@
+description: Description that may be available for the statement Interest rate type.
+type: string
+example: UK.OBIE.FixedRate
+x-namespaced-enum:
+  - UK.OBIE.BOEBaseRate
+  - UK.OBIE.FixedRate
+  - UK.OBIE.Gross
+  - UK.OBIE.LoanProviderBaseRate
+  - UK.OBIE.Net

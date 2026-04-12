@@ -17,12 +17,12 @@ npx @redocly/cli@latest
 ```
 
 ```bash
-redocly split vrp-openapi.yaml --outDir=variable-recurring-payments
-redocly split payment-initiation-openapi.yaml --outDir=payment-initiation
-redocly split events-openapi.yaml --outDir=events
-redocly split event-notifications-openapi.yaml --outDir=event-notifications
-redocly split confirmation-funds-openapi.yaml --outDir=confirmation-funds
-redocly split account-info-openapi.yaml --outDir=account-transaction
+npx @redocly/cli@latest split vrp-openapi.yaml --outDir=variable-recurring-payments
+npx @redocly/cli@latest split payment-initiation-openapi.yaml --outDir=payment-initiation
+npx @redocly/cli@latest split events-openapi.yaml --outDir=events
+npx @redocly/cli@latest split event-notifications-openapi.yaml --outDir=event-notifications
+npx @redocly/cli@latest split confirmation-funds-openapi.yaml --outDir=confirmation-funds
+npx @redocly/cli@latest split account-info-openapi.yaml --outDir=account-transaction
 ```
 
 ## account-transaction

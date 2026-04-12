@@ -1,0 +1,133 @@
+type: object
+required:
+  - Data
+properties:
+  Data:
+    type: object
+    required:
+      - Balance
+    properties:
+      Balance:
+        type: array
+        items:
+          type: object
+          description: Set of elements used to define the balance details.
+          required:
+            - AccountId
+            - CreditDebitIndicator
+            - Type
+            - DateTime
+            - Amount
+          properties:
+            AccountId:
+              $ref: ./AccountId.yaml
+            CreditDebitIndicator:
+              $ref: ./OBCreditDebitCode_2.yaml
+            Type:
+              $ref: ./OBInternalAccountIdentification4Code.yaml
+            DateTime:
+              description: >-
+                Indicates the date (and time) of the balance.All dates in the
+                JSON payloads are represented in ISO 8601 date-time format. 
+
+                All date-time fields in responses must include the timezone. An
+                example is below:
+
+                2017-04-05T10:43:07+00:00
+              type: string
+              format: date-time
+            Amount:
+              type: object
+              required:
+                - Amount
+                - Currency
+              description: Amount of money of the cash balance.
+              properties:
+                Amount:
+                  $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+                Currency:
+                  $ref: ./ActiveOrHistoricCurrencyCode_1.yaml
+                SubType:
+                  description: >-
+                    The amount in the domestic or base accounting currency.
+                    Default is Base Currency (BCUR) if not specified
+                  type: string
+                  enum:
+                    - BCUR
+                    - LCUR
+                  default: BCUR
+            CreditLine:
+              type: array
+              items:
+                type: object
+                description: Set of elements used to provide details on the credit line.
+                required:
+                  - Included
+                properties:
+                  Included:
+                    description: >-
+                      Indicates whether or not the credit line is included in
+                      the balance of the account.
+
+                      Usage: If not present, credit line is not included in the
+                      balance amount of the account.
+                    type: boolean
+                  Type:
+                    description: Limit type, in a coded form.
+                    type: string
+                    enum:
+                      - Available
+                      - Credit
+                      - Emergency
+                      - Pre-Agreed
+                      - Temporary
+                  Amount:
+                    type: object
+                    required:
+                      - Amount
+                      - Currency
+                    description: Amount of money of the credit line.
+                    properties:
+                      Amount:
+                        $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+                      Currency:
+                        $ref: ./ActiveOrHistoricCurrencyCode_1.yaml
+            LocalAmount:
+              type: object
+              required:
+                - Amount
+                - Currency
+              description: >-
+                Optional component providing the equivalent of Amount in local
+                currency. Default is Local Currency (LCUR) if not specified
+              properties:
+                Amount:
+                  $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+                Currency:
+                  $ref: ./ActiveOrHistoricCurrencyCode_1.yaml
+                SubType:
+                  description: >-
+                    The amount in the local market currency for which the asset
+                    is held.
+                  type: string
+                  enum:
+                    - BCUR
+                    - LCUR
+                  default: LCUR
+        minItems: 1
+      TotalValue:
+        type: object
+        required:
+          - Amount
+          - Currency
+        description: Combined sum of all Amounts in the accounts base currency
+        properties:
+          Amount:
+            $ref: ./OBActiveCurrencyAndAmount_SimpleType.yaml
+          Currency:
+            $ref: ./ActiveOrHistoricCurrencyCode_1.yaml
+  Links:
+    $ref: ./Links.yaml
+  Meta:
+    $ref: ./Meta.yaml
+additionalProperties: false

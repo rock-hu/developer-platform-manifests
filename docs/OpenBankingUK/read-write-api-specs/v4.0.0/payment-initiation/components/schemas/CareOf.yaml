@@ -1,0 +1,7 @@
+description: >-
+  The 'care of' address is used whenever sending mail to a person or
+  organisation who does not actually live or work at the address. They will
+  receive the mail for the individual.
+type: string
+minLength: 1
+maxLength: 140

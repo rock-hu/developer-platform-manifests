@@ -1,0 +1,39 @@
+type: object
+required:
+  - AccountId
+  - Frequency
+  - CreditorAccount
+properties:
+  AccountId:
+    $ref: ./AccountId.yaml
+  StandingOrderId:
+    $ref: ./StandingOrderId.yaml
+  Frequency:
+    $ref: ./Frequency_1.yaml
+  Reference:
+    $ref: ./Reference.yaml
+  FirstPaymentDateTime:
+    $ref: ./FirstPaymentDateTime.yaml
+  NextPaymentDateTime:
+    $ref: ./NextPaymentDateTime.yaml
+  LastPaymentDateTime:
+    $ref: ./LastPaymentDateTime.yaml
+  FinalPaymentDateTime:
+    $ref: ./FinalPaymentDateTime.yaml
+  StandingOrderStatusCode:
+    $ref: ./ExternalMandateStatus1Code.yaml
+  FirstPaymentAmount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount_2.yaml
+  NextPaymentAmount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount_3.yaml
+  LastPaymentAmount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount_11.yaml
+  FinalPaymentAmount:
+    $ref: ./OBActiveOrHistoricCurrencyAndAmount_4.yaml
+  CreditorAgent:
+    $ref: ./OBBranchAndFinancialInstitutionIdentification5_1.yaml
+  CreditorAccount:
+    $ref: ./OBCashAccount5_1.yaml
+  SupplementaryData:
+    $ref: ./OBSupplementaryData1.yaml
+additionalProperties: false
