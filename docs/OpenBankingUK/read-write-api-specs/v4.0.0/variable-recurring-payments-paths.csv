@@ -1,0 +1,6 @@
+variable-recurring-payments,domestic-vrp-consents_{ConsentId}_funds-confirmation
+variable-recurring-payments,domestic-vrp-consents_{ConsentId}
+variable-recurring-payments,domestic-vrp-consents
+variable-recurring-payments,domestic-vrps_{DomesticVRPId}_payment-details
+variable-recurring-payments,domestic-vrps_{DomesticVRPId}
+variable-recurring-payments,domestic-vrps
