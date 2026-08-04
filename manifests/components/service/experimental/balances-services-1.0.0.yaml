@@ -6,7 +6,8 @@ metadata:
   apiVersion: "1.0.0"
   description: "balances-services"
   annotations:
-    backstage.io/code-coverage: enabled
+    backstage.io/code-coverage: "enabled"
+    sentry.io/project-slug: "internal-developer-platform/balances-services"
     github.com/project-slug: "rock-hu/balances-services"
     sonarqube.org/project-key: "internal-developer-platform/balances-services"
 spec:

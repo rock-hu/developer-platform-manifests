@@ -6,7 +6,8 @@ metadata:
   apiVersion: "1.0.0"
   description: "standing-orders-services"
   annotations:
-    backstage.io/code-coverage: enabled
+    backstage.io/code-coverage: "enabled"
+    sentry.io/project-slug: "internal-developer-platform/standing-orders-services"
     github.com/project-slug: "rock-hu/standing-orders-services"
     sonarqube.org/project-key: "internal-developer-platform/standing-orders-services"
 spec:

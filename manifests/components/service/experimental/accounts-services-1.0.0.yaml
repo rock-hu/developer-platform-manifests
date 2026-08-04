@@ -6,7 +6,8 @@ metadata:
   apiVersion: "1.0.0"
   description: "accounts-services"
   annotations:
-    backstage.io/code-coverage: enabled
+    backstage.io/code-coverage: "enabled"
+    sentry.io/project-slug: "internal-developer-platform/accounts-services"
     github.com/project-slug: "rock-hu/accounts-services"
     sonarqube.org/project-key: "internal-developer-platform/accounts-services"
 spec:
