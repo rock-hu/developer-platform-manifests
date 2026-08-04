@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "corporate-payroll-services"
   apiVersion: "1.0.0"
-  description: trade-banking
+  description: "trade-banking"
 spec:
   type: "service"
   lifecycle: "production"

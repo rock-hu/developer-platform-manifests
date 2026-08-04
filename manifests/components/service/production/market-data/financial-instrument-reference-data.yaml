@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "financial-instrument-reference-data"
   apiVersion: "1.0.0"
-  description: market-data
+  description: "market-data"
 spec:
   type: "service"
   lifecycle: "production"

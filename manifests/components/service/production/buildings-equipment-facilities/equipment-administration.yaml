@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "equipment-administration"
   apiVersion: "1.0.0"
-  description: buildings-equipment-facilities
+  description: "buildings-equipment-facilities"
 spec:
   type: "service"
   lifecycle: "production"

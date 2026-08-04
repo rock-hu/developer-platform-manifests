@@ -6,5 +6,5 @@ metadata:
   description: "A collection of all APIs"
 spec:
   targets:
-    - "./openapis/*.yaml"
-    - "./openapis/bian-semantic/*.yaml"
+  - "./openapis/*.yaml"
+  - "./openapis/bian-semantic/*.yaml"

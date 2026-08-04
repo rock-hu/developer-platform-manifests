@@ -131,8 +131,7 @@ spec:
     - "./resources/**/*.yaml"
 ```
 
-
-
 ```
 Duplicate nested entity: user:default/rock-hu
 ```
+

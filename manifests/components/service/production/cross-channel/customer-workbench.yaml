@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "customer-workbench"
   apiVersion: "1.0.0"
-  description: cross-channel
+  description: "cross-channel"
 spec:
   type: "service"
   lifecycle: "production"

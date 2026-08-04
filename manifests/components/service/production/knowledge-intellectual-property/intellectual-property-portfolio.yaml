@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "intellectual-property-portfolio"
   apiVersion: "1.0.0"
-  description: knowledge-intellectual-property
+  description: "knowledge-intellectual-property"
 spec:
   type: "service"
   lifecycle: "production"

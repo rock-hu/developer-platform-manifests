@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "contact-center-management"
   apiVersion: "1.0.0"
-  description: channel-specific
+  description: "channel-specific"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:channel-specific"
   system: "channel-specific"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

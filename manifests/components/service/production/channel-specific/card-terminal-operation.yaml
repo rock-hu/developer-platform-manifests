@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "card-terminal-operation"
   apiVersion: "1.0.0"
-  description: channel-specific
+  description: "channel-specific"
 spec:
   type: "service"
   lifecycle: "production"

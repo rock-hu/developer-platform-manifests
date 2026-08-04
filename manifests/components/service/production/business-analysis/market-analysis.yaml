@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "market-analysis"
   apiVersion: "1.0.0"
-  description: business-analysis
+  description: "business-analysis"
 spec:
   type: "service"
   lifecycle: "production"

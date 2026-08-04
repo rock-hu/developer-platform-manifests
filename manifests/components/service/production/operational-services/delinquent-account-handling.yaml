@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "delinquent-account-handling"
   apiVersion: "1.0.0"
-  description: operational-services
+  description: "operational-services"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:operational-services"
   system: "operational-services"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

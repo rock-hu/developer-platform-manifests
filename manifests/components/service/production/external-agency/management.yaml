@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "external-agency-management"
   apiVersion: "1.0.0"
-  description: external-agency-management
+  description: "external-agency-management"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:external-agency"
   system: "external-agency"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

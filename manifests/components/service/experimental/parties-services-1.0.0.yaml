@@ -5,12 +5,14 @@ metadata:
   name: "parties-services"
   apiVersion: "1.0.0"
   description: "parties-services"
+  annotations:
+    github.com/project-slug: "rock-hu/parties-services"
+    sonarqube.org/project-key: "internal-developer-platform/parties-services"
 spec:
   type: "service"
   lifecycle: "experimental"
   owner: "group:microservices-development"
   system: "openbanking-aisp"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

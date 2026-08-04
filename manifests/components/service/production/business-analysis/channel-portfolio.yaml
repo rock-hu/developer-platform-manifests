@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "channel-portfolio"
   apiVersion: "1.0.0"
-  description: business-analysis
+  description: "business-analysis"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:business-analysis"
   system: "business-analysis"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

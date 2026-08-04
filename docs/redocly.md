@@ -1,20 +1,25 @@
 # redocly
 
 ```bash
-npm i @redocly/cli@latest
+npm i @redocly/cli@latest -g
 ```
+
+## redocly stats
 
 ```bash
-redocly split --version
-redocly split <api> --outDir=<path>
-redocly split [--help] [--version]
-
+redocly stats account-info-openapi.yaml
+redocly stats confirmation-funds-openapi.yaml
+redocly stats event-notifications-openapi.yaml
+redocly stats events-openapi.yaml
+redocly stats payment-initiation-openapi.yaml
+redocly stats vrp-openapi.yaml
 ```
-
 
 ```bash
 npx @redocly/cli@latest
 ```
+
+## redocly split
 
 ```bash
 npx @redocly/cli@latest split vrp-openapi.yaml --outDir=variable-recurring-payments
@@ -27,8 +32,24 @@ npx @redocly/cli@latest split account-info-openapi.yaml --outDir=account-transac
 
 ## account-transaction
 
-| Resource                | Endpoints                                                       | Mandatory?  |
-| ----------------------- | --------------------------------------------------------------- | ----------- |
+```bash
+redocly stats account-info-openapi.yaml
+```
+
+```
+🚗 References: 261
+📦 External Documents: 0
+📈 Schemas: 235
+👉 Parameters: 12
+🔗 Links: 0
+🔀 Path Items: 28
+🎣 Webhooks: 0
+👷 Operations: 29
+🔖 Tags: 12
+```
+
+|        Resource         |                            Endpoints                            | Mandatory?  |
+|-------------------------|-----------------------------------------------------------------|-------------|
 | account-access-consents | POST /account-access-consents                                   | Mandatory   |
 | account-access-consents | GET /account-access-consents/{ConsentId}                        | Mandatory   |
 | account-access-consents | DELETE /account-access-consents/{ConsentId}                     | Mandatory   |
@@ -61,8 +82,24 @@ npx @redocly/cli@latest split account-info-openapi.yaml --outDir=account-transac
 
 ## payment-initiation
 
-| Resource                                 | Endpoints                                                                                | Mandatory?                               |
-| ---------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------- |
+```bash
+redocly stats payment-initiation-openapi.yaml
+```
+
+```
+🚗 References: 159
+📦 External Documents: 0
+📈 Schemas: 99
+👉 Parameters: 15
+🔗 Links: 0
+🔀 Path Items: 40
+🎣 Webhooks: 0
+👷 Operations: 41
+🔖 Tags: 8
+```
+
+|                 Resource                 |                                        Endpoints                                         |                Mandatory?                |
+|------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------|
 | domestic-payment-consents                | POST /domestic-payment-consents                                                          | Mandatory                                |
 | domestic-payment-consents                | GET /domestic-payment-consents/{ConsentId}                                               | Mandatory                                |
 | domestic-payment-consents                | GET /domestic-payment-consents/{ConsentId}/funds-confirmation                            | Mandatory                                |
@@ -107,8 +144,24 @@ npx @redocly/cli@latest split account-info-openapi.yaml --outDir=account-transac
 
 ## confirmation-funds
 
-| Resource                    | Endpoints                                       | Mandatory? |
-| --------------------------- | ----------------------------------------------- | ---------- |
+```bash
+redocly stats confirmation-funds-openapi.yaml
+```
+
+```
+🚗 References: 31
+📦 External Documents: 0
+📈 Schemas: 14
+👉 Parameters: 6
+🔗 Links: 0
+🔀 Path Items: 3
+🎣 Webhooks: 0
+👷 Operations: 4
+🔖 Tags: 1
+```
+
+|          Resource           |                    Endpoints                    | Mandatory? |
+|-----------------------------|-------------------------------------------------|------------|
 | funds-confirmation-consents | POST /funds-confirmation-consents               | Mandatory  |
 | funds-confirmation-consents | GET /funds-confirmation-consents/{ConsentId}    | Mandatory  |
 | funds-confirmation-consents | DELETE /funds-confirmation-consents/{ConsentId} | Mandatory  |
@@ -116,8 +169,24 @@ npx @redocly/cli@latest split account-info-openapi.yaml --outDir=account-transac
 
 ## variable-recurring-payments
 
-| Resource                 | Endpoints                                                  | Mandatory?  |
-| ------------------------ | ---------------------------------------------------------- | ----------- |
+```bash
+redocly stats vrp-openapi.yaml
+```
+
+```
+🚗 References: 92
+📦 External Documents: 0
+📈 Schemas: 78
+👉 Parameters: 10
+🔗 Links: 0
+🔀 Path Items: 6
+🎣 Webhooks: 0
+👷 Operations: 9
+🔖 Tags: 2
+```
+
+|         Resource         |                         Endpoints                          | Mandatory?  |
+|--------------------------|------------------------------------------------------------|-------------|
 | domestic-vrp-consents.md | POST /domestic-vrp-consents                                | Mandatory   |
 | domestic-vrp-consents.md | GET /domestic-vrp-consents/{ConsentId}                     | Mandatory   |
 | domestic-vrp-consents.md | DELETE /domestic-vrp-consents/{ConsentId}                  | Mandatory   |
@@ -130,8 +199,24 @@ npx @redocly/cli@latest split account-info-openapi.yaml --outDir=account-transac
 
 ## event notifications
 
-| Resource           | Endpoints                                         | Mandatory?                               |
-| ------------------ | ------------------------------------------------- | ---------------------------------------- |
+```bash
+redocly stats event-notifications-openapi.yaml
+```
+
+```
+🚗 References: 6
+📦 External Documents: 0
+📈 Schemas: 5
+👉 Parameters: 2
+🔗 Links: 0
+🔀 Path Items: 1
+🎣 Webhooks: 0
+👷 Operations: 1
+🔖 Tags: 1
+```
+
+|      Resource      |                     Endpoints                     |                Mandatory?                |
+|--------------------|---------------------------------------------------|------------------------------------------|
 | event-subscription | POST /event-subscriptions                         | Optional                                 |
 | event-subscription | GET /event-subscriptions                          | Mandatory (if resource POST implemented) |
 | event-subscription | PUT /event-subscriptions/{EventSubscriptionId}    | Mandatory (if resource POST implemented) |
@@ -142,3 +227,4 @@ npx @redocly/cli@latest split account-info-openapi.yaml --outDir=account-transac
 | callback-url       | DELETE /callback-urls/{CallbackUrlId}             | Mandatory (if resource POST implemented) |
 | event-notification | POST /event-notifications                         | Optional                                 |
 | events             | POST /events                                      | Optional                                 |
+

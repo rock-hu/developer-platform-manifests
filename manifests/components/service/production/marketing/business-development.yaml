@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "business-development"
   apiVersion: "1.0.0"
-  description: marketing
+  description: "marketing"
 spec:
   type: "service"
   lifecycle: "production"

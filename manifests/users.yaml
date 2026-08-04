@@ -6,6 +6,4 @@ metadata:
   description: "A collection of all Backstage users"
 spec:
   targets:
-    # - "./users/guest.yaml"
-    - "./users/*.yaml"
-    # - "./users/**/*.yaml"
+  - "./users/*.yaml"

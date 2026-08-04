@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "customer-behavior-insights"
   apiVersion: "1.0.0"
-  description: customer-management
+  description: "customer-management"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:customer-management"
   system: "customer-management"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "customer-campaign-design"
   apiVersion: "1.0.0"
-  description: marketing
+  description: "marketing"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:marketing"
   system: "marketing"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "product-combination"
   apiVersion: "1.0.0"
-  description: account-management
+  description: "account-management"
 spec:
   type: "service"
   lifecycle: "production"

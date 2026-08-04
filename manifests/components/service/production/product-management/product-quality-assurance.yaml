@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "product-quality-assurance"
   apiVersion: "1.0.0"
-  description: product-management
+  description: "product-management"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:product-management"
   system: "product-management"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

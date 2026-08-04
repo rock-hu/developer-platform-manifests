@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "contractor-supplier-agreement"
   apiVersion: "1.0.0"
-  description: external-agency
+  description: "external-agency"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:external-agency"
   system: "external-agency"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

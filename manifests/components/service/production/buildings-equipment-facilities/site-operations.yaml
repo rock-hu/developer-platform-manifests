@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "site-operations"
   apiVersion: "1.0.0"
-  description: buildings-equipment-facilities
+  description: "buildings-equipment-facilities"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:buildings-equipment-facilities"
   system: "buildings-equipment-facilities"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

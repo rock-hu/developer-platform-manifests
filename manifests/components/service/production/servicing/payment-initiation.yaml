@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "payment-initiation"
   apiVersion: "1.0.0"
-  description: servicing
+  description: "servicing"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:servicing"
   system: "servicing"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

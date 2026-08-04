@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "operational-risk-models"
   apiVersion: "1.0.0"
-  description: models
+  description: "models"
 spec:
   type: "service"
   lifecycle: "production"

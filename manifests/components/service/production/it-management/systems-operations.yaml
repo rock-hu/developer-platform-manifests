@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "systems-operations"
   apiVersion: "1.0.0"
-  description: it-management
+  description: "it-management"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:it-management"
   system: "it-management"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

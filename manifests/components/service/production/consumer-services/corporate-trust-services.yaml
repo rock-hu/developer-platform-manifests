@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "corporate-trust-services"
   apiVersion: "1.0.0"
-  description: consumer-services
+  description: "consumer-services"
 spec:
   type: "service"
   lifecycle: "production"

@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "internal-bank-account"
   apiVersion: "1.0.0"
-  description: operational-services
+  description: "operational-services"
 spec:
   type: "service"
   lifecycle: "production"

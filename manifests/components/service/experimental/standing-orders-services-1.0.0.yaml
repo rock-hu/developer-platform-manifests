@@ -5,12 +5,14 @@ metadata:
   name: "standing-orders-services"
   apiVersion: "1.0.0"
   description: "standing-orders-services"
+  annotations:
+    github.com/project-slug: "rock-hu/standing-orders-services"
+    sonarqube.org/project-key: "internal-developer-platform/standing-orders-services"
 spec:
   type: "service"
   lifecycle: "experimental"
   owner: "group:microservices-development"
   system: "openbanking-aisp"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "business-unit-management"
   apiVersion: "1.0.0"
-  description: business-commcontrol
+  description: "business-commcontrol"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:business-commcontrol"
   system: "business-commcontrol"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

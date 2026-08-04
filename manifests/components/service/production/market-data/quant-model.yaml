@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "quant-model"
   apiVersion: "1.0.0"
-  description: market-data
+  description: "market-data"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:market-data"
   system: "market-data"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

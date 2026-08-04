@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "party-lifecycle-management"
   apiVersion: "1.0.0"
-  description: sales
+  description: "sales"
 spec:
   type: "service"
   lifecycle: "production"

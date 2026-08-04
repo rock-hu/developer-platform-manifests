@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "corporate-loan"
   apiVersion: "1.0.0"
-  description: loans-deposits
+  description: "loans-deposits"
 spec:
   type: "service"
   lifecycle: "production"

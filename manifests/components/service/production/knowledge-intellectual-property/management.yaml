@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "knowledge-intellectual-property-management"
   apiVersion: "1.0.0"
-  description: knowledge-intellectual-property-management
+  description: "knowledge-intellectual-property-management"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:knowledge-intellectual-property"
   system: "knowledge-intellectual-property"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

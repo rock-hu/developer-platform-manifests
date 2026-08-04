@@ -6,5 +6,4 @@ metadata:
   description: "A collection of all Backstage Templates"
 spec:
   targets:
-    - "./templates/*.yaml"
-    # - "./templates/**/*.yaml"
+  - "./templates/*.yaml"

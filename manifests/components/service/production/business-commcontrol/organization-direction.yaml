@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "organization-direction"
   apiVersion: "1.0.0"
-  description: business-commcontrol
+  description: "business-commcontrol"
 spec:
   type: "service"
   lifecycle: "production"

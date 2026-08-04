@@ -4,7 +4,7 @@ kind: "Component"
 metadata:
   name: "business-unit-accounting"
   apiVersion: "1.0.0"
-  description: business-commcontrol
+  description: "business-commcontrol"
 spec:
   type: "service"
   lifecycle: "production"

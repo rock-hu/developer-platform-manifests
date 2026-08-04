@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "employee-access"
   apiVersion: "1.0.0"
-  description: human-resource-management
+  description: "human-resource-management"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:human-resource-management"
   system: "human-resource-management"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

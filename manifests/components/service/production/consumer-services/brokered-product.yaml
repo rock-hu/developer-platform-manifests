@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "brokered-product"
   apiVersion: "1.0.0"
-  description: consumer-services
+  description: "consumer-services"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:consumer-services"
   system: "consumer-services"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

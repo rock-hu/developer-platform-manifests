@@ -5,12 +5,14 @@ metadata:
   name: "accounts-services"
   apiVersion: "1.0.0"
   description: "accounts-services"
+  annotations:
+    github.com/project-slug: "rock-hu/accounts-services"
+    sonarqube.org/project-key: "internal-developer-platform/accounts-services"
 spec:
   type: "service"
   lifecycle: "experimental"
   owner: "group:microservices-development"
   system: "openbanking-aisp"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

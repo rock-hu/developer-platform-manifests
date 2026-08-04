@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "products-services-direction"
   apiVersion: "1.0.0"
-  description: corporate-strategy
+  description: "corporate-strategy"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:corporate-strategy"
   system: "corporate-strategy"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []

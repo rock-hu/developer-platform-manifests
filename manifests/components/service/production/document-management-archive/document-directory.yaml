@@ -4,13 +4,12 @@ kind: "Component"
 metadata:
   name: "document-directory"
   apiVersion: "1.0.0"
-  description: document-management-archive
+  description: "document-management-archive"
 spec:
   type: "service"
   lifecycle: "production"
   owner: "group:document-management-archive"
   system: "document-management-archive"
-  # subcomponentOf: []
   providesApis: []
   consumesApis: []
   dependsOn: []
