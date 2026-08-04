@@ -6,6 +6,7 @@ metadata:
   apiVersion: "1.0.0"
   description: "scheduled-payments-services"
   annotations:
+    backstage.io/code-coverage: enabled
     github.com/project-slug: "rock-hu/scheduled-payments-services"
     sonarqube.org/project-key: "internal-developer-platform/scheduled-payments-services"
 spec:

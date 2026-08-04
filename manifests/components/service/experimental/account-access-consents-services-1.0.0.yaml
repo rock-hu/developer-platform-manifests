@@ -6,6 +6,7 @@ metadata:
   apiVersion: "1.0.0"
   description: "account-access-consents-services"
   annotations:
+    backstage.io/code-coverage: enabled
     github.com/project-slug: "rock-hu/account-access-consents-services"
     sonarqube.org/project-key: "internal-developer-platform/account-access-consents-services"
 spec:

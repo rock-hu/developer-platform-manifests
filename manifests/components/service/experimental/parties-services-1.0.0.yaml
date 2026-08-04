@@ -6,6 +6,7 @@ metadata:
   apiVersion: "1.0.0"
   description: "parties-services"
   annotations:
+    backstage.io/code-coverage: enabled
     github.com/project-slug: "rock-hu/parties-services"
     sonarqube.org/project-key: "internal-developer-platform/parties-services"
 spec:

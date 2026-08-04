@@ -6,6 +6,7 @@ metadata:
   apiVersion: "1.0.0"
   description: "direct-debits-services"
   annotations:
+    backstage.io/code-coverage: enabled
     github.com/project-slug: "rock-hu/direct-debits-services"
     sonarqube.org/project-key: "internal-developer-platform/direct-debits-services"
 spec:
