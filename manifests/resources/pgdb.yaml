@@ -6,9 +6,9 @@ metadata:
   title: "PostgreSQL cluster"
   description: "The Postgres operator manages PostgreSQL clusters on Kubernetes (K8s)."
   links:
-  - url: "https://opensource.zalando.com/postgres-operator/"
-    title: "zalando/postgres-operator"
-    icon: "web"
+    - url: "https://opensource.zalando.com/postgres-operator/"
+      title: "zalando/postgres-operator"
+      icon: "web"
 spec:
   type: "database"
   lifecycle: "production"

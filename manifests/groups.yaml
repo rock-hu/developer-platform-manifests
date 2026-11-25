@@ -6,4 +6,4 @@ metadata:
   description: "A collection of all Backstage groups"
 spec:
   targets:
-  - "./groups/*.yaml"
+    - "./groups/*.yaml"

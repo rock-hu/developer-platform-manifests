@@ -6,4 +6,4 @@ metadata:
   description: "A collection of all Backstage example components"
 spec:
   targets:
-  - "./components/service/experimental/*.yaml"
+    - "./components/service/experimental/*.yaml"
