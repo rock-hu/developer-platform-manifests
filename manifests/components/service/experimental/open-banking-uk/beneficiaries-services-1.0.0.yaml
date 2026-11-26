@@ -10,6 +10,8 @@ metadata:
     sentry.io/project-slug: "internal-developer-platform/beneficiaries-services"
     github.com/project-slug: "rock-hu/beneficiaries-services"
     sonarqube.org/project-key: "internal-developer-platform/beneficiaries-services"
+    snyk.io/org-id: 31bb1c8f-072f-4ba9-bbd7-bc67761b8580
+    snyk.io/target-id: rock-hu/beneficiaries-services
 spec:
   type: "service"
   lifecycle: "experimental"
